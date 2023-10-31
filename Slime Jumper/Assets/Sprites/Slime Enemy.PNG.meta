@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,7 +127,658 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Slime Enemy_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 550
+        width: 43
+        height: 29
+      alignment: 9
+      pivot: {x: 0.49557656, y: 0.362271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cf2325d4e174815b137484916551ff
+      internalID: 1004436859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 422
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13eca719ba41345a9aaf150804d8ae5f
+      internalID: -949209525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 422
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eaaddab3944d4fa389609bb9ac3dd36
+      internalID: -1963556644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_3
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 422
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ab099cb721a492bb90735ee4c49d72
+      internalID: -885388162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_4
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 422
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af09b006227b240698580eaad71d86d9
+      internalID: 1887739896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_6
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 422
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e58de1baaea94d24a6b6c65595db88d
+      internalID: -30789574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_7
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 422
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36aad7a55e3644cba0bb89f04e81012
+      internalID: -1708708299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_8
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 422
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbc0459f61d947629708fe7c195d3a5
+      internalID: -2075360456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_9
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 422
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37822029d40f4d25a788cc9405831d2
+      internalID: 958173792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 294
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c36f0e28a87c429f9f6fee8cc1d1c8e
+      internalID: -152731107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_11
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 294
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540b9aeeb72a84da391885828338e9df
+      internalID: 2051277717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_12
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 294
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbf4d73f940d45a7b7e127a3933f762
+      internalID: 1696282022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_14
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 294
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69df402caf4a41dab37ab83c65ddd36
+      internalID: -1826160951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_15
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 294
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b243844b1f14bf5bbc584aadacdb27
+      internalID: 1057216097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_16
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 294
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb7c6d679b1545799f745f1134655b4
+      internalID: -1207254023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_17
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 294
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd210c2760b254ac9916a084d3a18091
+      internalID: 1350639519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_18
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 294
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e8c00e266f24de095fbe3484a18cad
+      internalID: 972207366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_19
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 166
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c611b374af5c4ce19345df499e728d9
+      internalID: 255498019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_20
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 166
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd1f136df3924cb2a276c738e45ad90
+      internalID: -2088259469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_21
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 166
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06be0526c49b4c91b25b3ef296764eb
+      internalID: -1412618977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_22
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 166
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e0e0e5e3cf94ed9a4fe12caaba46c7
+      internalID: 1756038126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_24
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 166
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b927164b79841b8988cdf17ff27a5b
+      internalID: -1651714599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_25
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 166
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147f3af6f05c74e1f8b5b79e601d5045
+      internalID: 1241007575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_26
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 166
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846789cf048d44e5d9e5a1693220ef5a
+      internalID: -1487268878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_27
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 166
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f9e4ac8ccb74eb8a348b8ec391654a
+      internalID: -2143722681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_28
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 38
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a27c2694969f415b8fde645140ca7d5
+      internalID: 1425941518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_29
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 38
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99c035cd577f463483cc9959d4ac6a9
+      internalID: -857107066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_30
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 38
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60800cce4d88d447c8a9230c285b5262
+      internalID: 1277866820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_31
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 38
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01abaf020d51149d5af36d0754e44fd8
+      internalID: 1216279972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_32
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 38
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedc80944036f4c4aba404cb45a1d074
+      internalID: -1992315239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime Enemy_33
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 37
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3271c1fafa28f423985fdb694948f6f6
+      internalID: 1762314073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +789,42 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Slime Enemy_0: 1004436859
+      Slime Enemy_1: -949209525
+      Slime Enemy_10: -152731107
+      Slime Enemy_11: 2051277717
+      Slime Enemy_12: 1696282022
+      Slime Enemy_13: 578737995
+      Slime Enemy_14: -1826160951
+      Slime Enemy_15: 1057216097
+      Slime Enemy_16: -1207254023
+      Slime Enemy_17: 1350639519
+      Slime Enemy_18: 972207366
+      Slime Enemy_19: 255498019
+      Slime Enemy_2: -1963556644
+      Slime Enemy_20: -2088259469
+      Slime Enemy_21: -1412618977
+      Slime Enemy_22: 1756038126
+      Slime Enemy_23: -1357999249
+      Slime Enemy_24: -1651714599
+      Slime Enemy_25: 1241007575
+      Slime Enemy_26: -1487268878
+      Slime Enemy_27: -2143722681
+      Slime Enemy_28: 1425941518
+      Slime Enemy_29: -857107066
+      Slime Enemy_3: -885388162
+      Slime Enemy_30: 1277866820
+      Slime Enemy_31: 1216279972
+      Slime Enemy_32: -1992315239
+      Slime Enemy_33: 1762314073
+      Slime Enemy_34: -659078349
+      Slime Enemy_4: 1887739896
+      Slime Enemy_5: 231417029
+      Slime Enemy_6: -30789574
+      Slime Enemy_7: -1708708299
+      Slime Enemy_8: -2075360456
+      Slime Enemy_9: 958173792
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

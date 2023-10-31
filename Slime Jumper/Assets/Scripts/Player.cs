@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
 
     BoxCollider2D legCollider;
 
-    [SerializeField] float myTimer;
+    [SerializeField] int myTimer;
 
 
 
@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
     float attackTimer = 0;
 
 
-    [SerializeField] float comboDeactivation = 2;
+    [SerializeField] int comboDeactivation = 10;
     void Start()
     {
         myRigidbody2D = GetComponent<Rigidbody2D>();
@@ -67,13 +67,31 @@ public class Player : MonoBehaviour
     {
         Vector2 playerVelocity = new Vector2(moveImput.x * playerSpeed, myRigidbody2D.velocity.y);
         myRigidbody2D.velocity = playerVelocity;
-
         bool playerMovesOnX = Mathf.Abs(myRigidbody2D.velocity.x) > Mathf.Epsilon;
-
         myAnimator.SetBool("IsRunning", playerMovesOnX);
 
 
 
+    }
+
+    void OnJump(InputValue value)
+    {
+        //While holding space keep the first frame of animation
+        //jump can be charged until the space bar is not released
+        // before the player starts to fall, keep 2nd frame
+        //when player starts to fall, play 3rd frame
+        //check if !doubleJump, do the second jump, while playing double jump animation with the same rules
+
+        if (!legCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        {
+            return;
+        }
+
+        if (value.isPressed)
+        {
+
+            myRigidbody2D.velocity += new Vector2(0f, jumpPower);
+        }
     }
 
     void FlipSprite()
@@ -99,7 +117,7 @@ public class Player : MonoBehaviour
         {
 
             attackCounter = 0;
-            attackTimer = 2;
+            attackTimer = 20;
             myAnimator.SetInteger("AttackCounter", attackCounter);
 
             myAnimator.SetBool("IsAttacking", true);
@@ -110,7 +128,7 @@ public class Player : MonoBehaviour
 
         if (myAnimator.GetBool("IsAttacking") && attackCounter != 3)
         {
-            attackTimer += 1;
+            attackTimer += 10;
             myAnimator.SetInteger("AttackCounter", attackCounter);
             UnityEngine.Debug.Log(attackCounter);
 
@@ -120,7 +138,7 @@ public class Player : MonoBehaviour
         else if (myAnimator.GetBool("IsAttacking") && attackCounter == 3)
         {
             attackCounter = 0;
-            attackTimer += 1;
+            attackTimer += 10;
             UnityEngine.Debug.Log("attack timer is " + attackTimer);
 
             myAnimator.SetInteger("AttackCounter", attackCounter);
@@ -162,7 +180,8 @@ public class Player : MonoBehaviour
     {
         while (attackTimer > 0)
         {
-            attackTimer -= 1;
+
+            attackTimer -= Time.deltaTime;
             UnityEngine.Debug.Log("attack timer is " + attackTimer);
         }
 
