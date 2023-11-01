@@ -1,0 +1,1032 @@
+fileFormatVersion: 2
+guid: a7d5e91ee12ec4ca5a95d6e648cb6ed3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Traveler 64x64_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 3980
+        width: 426
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffc9f8f7e01649f38f0c153d16533e0
+      internalID: 2006510355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 3342
+        width: 235
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bc31d28ad6d4ad0916ba09a41d98c1
+      internalID: 1440417416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_2
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 3342
+        width: 235
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b5e2b453e7b404880eb0409a06a7b3
+      internalID: -311357584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_3
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 3342
+        width: 236
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a7dbd11734d42d886979356cbf6f12
+      internalID: 1677778489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_4
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 3342
+        width: 235
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e79abd9b7374a5caaa97fad53b0382
+      internalID: 1738109468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_5
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 3342
+        width: 236
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ec6426ac67643c4b2e679d8fefd2b9
+      internalID: -1196388623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_6
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 3342
+        width: 234
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3e4f8d3fb82489ab13fbb1861918d5
+      internalID: 1367599249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_7
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 3342
+        width: 246
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ae34da053404608a649e791acd078c
+      internalID: -896823490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_8
+      rect:
+        serializedVersion: 2
+        x: 4676
+        y: 3342
+        width: 239
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e566facd908404af2a622b5adf8aee17
+      internalID: -654904496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2699
+        width: 306
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744fb6785a2ba4d2eb992029229de9a7
+      internalID: -1822990054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_10
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 2699
+        width: 306
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcc25c2f39804187a8753f1fc4ea130
+      internalID: -2145584536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_11
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 2699
+        width: 306
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055c7683e8ed347179fd222d0b66105f
+      internalID: -1950776979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_12
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 2699
+        width: 306
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea20ffff5b0d40a3862699d0e61e88b
+      internalID: -1013829946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_13
+      rect:
+        serializedVersion: 2
+        x: 2721
+        y: 2699
+        width: 306
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759de92207073470c8709a84c1183314
+      internalID: -1638642133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_14
+      rect:
+        serializedVersion: 2
+        x: 3345
+        y: 2699
+        width: 306
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5be6baebf36465eb4779d2445d1fde
+      internalID: -1311388533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_15
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 2699
+        width: 306
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7a4cb52c240420a85696c82107d6f2
+      internalID: -1070531912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_16
+      rect:
+        serializedVersion: 2
+        x: 4638
+        y: 2699
+        width: 306
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa06a5db5eb6240f9905456cb7c08b64
+      internalID: -1518227056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_17
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2055
+        width: 329
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faac7bb63b0d64a5bad2c05c7b90c577
+      internalID: -1132962616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_18
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 2066
+        width: 329
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44265dbf7f9e411c8865e7ab0e4e22e
+      internalID: -11111993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_19
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 2066
+        width: 329
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f756823ca6a4e129c516af4bbd116c
+      internalID: 1647290475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_20
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1422
+        width: 326
+        height: 421
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60cd8a90e35447899064d074312ede8
+      internalID: -631102938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_21
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1472
+        width: 267
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099286f3cb008434dbb53a50c4fd1f9f
+      internalID: 572275073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_22
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1472
+        width: 227
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc96e641c8d6b4ef9a4033e24076a3e5
+      internalID: 1720008033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_23
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 772
+        width: 416
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fa5578101ee473286d7c0578be3e69
+      internalID: 818121396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_24
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 772
+        width: 406
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93fb1c171df5484b999c2ae68b033a5
+      internalID: -230626159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_25
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 778
+        width: 399
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620a1ee05d16c4d91b56db49a888a301
+      internalID: -685180164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_26
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 778
+        width: 418
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbfc6fe4d06c4ecc9adebe8d43b0a71
+      internalID: 1824176368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_27
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 778
+        width: 318
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2b19e0120ff4b1c99df40947f64906
+      internalID: 1590939449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_28
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 778
+        width: 275
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23987176e95c045d5b7e9377c37d0243
+      internalID: 1690491969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_29
+      rect:
+        serializedVersion: 2
+        x: 3976
+        y: 778
+        width: 508
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c70c3de5c8324d76b4d942f694474a1
+      internalID: 1521808716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_30
+      rect:
+        serializedVersion: 2
+        x: 4636
+        y: 778
+        width: 478
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b22ef246f717493391ab58c30abc53b
+      internalID: -484740373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_31
+      rect:
+        serializedVersion: 2
+        x: 5297
+        y: 778
+        width: 456
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70641c26dcbf4b58912ee7d1e94119f
+      internalID: 907533252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_32
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 140
+        width: 367
+        height: 408
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2001936b3740343ebb61b3acdfa8ccbe
+      internalID: 1499530091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_33
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 140
+        width: 367
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac9d17f21f6b4b37988364a8244b18a
+      internalID: 1340679209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_34
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 140
+        width: 367
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c50e49acd43a4137a166a804373a65e
+      internalID: -702324942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_35
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 140
+        width: 367
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea6eb8cc03784026a7d7799074901b2
+      internalID: -1956788242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_37
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 143
+        width: 367
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b218ba4adab054f14a76c51908921756
+      internalID: -561127642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_38
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 142
+        width: 367
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4deacdb41c1614be9a74dfd05443c236
+      internalID: -619147763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_39
+      rect:
+        serializedVersion: 2
+        x: 4007
+        y: 140
+        width: 367
+        height: 318
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89defc488592b4e6da102c854073c894
+      internalID: -1130661395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traveler 64x64_40
+      rect:
+        serializedVersion: 2
+        x: 4646
+        y: 140
+        width: 367
+        height: 318
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed1c59c0758c433da69991edb94cdca
+      internalID: 298798419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Traveler 64x64_0: 2006510355
+      Traveler 64x64_1: 1440417416
+      Traveler 64x64_10: -2145584536
+      Traveler 64x64_11: -1950776979
+      Traveler 64x64_12: -1013829946
+      Traveler 64x64_13: -1638642133
+      Traveler 64x64_14: -1311388533
+      Traveler 64x64_15: -1070531912
+      Traveler 64x64_16: -1518227056
+      Traveler 64x64_17: -1132962616
+      Traveler 64x64_18: -11111993
+      Traveler 64x64_19: 1647290475
+      Traveler 64x64_2: -311357584
+      Traveler 64x64_20: -631102938
+      Traveler 64x64_21: 572275073
+      Traveler 64x64_22: 1720008033
+      Traveler 64x64_23: 818121396
+      Traveler 64x64_24: -230626159
+      Traveler 64x64_25: -685180164
+      Traveler 64x64_26: 1824176368
+      Traveler 64x64_27: 1590939449
+      Traveler 64x64_28: 1690491969
+      Traveler 64x64_29: 1521808716
+      Traveler 64x64_3: 1677778489
+      Traveler 64x64_30: -484740373
+      Traveler 64x64_31: 907533252
+      Traveler 64x64_32: 1499530091
+      Traveler 64x64_33: 1340679209
+      Traveler 64x64_34: -702324942
+      Traveler 64x64_35: -1956788242
+      Traveler 64x64_36: 183643191
+      Traveler 64x64_37: -561127642
+      Traveler 64x64_38: -619147763
+      Traveler 64x64_39: -1130661395
+      Traveler 64x64_4: 1738109468
+      Traveler 64x64_40: 298798419
+      Traveler 64x64_41: -1538232945
+      Traveler 64x64_42: 1606568091
+      Traveler 64x64_43: 373617542
+      Traveler 64x64_44: -1450828136
+      Traveler 64x64_5: -1196388623
+      Traveler 64x64_6: 1367599249
+      Traveler 64x64_7: -896823490
+      Traveler 64x64_8: -654904496
+      Traveler 64x64_9: -1822990054
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
