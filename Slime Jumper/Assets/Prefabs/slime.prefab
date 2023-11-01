@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4264584254688562113}
   - component: {fileID: 2760670635182011625}
   m_Layer: 11
-  m_Name: Evil Bingus(Enemy)
+  m_Name: slime
   m_TagString: Enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
