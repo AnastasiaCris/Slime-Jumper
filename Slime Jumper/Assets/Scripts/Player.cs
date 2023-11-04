@@ -29,11 +29,16 @@ public class Player : MonoBehaviour
 
     [SerializeField] List<Animation> attackAnimations;
 
+    [Header("Other Scripts")]
+
+    [SerializeField] WeaponBehaviour weaponBehaviour;
 
     float startingGravity;
 
-    int attackCounter = 0;
+    public int attackCounter = 0;
     float attackTimer = 0;
+
+
 
 
     [SerializeField] int comboDeactivation = 10;
@@ -46,6 +51,8 @@ public class Player : MonoBehaviour
 
 
         startingGravity = myRigidbody2D.gravityScale;
+
+        weaponBehaviour = FindAnyObjectByType<WeaponBehaviour>();
     }
 
     // Update is called once per frame
@@ -113,6 +120,8 @@ public class Player : MonoBehaviour
 
         UnityEngine.Debug.Log(attackTimer);
 
+        weaponBehaviour.AttackColliderOn();
+
         if (!myAnimator.GetBool("IsAttacking"))
         {
 
@@ -159,6 +168,7 @@ public class Player : MonoBehaviour
         yield return new WaitForSecondsRealtime(comboDeactivation);
         myAnimator.SetBool("IsAttacking", false);
         attackCounter = 0;
+        weaponBehaviour.AttackColliderOff();
 
     }
 
@@ -182,7 +192,7 @@ public class Player : MonoBehaviour
         {
 
             attackTimer -= Time.deltaTime;
-            UnityEngine.Debug.Log("attack timer is " + attackTimer);
+
         }
 
         ComboCheck();
