@@ -7,6 +7,8 @@ public class WeaponBehaviour : MonoBehaviour
 
     [SerializeField] Player player;
 
+    [SerializeField] BarrelBehaviour barrelBehaviour;
+
     [Header("Weapons")]
 
     [SerializeField] BoxCollider2D weaponCollider;
@@ -17,7 +19,7 @@ public class WeaponBehaviour : MonoBehaviour
         player = FindAnyObjectByType<Player>();
         weaponCollider = GetComponent<BoxCollider2D>();
         weaponAnimator = GetComponent<Animator>();
-        weaponCollider.enabled = !weaponCollider.enabled;
+        //weaponCollider.enabled = !weaponCollider.enabled;
     }
 
     public void AttackColliderOn()
@@ -44,5 +46,14 @@ public class WeaponBehaviour : MonoBehaviour
         weaponCollider.enabled = !weaponCollider.enabled;
         weaponAnimator.SetBool("IsAttacking", false);
         Debug.Log("WeaponOff");
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Objects")
+        {
+            barrelBehaviour.ObjectCollapse();
+        }
+        Debug.Log("Triggerworked");
     }
 }
