@@ -17,7 +17,6 @@ public class PlayerBehaviour : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         screenWidth = Camera.main.orthographicSize * 2 * Screen.width / Screen.height;
-
     }
 
     private void Update()
