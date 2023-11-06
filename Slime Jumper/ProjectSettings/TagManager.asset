@@ -4,7 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-
+  - Tile
+  - Enemies
+  - Objects
+  - Weapon
   layers:
   - Default
   - TransparentFX
@@ -12,8 +15,10 @@ TagManager:
   - 
   - Water
   - UI
-
-  - 
+  - Breakable Object
+  - Enemies
+  - Player
+  - Ground
   - 
   - 
   - 
@@ -40,9 +45,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
-    uniqueID: 2513796135
+  - name: Objects
+    uniqueID: 3257156779
     locked: 0
-  - name: Ground
-    uniqueID: 3520856851
+  - name: Player
+    uniqueID: 2641717015
+    locked: 0
+  - name: Tiles
+    uniqueID: 2020677319
     locked: 0
