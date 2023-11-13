@@ -27,7 +27,7 @@ public class WeaponBehaviour : MonoBehaviour
         //Set IsAttacking to true
         //make weapon's attack counter = player's animator's attack counter
         //Set colider to enabled 
-        weaponCollider.enabled = weaponCollider.enabled;
+        weaponCollider.enabled = true;
         weaponAnimator.SetBool("IsAttacking", true);
         weaponAnimator.SetInteger("Attack Counter", player.attackCounter);
         if (weaponAnimator.GetInteger("Attack Counter") > 2)
@@ -43,7 +43,7 @@ public class WeaponBehaviour : MonoBehaviour
         //Set IsAttacking to false
         //diable collider
 
-        weaponCollider.enabled = !weaponCollider.enabled;
+        weaponCollider.enabled = false;
         weaponAnimator.SetBool("IsAttacking", false);
         Debug.Log("WeaponOff");
     }
