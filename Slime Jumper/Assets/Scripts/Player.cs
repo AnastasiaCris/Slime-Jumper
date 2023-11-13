@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
     [SerializeField] float playerSpeed = 10;
     [SerializeField] float jumpPower = 10;
 
-    [SerializeField] float climbingSpeed = 5f;
+    bool hasJumper = false;
 
     [SerializeField] List<Animation> attackAnimations;
 
@@ -91,14 +91,29 @@ public class Player : MonoBehaviour
 
         if (!legCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
+
             return;
+
         }
 
         if (value.isPressed)
         {
-
+            myAnimator.SetBool("IsJumping", true);
             myRigidbody2D.velocity += new Vector2(0f, jumpPower);
+            hasJumper = true;
+            UnityEngine.Debug.Log("is jump?" + hasJumper);
+
         }
+
+
+        if (hasJumper && legCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        {
+
+            myAnimator.SetBool("IsJumping", false);
+            hasJumper = false;
+            UnityEngine.Debug.Log("is jump?" + hasJumper);
+        }
+
     }
 
     void FlipSprite()
