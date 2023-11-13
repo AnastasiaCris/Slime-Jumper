@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class TileGen : MonoBehaviour
 {
@@ -7,13 +9,25 @@ public class TileGen : MonoBehaviour
     [SerializeField] private Transform cameraTopPoint;
     [SerializeField] private float maxPlatformDistance = 2f;
     [SerializeField] private float minPlatformDistance = 0.2f;
-
     private float screenWidth;
+    public List<GameObject> allCurrentTiles = new List<GameObject>();
+
+    public static TileGen instance;
+
+    private EnemyGen enemyGen;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+    }
 
     void Start()
     {
         screenWidth = Camera.main.orthographicSize * 2 * Screen.width / Screen.height;
-        
+        enemyGen = GetComponent<EnemyGen>();
     }
 
     void Update()
@@ -34,8 +48,12 @@ public class TileGen : MonoBehaviour
         
         Vector3 platformPosition = new Vector3(randomX, generationPoint.position.y, 0);
 
-        Instantiate(platformPrefab, platformPosition, Quaternion.identity);
+        allCurrentTiles.Add(Instantiate(platformPrefab, platformPosition, Quaternion.identity));
+        
+        //generate enemy
+        enemyGen.SpawnEnemy(platformPosition);
 
         generationPoint.position = new Vector3(randomX, generationPoint.position.y + platformDistance, 0);
+        
     }
 }

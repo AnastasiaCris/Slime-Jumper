@@ -7,6 +7,7 @@ public class TileDestroyer : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Tile"))
         {
+            TileGen.instance.allCurrentTiles.Remove(collision.gameObject);
             Destroy(collision.gameObject);
         }
     }
