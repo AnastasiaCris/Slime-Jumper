@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
     [SerializeField] float playerSpeed = 10;
     [SerializeField] float jumpPower = 10;
 
-    bool hasJumper = false;
+    private bool isGrounded;
 
     [SerializeField] List<Animation> attackAnimations;
 
@@ -62,7 +62,7 @@ public class Player : MonoBehaviour
         FlipSprite();
 
         ComboTimer();
-
+        isGrounded = legCollider.IsTouchingLayers(LayerMask.GetMask("Ground"));
     }
 
     void OnMove(InputValue value)
@@ -89,7 +89,7 @@ public class Player : MonoBehaviour
         //when player starts to fall, play 3rd frame
         //check if !doubleJump, do the second jump, while playing double jump animation with the same rules
 
-        if (!legCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        if (!isGrounded)
         {
 
             return;
@@ -100,19 +100,19 @@ public class Player : MonoBehaviour
         {
             myAnimator.SetBool("IsJumping", true);
             myRigidbody2D.velocity += new Vector2(0f, jumpPower);
-            hasJumper = true;
-            UnityEngine.Debug.Log("is jump?" + hasJumper);
+
+            if (isGrounded && myAnimator.GetBool("IsJumping"))
+            {
+
+                myAnimator.SetBool("IsJumping", false);
+
+
+            }
 
         }
 
 
-        if (hasJumper && legCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
-        {
 
-            myAnimator.SetBool("IsJumping", false);
-            hasJumper = false;
-            UnityEngine.Debug.Log("is jump?" + hasJumper);
-        }
 
     }
 
