@@ -7,6 +7,8 @@ public class WeaponBehaviour : MonoBehaviour
 
     [SerializeField] Player player;
 
+    [SerializeField] BarrelBehaviour barrelBehaviour;
+
     [Header("Weapons")]
 
     [SerializeField] BoxCollider2D weaponCollider;
@@ -17,7 +19,7 @@ public class WeaponBehaviour : MonoBehaviour
         player = FindAnyObjectByType<Player>();
         weaponCollider = GetComponent<BoxCollider2D>();
         weaponAnimator = GetComponent<Animator>();
-        weaponCollider.enabled = !weaponCollider.enabled;
+        //weaponCollider.enabled = !weaponCollider.enabled;
     }
 
     public void AttackColliderOn()
@@ -25,7 +27,7 @@ public class WeaponBehaviour : MonoBehaviour
         //Set IsAttacking to true
         //make weapon's attack counter = player's animator's attack counter
         //Set colider to enabled 
-        weaponCollider.enabled = weaponCollider.enabled;
+        weaponCollider.enabled = true;
         weaponAnimator.SetBool("IsAttacking", true);
         weaponAnimator.SetInteger("Attack Counter", player.attackCounter);
         if (weaponAnimator.GetInteger("Attack Counter") > 2)
@@ -41,8 +43,17 @@ public class WeaponBehaviour : MonoBehaviour
         //Set IsAttacking to false
         //diable collider
 
-        weaponCollider.enabled = !weaponCollider.enabled;
+        weaponCollider.enabled = false;
         weaponAnimator.SetBool("IsAttacking", false);
         Debug.Log("WeaponOff");
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Objects")
+        {
+            barrelBehaviour.ObjectCollapse();
+        }
+        Debug.Log("Triggerworked");
     }
 }

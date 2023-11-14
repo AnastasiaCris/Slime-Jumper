@@ -12,11 +12,10 @@ public class BarrelBehaviour : MonoBehaviour
         barrelAnim = GetComponent<Animator>();
         barrelCollider = GetComponent<CapsuleCollider2D>();
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void ObjectCollapse()
     {
-        if (collision.tag == "Weapon")
-        {
-            barrelAnim.SetBool("IsDestroyed", true);
-        }
+
+        barrelAnim.SetBool("IsDestroyed", true);
+
     }
 }

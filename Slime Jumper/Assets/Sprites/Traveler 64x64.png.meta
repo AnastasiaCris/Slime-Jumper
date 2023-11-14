@@ -615,10 +615,10 @@ TextureImporter:
       name: Traveler 64x64_23
       rect:
         serializedVersion: 2
-        x: 182
-        y: 772
-        width: 416
-        height: 356
+        x: 124
+        y: 781
+        width: 478
+        height: 400
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -636,10 +636,10 @@ TextureImporter:
       name: Traveler 64x64_24
       rect:
         serializedVersion: 2
-        x: 832
-        y: 772
-        width: 406
-        height: 356
+        x: 778
+        y: 781
+        width: 478
+        height: 400
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,10 +657,10 @@ TextureImporter:
       name: Traveler 64x64_25
       rect:
         serializedVersion: 2
-        x: 1475
-        y: 778
-        width: 399
-        height: 345
+        x: 1412
+        y: 781
+        width: 478
+        height: 400
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,10 +678,10 @@ TextureImporter:
       name: Traveler 64x64_26
       rect:
         serializedVersion: 2
-        x: 2066
-        y: 778
-        width: 418
-        height: 376
+        x: 2034
+        y: 781
+        width: 478
+        height: 400
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -699,10 +699,10 @@ TextureImporter:
       name: Traveler 64x64_27
       rect:
         serializedVersion: 2
-        x: 2746
-        y: 778
-        width: 318
-        height: 365
+        x: 2659
+        y: 781
+        width: 478
+        height: 400
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -720,10 +720,10 @@ TextureImporter:
       name: Traveler 64x64_28
       rect:
         serializedVersion: 2
-        x: 3388
-        y: 778
-        width: 275
-        height: 357
+        x: 3305
+        y: 781
+        width: 478
+        height: 400
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -741,10 +741,10 @@ TextureImporter:
       name: Traveler 64x64_29
       rect:
         serializedVersion: 2
-        x: 3976
-        y: 778
+        x: 3969
+        y: 784
         width: 508
-        height: 396
+        height: 400
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -763,9 +763,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4636
-        y: 778
+        y: 781
         width: 478
-        height: 376
+        height: 400
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -784,9 +784,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5297
-        y: 778
+        y: 781
         width: 456
-        height: 357
+        height: 400
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
