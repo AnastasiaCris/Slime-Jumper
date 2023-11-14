@@ -20,8 +20,6 @@ public class AttackNode : Node
         if (enemy.canAttack)
         {
             enemy.canAttack = false;
-            Debug.Log("attacking sequence start");
-
             enemy.StartCoroutine(AttackSequence());
         }
 
@@ -30,20 +28,24 @@ public class AttackNode : Node
     
     IEnumerator AttackSequence()
     {
+        //Debug.Log("Starting Attack Coroutine");
         anim.SetBool("attacking", true);
 
         int time = 0;
         while (enemy.state == State.Attacking)
         {
             time++;
-            Debug.Log("Times" + time);
+            //Debug.Log("Times" + time);
+            anim.SetTrigger("attack");
             if (enemy.inAttackRange)
             {
                 //damage player
             }
 
             yield return new WaitForSeconds(secUntilNextAttack);
-            anim.SetTrigger("attack");
+            //Debug.Log("Times atfer wait" + time);
         }
+        
+        //Debug.Log("Ending Attack Coroutine");
     }
 }

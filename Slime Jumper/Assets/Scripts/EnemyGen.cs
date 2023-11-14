@@ -4,21 +4,15 @@ using UnityEngine;
 
 public class EnemyGen : MonoBehaviour
 {
-    private TileGen tileGen;
     [SerializeField] private GameObject enemy;
-    [SerializeField] private float percentSpawnChance;
-    void Start()
-    {
-        tileGen = GetComponent<TileGen>();
-    }
+    [SerializeField] private Transform enemyParent;
 
-    //whenever a new tile is spawned it has a certain percent chance to spawn an enemy
+    //a certain percent chance to spawn an enemy
     public void SpawnEnemy(Vector2 tilePos)
     {
-        if (Random.Range(0f, 1f) < percentSpawnChance)
+        if (Random.Range(0, 100) < enemy.GetComponent<EnemyBehaviour>().MyEnemy.spawnChance)
         {
-            
-            Instantiate(enemy, tilePos, Quaternion.identity);
+            Instantiate(enemy, tilePos, Quaternion.identity, enemyParent);
         }
     }
 }

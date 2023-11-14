@@ -15,5 +15,6 @@ MonoBehaviour:
   maxHP: 10
   damage: 3
   speed: 3
-  jumpHeight: 8
+  jumpHeight: 10
   secUntilNextAttack: 3
+  spawnChance: 25

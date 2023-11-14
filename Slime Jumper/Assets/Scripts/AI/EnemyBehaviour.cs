@@ -3,8 +3,9 @@ using UnityEngine;
 
 public class EnemyBehaviour : MonoBehaviour
 {
-    [Header("Properties")]
+    [Header("Properties")] 
     [SerializeField] private Enemy enemy;
+    public Enemy MyEnemy { get { return enemy; } private set { enemy = value; } }
     [SerializeField] private Transform groundPos;
     private int currentHP;
     [HideInInspector]public Animator anim;

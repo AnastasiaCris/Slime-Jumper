@@ -8,4 +8,5 @@ public class Enemy : ScriptableObject
     public float speed;
     public float jumpHeight;
     public float secUntilNextAttack;
+    public int spawnChance;
 }

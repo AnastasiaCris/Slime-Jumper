@@ -22,9 +22,13 @@ public class SeePlayerNode : Node
     
     private bool SeesPlayer()
     {
-        RaycastHit2D hit = Physics2D.Raycast(enemy.transform.position, -enemy.transform.right, 10, layerMask: 1<<7);
-        Debug.DrawRay(enemy.transform.position, -enemy.transform.right * 10, Color.red);
-        return hit.collider != null;
+        Vector2 rayPosOnTop = new Vector2(enemy.transform.position.x, enemy.transform.position.y + 0.5f);
+        RaycastHit2D hit = Physics2D.Raycast(enemy.transform.position, -enemy.transform.right, 100, layerMask: 1<<7);
+        RaycastHit2D hit1 = Physics2D.Raycast(rayPosOnTop, -enemy.transform.right, 100, layerMask: 1<<7);
+        Debug.DrawRay(enemy.transform.position, -enemy.transform.right * 24, Color.red);
+        Debug.DrawRay(rayPosOnTop, -enemy.transform.right * 24, Color.red);
+
+        return hit.collider != null || hit1.collider != null; //if either hit turn true
     }
     
 }

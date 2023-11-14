@@ -221,7 +221,7 @@ MonoBehaviour:
   groundPos: {fileID: 1503250526704195247}
   anim: {fileID: 4264584254688562113}
   state: 0
-  chaseRange: 15
+  chaseRange: 25
   attackRange: 1.4
   direction: -1
   chasing: 0

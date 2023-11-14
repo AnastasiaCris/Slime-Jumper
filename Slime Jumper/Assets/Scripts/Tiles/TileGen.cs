@@ -7,6 +7,7 @@ public class TileGen : MonoBehaviour
     [SerializeField] private GameObject platformPrefab;
     [SerializeField] private Transform generationPoint;
     [SerializeField] private Transform cameraTopPoint;
+    [SerializeField] private Transform tileParent;
     [SerializeField] private float maxPlatformDistance = 2f;
     [SerializeField] private float minPlatformDistance = 0.2f;
     private float screenWidth;
@@ -48,7 +49,7 @@ public class TileGen : MonoBehaviour
         
         Vector3 platformPosition = new Vector3(randomX, generationPoint.position.y, 0);
 
-        allCurrentTiles.Add(Instantiate(platformPrefab, platformPosition, Quaternion.identity));
+        allCurrentTiles.Add(Instantiate(platformPrefab, platformPosition, Quaternion.identity, tileParent));
         
         //generate enemy
         enemyGen.SpawnEnemy(platformPosition);
