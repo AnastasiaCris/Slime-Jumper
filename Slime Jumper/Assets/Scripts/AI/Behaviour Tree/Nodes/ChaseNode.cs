@@ -54,7 +54,10 @@ public class ChaseNode : Node
         
         //Rotate enemy to face player
         int dirXToPlayer = (int)Mathf.Sign(target.transform.position.x - enemy.transform.position.x);
-        if (isGrounded && dirXToPlayer != enemy.direction)
+        bool playerOnTop = target.position.y - enemy.transform.position.y > 1;
+        bool playerOnTopKinda = target.position.y - enemy.transform.position.y > 0;
+        
+        if (isGrounded && !jumping && playerOnTopKinda && dirXToPlayer != enemy.direction)
         {
             enemy.direction = dirXToPlayer;
             enemy.transform.Rotate(Vector2.up, 180f);
