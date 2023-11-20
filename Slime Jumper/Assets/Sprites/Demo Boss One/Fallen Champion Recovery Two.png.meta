@@ -1,0 +1,411 @@
+fileFormatVersion: 2
+guid: a8b552bb6ea5a4ce2a327a1c30f0cd9d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fallen Champion Recovery Two_0
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1400
+        width: 764
+        height: 480
+      alignment: 9
+      pivot: {x: 0.39405823, y: 0.36349487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493b9735801ac44b48c5856ba9ee91f5
+      internalID: -81031390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Recovery Two_1
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1400
+        width: 764
+        height: 480
+      alignment: 9
+      pivot: {x: 0.47477555, y: 0.29925716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acb7efb4bdb9418684283aa323dda88
+      internalID: 578832953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Recovery Two_2
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 1396
+        width: 764
+        height: 480
+      alignment: 9
+      pivot: {x: 0.45964107, y: 0.27516785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6508b4d96f2249e1a1aa4e757974bc3
+      internalID: -1902284065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Recovery Two_3
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 1397
+        width: 764
+        height: 480
+      alignment: 9
+      pivot: {x: 0.44955108, y: 0.21895981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c700debeca174893b363a1312e58480
+      internalID: 595818405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Recovery Two_4
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 760
+        width: 764
+        height: 480
+      alignment: 9
+      pivot: {x: 0.39910313, y: 0.24304923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a3e550e688f46eb9ec819072b066ff
+      internalID: -1509139325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Recovery Two_5
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 763
+        width: 764
+        height: 480
+      alignment: 9
+      pivot: {x: 0.4192823, y: 0.2671383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0031335d27b4442889ba30b43499b2
+      internalID: -923419114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Recovery Two_6
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 760
+        width: 764
+        height: 480
+      alignment: 9
+      pivot: {x: 0.38901317, y: 0.33940583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562d6b53e778b4a8b9662525ecd28f82
+      internalID: -168099226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Recovery Two_7
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 760
+        width: 764
+        height: 480
+      alignment: 9
+      pivot: {x: 0.41423696, y: 0.4357623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f9c4a6ef83c404287027edb5b5574d
+      internalID: -1487675208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Recovery Two_8
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 120
+        width: 764
+        height: 480
+      alignment: 9
+      pivot: {x: 0.3486547, y: 0.46788126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56a5ed9322844c6baea82c8d9143c1b
+      internalID: -383320218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Recovery Two_9
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 120
+        width: 764
+        height: 480
+      alignment: 9
+      pivot: {x: 0.3839685, y: 0.37152475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d614ae75530c4d46ab1ac9f0b7f58ee
+      internalID: 1480991516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Recovery Two_10
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 120
+        width: 764
+        height: 480
+      alignment: 9
+      pivot: {x: 0.4344166, y: 0.37955442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0028f9384444e92897553a410cec29
+      internalID: -128449651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Recovery Two_11
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 120
+        width: 764
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c208cdeb4e54842808b7544588dd3b09
+      internalID: -1121220720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fallen Champion Recovery Two_0: -81031390
+      Fallen Champion Recovery Two_1: 578832953
+      Fallen Champion Recovery Two_10: -128449651
+      Fallen Champion Recovery Two_11: -1121220720
+      Fallen Champion Recovery Two_2: -1902284065
+      Fallen Champion Recovery Two_3: 595818405
+      Fallen Champion Recovery Two_4: -1509139325
+      Fallen Champion Recovery Two_5: -923419114
+      Fallen Champion Recovery Two_6: -168099226
+      Fallen Champion Recovery Two_7: -1487675208
+      Fallen Champion Recovery Two_8: -383320218
+      Fallen Champion Recovery Two_9: 1480991516
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

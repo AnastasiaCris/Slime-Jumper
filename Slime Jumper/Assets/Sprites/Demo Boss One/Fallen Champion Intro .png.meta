@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ab8cc0d92ff4f4778aaa87247eec2253
+guid: a6c6b08edd18d444f9c7d635f5d09afb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -125,50 +125,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slime Enemy_0
+      name: Fallen Champion Intro _0
       rect:
         serializedVersion: 2
-        x: 53
-        y: 550
-        width: 43
-        height: 29
-      alignment: 9
-      pivot: {x: 0.49557656, y: 0.362271}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2cf2325d4e174815b137484916551ff
-      internalID: 1004436859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime Enemy_1
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 422
-        width: 43
-        height: 29
+        x: 0
+        y: 3240
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13eca719ba41345a9aaf150804d8ae5f
-      internalID: -949209525
+      spriteID: 0512e735d504b48aab57dedc7b98f5f8
+      internalID: 408528256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_2
+      name: Fallen Champion Intro _1
       rect:
         serializedVersion: 2
-        x: 181
-        y: 422
-        width: 43
-        height: 29
+        x: 1040
+        y: 3240
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5eaaddab3944d4fa389609bb9ac3dd36
-      internalID: -1963556644
+      spriteID: 4f0ef9e5aded74cb8ab681d3b7d0ac27
+      internalID: -725803059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_3
+      name: Fallen Champion Intro _2
       rect:
         serializedVersion: 2
-        x: 309
-        y: 422
-        width: 43
-        height: 29
+        x: 2080
+        y: 3240
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7ab099cb721a492bb90735ee4c49d72
-      internalID: -885388162
+      spriteID: 43721f772e0d44265abf5007bf472b0b
+      internalID: 539838036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_4
+      name: Fallen Champion Intro _3
       rect:
         serializedVersion: 2
-        x: 437
-        y: 422
-        width: 43
-        height: 29
+        x: 3120
+        y: 3240
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af09b006227b240698580eaad71d86d9
-      internalID: 1887739896
+      spriteID: 674798d8bedda4cddbf543874ae4d7a6
+      internalID: 815077016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_6
+      name: Fallen Champion Intro _4
       rect:
         serializedVersion: 2
-        x: 565
-        y: 422
-        width: 43
-        height: 29
+        x: 4160
+        y: 3240
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e58de1baaea94d24a6b6c65595db88d
-      internalID: -30789574
+      spriteID: e7c6391732b874e04a19b76649d0acbf
+      internalID: 2128185461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_7
+      name: Fallen Champion Intro _5
       rect:
         serializedVersion: 2
-        x: 693
-        y: 422
-        width: 43
-        height: 29
+        x: 0
+        y: 2700
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b36aad7a55e3644cba0bb89f04e81012
-      internalID: -1708708299
+      spriteID: 2a54960a34f454c5798319dc67f89791
+      internalID: -766828292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_8
+      name: Fallen Champion Intro _6
       rect:
         serializedVersion: 2
-        x: 821
-        y: 422
-        width: 43
-        height: 29
+        x: 1040
+        y: 2700
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dbc0459f61d947629708fe7c195d3a5
-      internalID: -2075360456
+      spriteID: 1edf3a870503b446da3deaa30e6e414b
+      internalID: -1022546236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_9
+      name: Fallen Champion Intro _7
       rect:
         serializedVersion: 2
-        x: 949
-        y: 422
-        width: 43
-        height: 29
+        x: 2080
+        y: 2700
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,20 +290,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c37822029d40f4d25a788cc9405831d2
-      internalID: 958173792
+      spriteID: 605ded951d0a34b079282f3d4ef857b0
+      internalID: -1207719984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_10
+      name: Fallen Champion Intro _8
       rect:
         serializedVersion: 2
-        x: 51
-        y: 294
-        width: 43
-        height: 29
+        x: 3120
+        y: 2700
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,20 +311,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c36f0e28a87c429f9f6fee8cc1d1c8e
-      internalID: -152731107
+      spriteID: 0463cc20e54c2429c906ade63370241c
+      internalID: 328600673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_11
+      name: Fallen Champion Intro _9
       rect:
         serializedVersion: 2
-        x: 180
-        y: 294
-        width: 43
-        height: 29
+        x: 4160
+        y: 2700
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,20 +332,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 540b9aeeb72a84da391885828338e9df
-      internalID: 2051277717
+      spriteID: 8e19014e3c4294b2286e6485817a26ce
+      internalID: 441918129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_12
+      name: Fallen Champion Intro _10
       rect:
         serializedVersion: 2
-        x: 309
-        y: 294
-        width: 43
-        height: 29
+        x: 0
+        y: 2160
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,20 +353,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcbf4d73f940d45a7b7e127a3933f762
-      internalID: 1696282022
+      spriteID: 05600ca5fa84b464d879afc0747b8773
+      internalID: -269336351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_14
+      name: Fallen Champion Intro _11
       rect:
         serializedVersion: 2
-        x: 438
-        y: 294
-        width: 43
-        height: 29
+        x: 1040
+        y: 2160
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,20 +374,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f69df402caf4a41dab37ab83c65ddd36
-      internalID: -1826160951
+      spriteID: 4d20be2577a944806ad0a668b77e888d
+      internalID: -856781690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_15
+      name: Fallen Champion Intro _12
       rect:
         serializedVersion: 2
-        x: 565
-        y: 294
-        width: 43
-        height: 29
+        x: 2080
+        y: 2160
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,20 +395,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66b243844b1f14bf5bbc584aadacdb27
-      internalID: 1057216097
+      spriteID: b4914b8c75579455287b7fb923685166
+      internalID: -524036032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_16
+      name: Fallen Champion Intro _13
       rect:
         serializedVersion: 2
-        x: 693
-        y: 294
-        width: 43
-        height: 29
+        x: 3120
+        y: 2160
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,20 +416,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aeb7c6d679b1545799f745f1134655b4
-      internalID: -1207254023
+      spriteID: c1d6e541acd19468baa8e762e8aa3b3c
+      internalID: -2037434609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_17
+      name: Fallen Champion Intro _14
       rect:
         serializedVersion: 2
-        x: 819
-        y: 294
-        width: 43
-        height: 29
+        x: 4160
+        y: 2160
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd210c2760b254ac9916a084d3a18091
-      internalID: 1350639519
+      spriteID: 9f9f48f4dd18f4d2ca15104d9eddf9aa
+      internalID: -2069045683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_18
+      name: Fallen Champion Intro _15
       rect:
         serializedVersion: 2
-        x: 948
-        y: 294
-        width: 43
-        height: 29
+        x: 0
+        y: 1620
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,20 +458,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3e8c00e266f24de095fbe3484a18cad
-      internalID: 972207366
+      spriteID: 095f5804bb80e4ce38e39e85e50382ea
+      internalID: 1797967778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_19
+      name: Fallen Champion Intro _16
       rect:
         serializedVersion: 2
-        x: 44
-        y: 166
-        width: 61
-        height: 41
+        x: 1040
+        y: 1620
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,20 +479,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c611b374af5c4ce19345df499e728d9
-      internalID: 255498019
+      spriteID: fa751d2ea84454dcda131178ad8a908d
+      internalID: 1218186818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_20
+      name: Fallen Champion Intro _17
       rect:
         serializedVersion: 2
-        x: 171
-        y: 166
-        width: 61
-        height: 41
+        x: 2080
+        y: 1620
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,20 +500,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dd1f136df3924cb2a276c738e45ad90
-      internalID: -2088259469
+      spriteID: d804ef48b6db240d39d4b726cfb208a3
+      internalID: -875562807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_21
+      name: Fallen Champion Intro _18
       rect:
         serializedVersion: 2
-        x: 299
-        y: 166
-        width: 61
-        height: 41
+        x: 3120
+        y: 1620
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,20 +521,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e06be0526c49b4c91b25b3ef296764eb
-      internalID: -1412618977
+      spriteID: 5e9157c5938024f189a67d507c9bbd72
+      internalID: -1338973465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_22
+      name: Fallen Champion Intro _19
       rect:
         serializedVersion: 2
-        x: 427
-        y: 166
-        width: 61
-        height: 41
+        x: 4160
+        y: 1620
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,20 +542,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0e0e0e5e3cf94ed9a4fe12caaba46c7
-      internalID: 1756038126
+      spriteID: 68e92df825b5c428bb652a12bf1173be
+      internalID: 1943720464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_24
+      name: Fallen Champion Intro _20
       rect:
         serializedVersion: 2
-        x: 537
-        y: 166
-        width: 61
-        height: 41
+        x: 0
+        y: 1080
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,20 +563,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4b927164b79841b8988cdf17ff27a5b
-      internalID: -1651714599
+      spriteID: 0e874d07f6808475d8e7e3b8c27ac3f1
+      internalID: 1315725402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_25
+      name: Fallen Champion Intro _21
       rect:
         serializedVersion: 2
-        x: 666
-        y: 166
-        width: 61
-        height: 41
+        x: 1040
+        y: 1080
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,20 +584,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 147f3af6f05c74e1f8b5b79e601d5045
-      internalID: 1241007575
+      spriteID: 0492c261ce2bf4a5fb6fe2132369eae2
+      internalID: -1106222955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_26
+      name: Fallen Champion Intro _22
       rect:
         serializedVersion: 2
-        x: 809
-        y: 166
-        width: 61
-        height: 41
+        x: 2080
+        y: 1080
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,20 +605,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 846789cf048d44e5d9e5a1693220ef5a
-      internalID: -1487268878
+      spriteID: 26b619c5ba41a496a854d0c01201b5a4
+      internalID: -443134582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_27
+      name: Fallen Champion Intro _23
       rect:
         serializedVersion: 2
-        x: 939
-        y: 166
-        width: 61
-        height: 41
+        x: 3120
+        y: 1080
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -659,20 +626,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0f9e4ac8ccb74eb8a348b8ec391654a
-      internalID: -2143722681
+      spriteID: dc880d7bfa89a4c73bb9c477e2fb69b6
+      internalID: -1645257801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_28
+      name: Fallen Champion Intro _24
       rect:
         serializedVersion: 2
-        x: 43
-        y: 38
-        width: 63
-        height: 41
+        x: 4160
+        y: 1080
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -680,20 +647,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a27c2694969f415b8fde645140ca7d5
-      internalID: 1425941518
+      spriteID: 0d97cd7c1d9554556b5e51cfe326757d
+      internalID: 1598227329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_29
+      name: Fallen Champion Intro _25
       rect:
         serializedVersion: 2
-        x: 171
-        y: 38
-        width: 63
-        height: 41
+        x: 0
+        y: 540
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +668,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e99c035cd577f463483cc9959d4ac6a9
-      internalID: -857107066
+      spriteID: 116706f55320445019f2e2a629992c02
+      internalID: 38921495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_30
+      name: Fallen Champion Intro _26
       rect:
         serializedVersion: 2
-        x: 301
-        y: 38
-        width: 63
-        height: 41
+        x: 1040
+        y: 540
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -722,20 +689,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60800cce4d88d447c8a9230c285b5262
-      internalID: 1277866820
+      spriteID: e04dd69168d8f4b66a600b06f3de7bf2
+      internalID: -358883615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_31
+      name: Fallen Champion Intro _27
       rect:
         serializedVersion: 2
-        x: 429
-        y: 38
-        width: 63
-        height: 41
+        x: 2080
+        y: 540
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -743,20 +710,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01abaf020d51149d5af36d0754e44fd8
-      internalID: 1216279972
+      spriteID: dc4c4e935c46e41bebd900893e7643d3
+      internalID: 696178297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_32
+      name: Fallen Champion Intro _28
       rect:
         serializedVersion: 2
-        x: 557
-        y: 38
-        width: 63
-        height: 41
+        x: 3120
+        y: 540
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -764,20 +731,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fedc80944036f4c4aba404cb45a1d074
-      internalID: -1992315239
+      spriteID: d4ef6a487082f49d8ace5c74f6874974
+      internalID: -983100599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_33
+      name: Fallen Champion Intro _29
       rect:
         serializedVersion: 2
-        x: 690
-        y: 37
-        width: 63
-        height: 41
+        x: 4160
+        y: 540
+        width: 1040
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -785,8 +752,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3271c1fafa28f423985fdb694948f6f6
-      internalID: 1762314073
+      spriteID: 433d5c42e2a6344bca7768989cd035f8
+      internalID: 632756255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Intro _30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1040
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca4216f18c194d748c2860346da4aff
+      internalID: 1387262946
       vertices: []
       indices: 
       edges: []
@@ -802,41 +790,37 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Slime Enemy_0: 1004436859
-      Slime Enemy_1: -949209525
-      Slime Enemy_10: -152731107
-      Slime Enemy_11: 2051277717
-      Slime Enemy_12: 1696282022
-      Slime Enemy_13: 578737995
-      Slime Enemy_14: -1826160951
-      Slime Enemy_15: 1057216097
-      Slime Enemy_16: -1207254023
-      Slime Enemy_17: 1350639519
-      Slime Enemy_18: 972207366
-      Slime Enemy_19: 255498019
-      Slime Enemy_2: -1963556644
-      Slime Enemy_20: -2088259469
-      Slime Enemy_21: -1412618977
-      Slime Enemy_22: 1756038126
-      Slime Enemy_23: -1357999249
-      Slime Enemy_24: -1651714599
-      Slime Enemy_25: 1241007575
-      Slime Enemy_26: -1487268878
-      Slime Enemy_27: -2143722681
-      Slime Enemy_28: 1425941518
-      Slime Enemy_29: -857107066
-      Slime Enemy_3: -885388162
-      Slime Enemy_30: 1277866820
-      Slime Enemy_31: 1216279972
-      Slime Enemy_32: -1992315239
-      Slime Enemy_33: 1762314073
-      Slime Enemy_34: -659078349
-      Slime Enemy_4: 1887739896
-      Slime Enemy_5: 231417029
-      Slime Enemy_6: -30789574
-      Slime Enemy_7: -1708708299
-      Slime Enemy_8: -2075360456
-      Slime Enemy_9: 958173792
+      Fallen Champion Intro _0: 408528256
+      Fallen Champion Intro _1: -725803059
+      Fallen Champion Intro _10: -269336351
+      Fallen Champion Intro _11: -856781690
+      Fallen Champion Intro _12: -524036032
+      Fallen Champion Intro _13: -2037434609
+      Fallen Champion Intro _14: -2069045683
+      Fallen Champion Intro _15: 1797967778
+      Fallen Champion Intro _16: 1218186818
+      Fallen Champion Intro _17: -875562807
+      Fallen Champion Intro _18: -1338973465
+      Fallen Champion Intro _19: 1943720464
+      Fallen Champion Intro _2: 539838036
+      Fallen Champion Intro _20: 1315725402
+      Fallen Champion Intro _21: -1106222955
+      Fallen Champion Intro _22: -443134582
+      Fallen Champion Intro _23: -1645257801
+      Fallen Champion Intro _24: 1598227329
+      Fallen Champion Intro _25: 38921495
+      Fallen Champion Intro _26: -358883615
+      Fallen Champion Intro _27: 696178297
+      Fallen Champion Intro _28: -983100599
+      Fallen Champion Intro _29: 632756255
+      Fallen Champion Intro _3: 815077016
+      Fallen Champion Intro _30: 1387262946
+      Fallen Champion Intro _4: 2128185461
+      Fallen Champion Intro _5: -766828292
+      Fallen Champion Intro _6: -1022546236
+      Fallen Champion Intro _7: -1207719984
+      Fallen Champion Intro _8: 328600673
+      Fallen Champion Intro _9: 441918129
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
