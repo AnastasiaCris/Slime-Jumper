@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 747c7d2559a3243539dd03d5beb94883
+guid: 4eb3b792dd2cf4431a0c3d4d052aa15c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 190
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -129,127 +129,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Thin tiles_0
+      name: Fallen Champion Teleport location marking_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 137
-        width: 192
-        height: 263
+        x: 523
+        y: 1400
+        width: 375
+        height: 345
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -89, y: -123.5}
-        - {x: -89, y: 21.5}
-        - {x: 94, y: 22.5}
-        - {x: 94, y: -123.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 667a869c8f5bd427c8c4b432cfd17278
-      internalID: 34886614
+      spriteID: 3a6324f7aa2104a29872305f7e074ff6
+      internalID: 1588499559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_1
+      name: Fallen Champion Teleport location marking_1
       rect:
         serializedVersion: 2
-        x: 199
-        y: 136
-        width: 192
-        height: 263
+        x: 1790
+        y: 1400
+        width: 375
+        height: 345
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -95, y: -121.5}
-        - {x: -96, y: 23.5}
-        - {x: 95, y: 22.5}
-        - {x: 94, y: -121.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18a7ae25aca4a43fe9ddb61736a47d94
-      internalID: 1010656930
+      spriteID: 391d46602d45f4107b065cf1e1f4ef16
+      internalID: -1288631360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_2
+      name: Fallen Champion Teleport location marking_2
       rect:
         serializedVersion: 2
-        x: 400
-        y: 136
-        width: 192
-        height: 263
+        x: 3075
+        y: 1396
+        width: 375
+        height: 345
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -92, y: -120.5}
-        - {x: -95, y: 22.5}
-        - {x: 60.926453, y: 20.858673}
-        - {x: 95, y: 20.5}
-        - {x: 95, y: -120.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f975efd91ac448558cc4d765459140c
-      internalID: -330817643
+      spriteID: eed0fc9a1d3774e299dc3fbb7fe472c2
+      internalID: 142096877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_3
+      name: Fallen Champion Teleport location marking_3
       rect:
         serializedVersion: 2
-        x: 600
-        y: 136
-        width: 192
-        height: 263
+        x: 4356
+        y: 1396
+        width: 375
+        height: 345
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -93, y: -121.5}
-        - {x: -93, y: 20.5}
-        - {x: 96, y: 20.5}
-        - {x: 96, y: -121.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4812562af4ce64013a45585d17280a9d
-      internalID: -1224947299
+      spriteID: 04eb7ff4dfc0d4005bfc6f945c04fc62
+      internalID: -391716999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_4
+      name: Fallen Champion Teleport location marking_4
       rect:
         serializedVersion: 2
-        x: 799
-        y: 136
-        width: 192
-        height: 263
+        x: 523
+        y: 760
+        width: 375
+        height: 345
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -94, y: -125.5}
-        - {x: -94, y: 22.5}
-        - {x: 94, y: 21.5}
-        - {x: 93, y: -125.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89c93d531401046e39ca047d4e7b2a3f
-      internalID: 650125530
+      spriteID: c256a76d2d5cf4b27b8f23f007d9dc9f
+      internalID: -2064002083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Teleport location marking_5
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 760
+        width: 375
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53493df76b7c1413fbc5b40345dc19ae
+      internalID: 5564096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Teleport location marking_6
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 760
+        width: 375
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4d495dec4f64c36a5b05a2af11cfcb
+      internalID: -1992053039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Teleport location marking_7
+      rect:
+        serializedVersion: 2
+        x: 4356
+        y: 760
+        width: 375
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86efc4494f15e4298b374bbe2acbf316
+      internalID: -1314806266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Teleport location marking_8
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 120
+        width: 375
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3992bcb83ff3f40eb899e5b31c50c51d
+      internalID: -904755726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Teleport location marking_9
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 116
+        width: 375
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d869557a98340279ead83e60077e50
+      internalID: -425966216
       vertices: []
       indices: 
       edges: []
@@ -265,11 +349,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Thin tiles_0: 34886614
-      Thin tiles_1: 1010656930
-      Thin tiles_2: -330817643
-      Thin tiles_3: -1224947299
-      Thin tiles_4: 650125530
+      Fallen Champion Teleport location marking_0: 1588499559
+      Fallen Champion Teleport location marking_1: -1288631360
+      Fallen Champion Teleport location marking_2: 142096877
+      Fallen Champion Teleport location marking_3: -391716999
+      Fallen Champion Teleport location marking_4: -2064002083
+      Fallen Champion Teleport location marking_5: 5564096
+      Fallen Champion Teleport location marking_6: -1992053039
+      Fallen Champion Teleport location marking_7: -1314806266
+      Fallen Champion Teleport location marking_8: -904755726
+      Fallen Champion Teleport location marking_9: -425966216
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

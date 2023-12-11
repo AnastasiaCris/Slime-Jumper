@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 747c7d2559a3243539dd03d5beb94883
+guid: ea6ce786bd2b64a74b27fa422556b32d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 190
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -129,127 +129,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Thin tiles_0
+      name: Fallen Champion Recovery one_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 137
-        width: 192
-        height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 413
+        y: 1400
+        width: 647
+        height: 460
+      alignment: 9
+      pivot: {x: 0.4810691, y: 0.2603598}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -89, y: -123.5}
-        - {x: -89, y: 21.5}
-        - {x: 94, y: 22.5}
-        - {x: 94, y: -123.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 667a869c8f5bd427c8c4b432cfd17278
-      internalID: 34886614
+      spriteID: 18112506306dc47d1b0c9471d83bf17b
+      internalID: 789050710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_1
+      name: Fallen Champion Recovery one_1
       rect:
         serializedVersion: 2
-        x: 199
-        y: 136
-        width: 192
-        height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1661
+        y: 1400
+        width: 647
+        height: 460
+      alignment: 9
+      pivot: {x: 0.5075723, y: 0.24970889}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -95, y: -121.5}
-        - {x: -96, y: 23.5}
-        - {x: 95, y: 22.5}
-        - {x: 94, y: -121.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18a7ae25aca4a43fe9ddb61736a47d94
-      internalID: 1010656930
+      spriteID: 15b0e96e1c47f47c4a15fbe0653ab93c
+      internalID: -1478675394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_2
+      name: Fallen Champion Recovery one_2
       rect:
         serializedVersion: 2
-        x: 400
-        y: 136
-        width: 192
-        height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2922
+        y: 1400
+        width: 647
+        height: 460
+      alignment: 9
+      pivot: {x: 0.5189309, y: 0.27101043}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -92, y: -120.5}
-        - {x: -95, y: 22.5}
-        - {x: 60.926453, y: 20.858673}
-        - {x: 95, y: 20.5}
-        - {x: 95, y: -120.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f975efd91ac448558cc4d765459140c
-      internalID: -330817643
+      spriteID: 9f732d19cf3d24712a62973f50d7097a
+      internalID: 1026822526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_3
+      name: Fallen Champion Recovery one_3
       rect:
         serializedVersion: 2
-        x: 600
-        y: 136
-        width: 192
-        height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 4179
+        y: 1400
+        width: 647
+        height: 460
+      alignment: 9
+      pivot: {x: 0.56436485, y: 0.2763356}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -93, y: -121.5}
-        - {x: -93, y: 20.5}
-        - {x: 96, y: 20.5}
-        - {x: 96, y: -121.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4812562af4ce64013a45585d17280a9d
-      internalID: -1224947299
+      spriteID: 37e5283d0bb294c99896054b6e6125e2
+      internalID: -1017516308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_4
+      name: Fallen Champion Recovery one_4
       rect:
         serializedVersion: 2
-        x: 799
-        y: 136
-        width: 192
-        height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 413
+        y: 760
+        width: 647
+        height: 460
+      alignment: 9
+      pivot: {x: 0.4064395, y: 0.33744174}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -94, y: -125.5}
-        - {x: -94, y: 22.5}
-        - {x: 94, y: 21.5}
-        - {x: 93, y: -125.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89c93d531401046e39ca047d4e7b2a3f
-      internalID: 650125530
+      spriteID: d543c31af173144aa91bc59ebd37f5b9
+      internalID: -1746423745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Recovery one_5
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 760
+        width: 647
+        height: 460
+      alignment: 9
+      pivot: {x: 0.45046777, y: 0.43807292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d8978b16d074758ae1c551a3a58f80
+      internalID: -1134510285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Recovery one_6
+      rect:
+        serializedVersion: 2
+        x: 2922
+        y: 760
+        width: 647
+        height: 460
+      alignment: 9
+      pivot: {x: 0.44496384, y: 0.48451817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b55ff5853c40405d83f18fc8ec7f5f1
+      internalID: 433212167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Recovery one_7
+      rect:
+        serializedVersion: 2
+        x: 4179
+        y: 760
+        width: 647
+        height: 460
+      alignment: 9
+      pivot: {x: 0.54402757, y: 0.38388684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521d7448bc3bf463bbc540783dc1537e
+      internalID: 1611732502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Recovery one_8
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 116
+        width: 647
+        height: 460
+      alignment: 9
+      pivot: {x: 0.42295015, y: 0.39936876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b33e46339bda407ea70e54a8724c643
+      internalID: -918492711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Recovery one_9
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 128
+        width: 647
+        height: 460
+      alignment: 9
+      pivot: {x: 0.48899254, y: 0.3684055}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c75718e1613440d6b439b33fd7bd382
+      internalID: -1864935865
       vertices: []
       indices: 
       edges: []
@@ -265,11 +349,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Thin tiles_0: 34886614
-      Thin tiles_1: 1010656930
-      Thin tiles_2: -330817643
-      Thin tiles_3: -1224947299
-      Thin tiles_4: 650125530
+      Fallen Champion Recovery one_0: 789050710
+      Fallen Champion Recovery one_1: -1478675394
+      Fallen Champion Recovery one_2: 1026822526
+      Fallen Champion Recovery one_3: -1017516308
+      Fallen Champion Recovery one_4: -1746423745
+      Fallen Champion Recovery one_5: -1134510285
+      Fallen Champion Recovery one_6: 433212167
+      Fallen Champion Recovery one_7: 1611732502
+      Fallen Champion Recovery one_8: -918492711
+      Fallen Champion Recovery one_9: -1864935865
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

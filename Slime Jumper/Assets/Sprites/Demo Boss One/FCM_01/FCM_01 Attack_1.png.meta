@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 747c7d2559a3243539dd03d5beb94883
+guid: 7f4c7d11c823740ff90e3da632bca8f3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 190
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -129,127 +129,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Thin tiles_0
+      name: FCM_01 Attack_1_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 137
-        width: 192
-        height: 263
+        x: 49
+        y: 733.5
+        width: 434.2
+        height: 471.5
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -89, y: -123.5}
-        - {x: -89, y: 21.5}
-        - {x: 94, y: 22.5}
-        - {x: 94, y: -123.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 667a869c8f5bd427c8c4b432cfd17278
-      internalID: 34886614
+      spriteID: 1da36be7f689d4ba8952eb904abf2fc9
+      internalID: -108282482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_1
+      name: FCM_01 Attack_1_1
       rect:
         serializedVersion: 2
-        x: 199
-        y: 136
-        width: 192
-        height: 263
+        x: 679
+        y: 733.5
+        width: 434.2
+        height: 471.5
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -95, y: -121.5}
-        - {x: -96, y: 23.5}
-        - {x: 95, y: 22.5}
-        - {x: 94, y: -121.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18a7ae25aca4a43fe9ddb61736a47d94
-      internalID: 1010656930
+      spriteID: 51e3f0e1a94a64923ab909baad8814fb
+      internalID: 117264998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_2
+      name: FCM_01 Attack_1_2
       rect:
         serializedVersion: 2
-        x: 400
-        y: 136
-        width: 192
-        height: 263
+        x: 1309
+        y: 733.5
+        width: 434.2
+        height: 471.5
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -92, y: -120.5}
-        - {x: -95, y: 22.5}
-        - {x: 60.926453, y: 20.858673}
-        - {x: 95, y: 20.5}
-        - {x: 95, y: -120.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f975efd91ac448558cc4d765459140c
-      internalID: -330817643
+      spriteID: 8e0be04798d3840558b190d92690f665
+      internalID: -45145654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_3
+      name: FCM_01 Attack_1_3
       rect:
         serializedVersion: 2
-        x: 600
-        y: 136
-        width: 192
-        height: 263
+        x: 1939
+        y: 733.5
+        width: 434.2
+        height: 471.5
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -93, y: -121.5}
-        - {x: -93, y: 20.5}
-        - {x: 96, y: 20.5}
-        - {x: 96, y: -121.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4812562af4ce64013a45585d17280a9d
-      internalID: -1224947299
+      spriteID: 395c1fd2b929d495e84312f4cabe7a1a
+      internalID: 801587174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_4
+      name: FCM_01 Attack_1_4
       rect:
         serializedVersion: 2
-        x: 799
-        y: 136
-        width: 192
-        height: 263
+        x: 2569
+        y: 733.5
+        width: 434.2
+        height: 471.5
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -94, y: -125.5}
-        - {x: -94, y: 22.5}
-        - {x: 94, y: 21.5}
-        - {x: 93, y: -125.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89c93d531401046e39ca047d4e7b2a3f
-      internalID: 650125530
+      spriteID: e584a43d6327a47cab39175711b4cff8
+      internalID: 1253354771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCM_01 Attack_1_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 131.5
+        width: 434.2
+        height: 471.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae2149f553ec43dab58e262de320520
+      internalID: -1568523689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCM_01 Attack_1_6
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 131.5
+        width: 434.2
+        height: 471.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c2d6389dd0147e6bf1e78af4f1449d
+      internalID: -487679100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCM_01 Attack_1_7
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 131.5
+        width: 434.2
+        height: 471.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7907fac0c80f40dfadc48f65232b16d
+      internalID: 2002981892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCM_01 Attack_1_8
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 131.5
+        width: 434.2
+        height: 471.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed6af69d4e2847e99aa941aba7cc0b6
+      internalID: -1942441133
       vertices: []
       indices: 
       edges: []
@@ -265,11 +328,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Thin tiles_0: 34886614
-      Thin tiles_1: 1010656930
-      Thin tiles_2: -330817643
-      Thin tiles_3: -1224947299
-      Thin tiles_4: 650125530
+      FCM_01 Attack_1_0: -108282482
+      FCM_01 Attack_1_1: 117264998
+      FCM_01 Attack_1_2: -45145654
+      FCM_01 Attack_1_3: 801587174
+      FCM_01 Attack_1_4: 1253354771
+      FCM_01 Attack_1_5: -1568523689
+      FCM_01 Attack_1_6: -487679100
+      FCM_01 Attack_1_7: 2002981892
+      FCM_01 Attack_1_8: -1942441133
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

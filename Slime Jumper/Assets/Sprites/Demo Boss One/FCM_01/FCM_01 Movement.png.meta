@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 747c7d2559a3243539dd03d5beb94883
+guid: cfc5d4fc581854baf83eb1053bd45fae
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 190
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -129,127 +129,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Thin tiles_0
+      name: FCM_01 Movement_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 137
-        width: 192
-        height: 263
+        x: 104
+        y: 711
+        width: 457.2
+        height: 481
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -89, y: -123.5}
-        - {x: -89, y: 21.5}
-        - {x: 94, y: 22.5}
-        - {x: 94, y: -123.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 667a869c8f5bd427c8c4b432cfd17278
-      internalID: 34886614
+      spriteID: cbda9adc3d3b8489fb3bbcc945caecd3
+      internalID: -887614808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_1
+      name: FCM_01 Movement_1
       rect:
         serializedVersion: 2
-        x: 199
-        y: 136
-        width: 192
-        height: 263
+        x: 770
+        y: 711
+        width: 457
+        height: 481
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -95, y: -121.5}
-        - {x: -96, y: 23.5}
-        - {x: 95, y: 22.5}
-        - {x: 94, y: -121.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18a7ae25aca4a43fe9ddb61736a47d94
-      internalID: 1010656930
+      spriteID: 5b4dd706e89fa499493b46ebde092b96
+      internalID: 1164110230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_2
+      name: FCM_01 Movement_2
       rect:
         serializedVersion: 2
-        x: 400
-        y: 136
-        width: 192
-        height: 263
+        x: 1432
+        y: 711
+        width: 457
+        height: 481
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -92, y: -120.5}
-        - {x: -95, y: 22.5}
-        - {x: 60.926453, y: 20.858673}
-        - {x: 95, y: 20.5}
-        - {x: 95, y: -120.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f975efd91ac448558cc4d765459140c
-      internalID: -330817643
+      spriteID: a222d68314dda472fb426f5a34ed0c8e
+      internalID: -1699888229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_3
+      name: FCM_01 Movement_3
       rect:
         serializedVersion: 2
-        x: 600
-        y: 136
-        width: 192
-        height: 263
+        x: 2034
+        y: 711
+        width: 457
+        height: 481
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -93, y: -121.5}
-        - {x: -93, y: 20.5}
-        - {x: 96, y: 20.5}
-        - {x: 96, y: -121.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4812562af4ce64013a45585d17280a9d
-      internalID: -1224947299
+      spriteID: 5d4cdca04c28d4769a3b993c743faeb6
+      internalID: 1898065439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_4
+      name: FCM_01 Movement_4
       rect:
         serializedVersion: 2
-        x: 799
-        y: 136
-        width: 192
-        height: 263
+        x: 2666
+        y: 711
+        width: 457
+        height: 481
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -94, y: -125.5}
-        - {x: -94, y: 22.5}
-        - {x: 94, y: 21.5}
-        - {x: 93, y: -125.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89c93d531401046e39ca047d4e7b2a3f
-      internalID: 650125530
+      spriteID: 0d0aa00ec666f4ff28cfb784e2a04ad6
+      internalID: 207162584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCM_01 Movement_5
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 115
+        width: 457.2
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a9e709781d94a328fa266c76a76e8c
+      internalID: -1816516297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCM_01 Movement_6
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 115
+        width: 457
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e0da325f95946ffb35e88f64f33c28
+      internalID: -9009806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCM_01 Movement_7
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 115
+        width: 457
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c61c1d632194e329af6db930179238
+      internalID: 809893180
       vertices: []
       indices: 
       edges: []
@@ -265,11 +307,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Thin tiles_0: 34886614
-      Thin tiles_1: 1010656930
-      Thin tiles_2: -330817643
-      Thin tiles_3: -1224947299
-      Thin tiles_4: 650125530
+      FCM_01 Movement_0: -887614808
+      FCM_01 Movement_1: 1164110230
+      FCM_01 Movement_2: -1699888229
+      FCM_01 Movement_3: 1898065439
+      FCM_01 Movement_4: 207162584
+      FCM_01 Movement_5: -1816516297
+      FCM_01 Movement_6: -9009806
+      FCM_01 Movement_7: 809893180
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

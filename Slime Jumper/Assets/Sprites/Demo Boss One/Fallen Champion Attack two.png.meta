@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 747c7d2559a3243539dd03d5beb94883
+guid: 68e291ef67a8348548e8d7c71ea41377
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 190
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -129,127 +129,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Thin tiles_0
+      name: Fallen Champion Attack two_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 137
-        width: 192
-        height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 459
+        y: 760
+        width: 814
+        height: 460
+      alignment: 9
+      pivot: {x: 0.25571737, y: 0.4790835}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -89, y: -123.5}
-        - {x: -89, y: 21.5}
-        - {x: 94, y: 22.5}
-        - {x: 94, y: -123.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 667a869c8f5bd427c8c4b432cfd17278
-      internalID: 34886614
+      spriteID: 08c7f6fca44f94fcca667ce9e7630753
+      internalID: -806467480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_1
+      name: Fallen Champion Attack two_1
       rect:
         serializedVersion: 2
-        x: 199
-        y: 136
-        width: 192
-        height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1739
+        y: 760
+        width: 814
+        height: 460
+      alignment: 9
+      pivot: {x: 0.25374743, y: 0.45119482}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -95, y: -121.5}
-        - {x: -96, y: 23.5}
-        - {x: 95, y: 22.5}
-        - {x: 94, y: -121.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18a7ae25aca4a43fe9ddb61736a47d94
-      internalID: 1010656930
+      spriteID: f687a9ec2ddd44c4ab88775d0b32d573
+      internalID: -187549845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_2
+      name: Fallen Champion Attack two_2
       rect:
         serializedVersion: 2
-        x: 400
-        y: 136
-        width: 192
-        height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 3019
+        y: 760
+        width: 814
+        height: 460
+      alignment: 9
+      pivot: {x: 0.27935776, y: 0.37101492}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -92, y: -120.5}
-        - {x: -95, y: 22.5}
-        - {x: 60.926453, y: 20.858673}
-        - {x: 95, y: 20.5}
-        - {x: 95, y: -120.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f975efd91ac448558cc4d765459140c
-      internalID: -330817643
+      spriteID: f9bf3a580ed95407897096778e917d73
+      internalID: 1984218091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_3
+      name: Fallen Champion Attack two_3
       rect:
         serializedVersion: 2
-        x: 600
-        y: 136
-        width: 192
-        height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 4298
+        y: 760
+        width: 814
+        height: 460
+      alignment: 9
+      pivot: {x: 0.29981908, y: 0.37214422}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -93, y: -121.5}
-        - {x: -93, y: 20.5}
-        - {x: 96, y: 20.5}
-        - {x: 96, y: -121.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4812562af4ce64013a45585d17280a9d
-      internalID: -1224947299
+      spriteID: b03ee0a68256e4e9ca7103cb13e86c3b
+      internalID: -1807685286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_4
+      name: Fallen Champion Attack two_4
       rect:
         serializedVersion: 2
-        x: 799
-        y: 136
-        width: 192
-        height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 459
+        y: 120
+        width: 814
+        height: 460
+      alignment: 9
+      pivot: {x: 0.2951178, y: 0.35707054}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -94, y: -125.5}
-        - {x: -94, y: 22.5}
-        - {x: 94, y: 21.5}
-        - {x: 93, y: -125.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89c93d531401046e39ca047d4e7b2a3f
-      internalID: 650125530
+      spriteID: a949847e1da8e41bf90b7d98b6ab858a
+      internalID: -432592717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Attack two_5
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 120
+        width: 814
+        height: 460
+      alignment: 9
+      pivot: {x: 0.30102795, y: 0.3500983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae832142d89f4e21877051c3a921c6d
+      internalID: -987669240
       vertices: []
       indices: 
       edges: []
@@ -265,11 +265,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Thin tiles_0: 34886614
-      Thin tiles_1: 1010656930
-      Thin tiles_2: -330817643
-      Thin tiles_3: -1224947299
-      Thin tiles_4: 650125530
+      Fallen Champion Attack two_0: -806467480
+      Fallen Champion Attack two_1: -187549845
+      Fallen Champion Attack two_2: 1984218091
+      Fallen Champion Attack two_3: -1807685286
+      Fallen Champion Attack two_4: -432592717
+      Fallen Champion Attack two_5: -987669240
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

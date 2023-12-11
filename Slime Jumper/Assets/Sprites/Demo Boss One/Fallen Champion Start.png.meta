@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 747c7d2559a3243539dd03d5beb94883
+guid: 43a509e4039a8409897884bd080dcc43
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 190
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -129,127 +129,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Thin tiles_0
+      name: Fallen Champion Start_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 137
-        width: 192
-        height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 426
+        y: 1400
+        width: 650
+        height: 480
+      alignment: 9
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -89, y: -123.5}
-        - {x: -89, y: 21.5}
-        - {x: 94, y: 22.5}
-        - {x: 94, y: -123.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 667a869c8f5bd427c8c4b432cfd17278
-      internalID: 34886614
+      spriteID: 51567100fa9e24521ae5b4d81c567a01
+      internalID: -857740646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_1
+      name: Fallen Champion Start_1
       rect:
         serializedVersion: 2
-        x: 199
-        y: 136
-        width: 192
-        height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1688
+        y: 1399
+        width: 650
+        height: 480
+      alignment: 9
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -95, y: -121.5}
-        - {x: -96, y: 23.5}
-        - {x: 95, y: 22.5}
-        - {x: 94, y: -121.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18a7ae25aca4a43fe9ddb61736a47d94
-      internalID: 1010656930
+      spriteID: dfbfc5f14084849e88e545ad5278fbf3
+      internalID: -1003045800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_2
+      name: Fallen Champion Start_2
       rect:
         serializedVersion: 2
-        x: 400
-        y: 136
-        width: 192
-        height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2955
+        y: 1400
+        width: 650
+        height: 480
+      alignment: 9
+      pivot: {x: 0.32234487, y: 0.4828163}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -92, y: -120.5}
-        - {x: -95, y: 22.5}
-        - {x: 60.926453, y: 20.858673}
-        - {x: 95, y: 20.5}
-        - {x: 95, y: -120.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f975efd91ac448558cc4d765459140c
-      internalID: -330817643
+      spriteID: b45d5d930dfe74205bc6424ca80e7bc0
+      internalID: -557711772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_3
+      name: Fallen Champion Start_3
       rect:
         serializedVersion: 2
-        x: 600
-        y: 136
-        width: 192
-        height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 4242
+        y: 1400
+        width: 650
+        height: 480
+      alignment: 9
+      pivot: {x: 0.33926457, y: 0.47136027}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -93, y: -121.5}
-        - {x: -93, y: 20.5}
-        - {x: 96, y: 20.5}
-        - {x: 96, y: -121.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4812562af4ce64013a45585d17280a9d
-      internalID: -1224947299
+      spriteID: 28884e525546647bfb764b3669a4400a
+      internalID: 1558011418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thin tiles_4
+      name: Fallen Champion Start_4
       rect:
         serializedVersion: 2
-        x: 799
-        y: 136
-        width: 192
-        height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 426
+        y: 760
+        width: 650
+        height: 480
+      alignment: 9
+      pivot: {x: 0.2969655, y: 0.46563226}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -94, y: -125.5}
-        - {x: -94, y: 22.5}
-        - {x: 94, y: 21.5}
-        - {x: 93, y: -125.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89c93d531401046e39ca047d4e7b2a3f
-      internalID: 650125530
+      spriteID: b4f03e9d3efa44a589892efdae7bb265
+      internalID: -1345323458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Start_5
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 753
+        width: 650
+        height: 480
+      alignment: 9
+      pivot: {x: 0.38537598, y: 0.4792918}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59beb8adacabf4cdda6d0af93bdec249
+      internalID: 1350008633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Start_6
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 760
+        width: 650
+        height: 480
+      alignment: 9
+      pivot: {x: 0.44924167, y: 0.42553648}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfb1434d809a4fca9334f87de3e5677
+      internalID: 1489482073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Start_7
+      rect:
+        serializedVersion: 2
+        x: 4242
+        y: 763
+        width: 650
+        height: 480
+      alignment: 9
+      pivot: {x: 0.44924128, y: 0.36825663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac97b46ee8f5440d823b6cebec19409
+      internalID: -1474767148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Start_8
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 120
+        width: 650
+        height: 480
+      alignment: 9
+      pivot: {x: 0.40708196, y: 0.39705086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de72ed8e796740aca987e505f2ed0d5
+      internalID: -1237410583
       vertices: []
       indices: 
       edges: []
@@ -265,11 +328,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Thin tiles_0: 34886614
-      Thin tiles_1: 1010656930
-      Thin tiles_2: -330817643
-      Thin tiles_3: -1224947299
-      Thin tiles_4: 650125530
+      Fallen Champion Start_0: -857740646
+      Fallen Champion Start_1: -1003045800
+      Fallen Champion Start_2: -557711772
+      Fallen Champion Start_3: 1558011418
+      Fallen Champion Start_4: -1345323458
+      Fallen Champion Start_5: 1350008633
+      Fallen Champion Start_6: 1489482073
+      Fallen Champion Start_7: -1474767148
+      Fallen Champion Start_8: -1237410583
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
