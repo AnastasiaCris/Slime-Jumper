@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Slime Attack
+  m_Name: Player Attack 3
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,21 +20,11 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 255498019, guid: ab8cc0d92ff4f4778aaa87247eec2253, type: 3}
+      value: {fileID: 1521808716, guid: a7d5e91ee12ec4ca5a95d6e648cb6ed3, type: 3}
     - time: 0.083333336
-      value: {fileID: -2088259469, guid: ab8cc0d92ff4f4778aaa87247eec2253, type: 3}
+      value: {fileID: -484740373, guid: a7d5e91ee12ec4ca5a95d6e648cb6ed3, type: 3}
     - time: 0.16666667
-      value: {fileID: -1412618977, guid: ab8cc0d92ff4f4778aaa87247eec2253, type: 3}
-    - time: 0.25
-      value: {fileID: 1756038126, guid: ab8cc0d92ff4f4778aaa87247eec2253, type: 3}
-    - time: 0.33333334
-      value: {fileID: -1651714599, guid: ab8cc0d92ff4f4778aaa87247eec2253, type: 3}
-    - time: 0.41666666
-      value: {fileID: 1241007575, guid: ab8cc0d92ff4f4778aaa87247eec2253, type: 3}
-    - time: 0.5
-      value: {fileID: -1487268878, guid: ab8cc0d92ff4f4778aaa87247eec2253, type: 3}
-    - time: 0.5833333
-      value: {fileID: -2143722681, guid: ab8cc0d92ff4f4778aaa87247eec2253, type: 3}
+      value: {fileID: 907533252, guid: a7d5e91ee12ec4ca5a95d6e648cb6ed3, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -54,20 +44,15 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 255498019, guid: ab8cc0d92ff4f4778aaa87247eec2253, type: 3}
-    - {fileID: -2088259469, guid: ab8cc0d92ff4f4778aaa87247eec2253, type: 3}
-    - {fileID: -1412618977, guid: ab8cc0d92ff4f4778aaa87247eec2253, type: 3}
-    - {fileID: 1756038126, guid: ab8cc0d92ff4f4778aaa87247eec2253, type: 3}
-    - {fileID: -1651714599, guid: ab8cc0d92ff4f4778aaa87247eec2253, type: 3}
-    - {fileID: 1241007575, guid: ab8cc0d92ff4f4778aaa87247eec2253, type: 3}
-    - {fileID: -1487268878, guid: ab8cc0d92ff4f4778aaa87247eec2253, type: 3}
-    - {fileID: -2143722681, guid: ab8cc0d92ff4f4778aaa87247eec2253, type: 3}
+    - {fileID: 1521808716, guid: a7d5e91ee12ec4ca5a95d6e648cb6ed3, type: 3}
+    - {fileID: -484740373, guid: a7d5e91ee12ec4ca5a95d6e648cb6ed3, type: 3}
+    - {fileID: 907533252, guid: a7d5e91ee12ec4ca5a95d6e648cb6ed3, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.6666666
+    m_StopTime: 0.25
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -87,7 +72,7 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.25
+  - time: 0.083333336
     functionName: DealDamage
     data: 
     objectReferenceParameter: {fileID: 0}

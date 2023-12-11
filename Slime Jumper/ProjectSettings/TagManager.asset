@@ -5,14 +5,50 @@ TagManager:
   serializedVersion: 2
   tags:
   - Tile
-  - Enemies
   - Objects
   - Weapon
   - Tile
   - Player
   - Enemy
-  - 
   - Breakable Object
   - Enemies
   - Player
   - Ground
+  - Enemies
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Tile
+  - Player
+  - Enemy
+  - Objects
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
