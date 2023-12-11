@@ -1,6 +1,5 @@
 
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Destroyer : MonoBehaviour
 {
@@ -9,18 +8,19 @@ public class Destroyer : MonoBehaviour
         if (collision.gameObject.CompareTag("Tile"))
         {
             TileGen.instance.allCurrentTiles.Remove(collision.gameObject);
-            Destroy(collision.gameObject);
+            collision.gameObject.SetActive(false);
         }
         else if(collision.gameObject.CompareTag("Player"))
         {
             //kill player
-            //reset game
-            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-            SceneManager.LoadScene(currentSceneIndex);
+            //reset game - happens in death animation
+            Player playerScript = collision.gameObject.GetComponent<Player>();
+            if(playerScript != null)
+                playerScript.ResetScene();
         }
         else
         {
-            Destroy(collision.gameObject);
+            collision.gameObject.SetActive(false);
         }
     }
 }

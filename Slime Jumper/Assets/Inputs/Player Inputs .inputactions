@@ -55,7 +55,7 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "WASD",
+                    "name": "AD",
                     "id": "00ca640b-d935-4593-8157-c05846ea39b3",
                     "path": "Dpad",
                     "interactions": "",
@@ -64,50 +64,6 @@
                     "action": "Move",
                     "isComposite": true,
                     "isPartOfComposite": false
-                },
-                {
-                    "name": "up",
-                    "id": "e2062cb9-1b15-46a2-838c-2f8d72a0bdd9",
-                    "path": "<Keyboard>/w",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "up",
-                    "id": "8180e8bd-4097-4f4e-ab88-4523101a6ce9",
-                    "path": "<Keyboard>/upArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "320bffee-a40b-4347-ac70-c210eb8bc73a",
-                    "path": "<Keyboard>/s",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "1c5327b5-f71c-4f60-99c7-4e737386f1d1",
-                    "path": "<Keyboard>/downArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
                 },
                 {
                     "name": "left",
@@ -223,7 +179,7 @@
                     "name": "",
                     "id": "05f6913d-c316-48b2-a6bb-e225f14c7960",
                     "path": "<Mouse>/leftButton",
-                    "interactions": "",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "Fire",
@@ -267,9 +223,31 @@
                     "name": "",
                     "id": "5fad2d08-1cf4-412a-a0d6-ab0b169fbd1d",
                     "path": "<Keyboard>/space",
-                    "interactions": "",
+                    "interactions": "Hold,Press",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "54fa162c-4de8-40d9-9022-562000a39459",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b63372fd-f7f5-4ded-922c-2f0a2df65060",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
