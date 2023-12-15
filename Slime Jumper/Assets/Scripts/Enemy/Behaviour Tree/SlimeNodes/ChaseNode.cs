@@ -12,16 +12,15 @@ public class ChaseNode : Node
     private float moveSpeed;
     private bool isGrounded;
     private bool canJump = true;
-    private bool jumping;
 
-    public ChaseNode(Transform target, EnemyBehaviour enemy, Enemy enemyStats,Transform groundPos)
+    public ChaseNode(Transform target, EnemyBehaviour enemy, EnemyScriptableObject enemyScriptableObjectStats,Transform groundPos)
     {
         this.target = target;
         this.enemy = enemy;
         this.groundPos = groundPos;
-        jumpForce = enemyStats.jumpHeight;
-        moveSpeed = enemyStats.speed;
-        anim = enemy.anim;
+        jumpForce = enemyScriptableObjectStats.jumpHeight;
+        moveSpeed = enemyScriptableObjectStats.speed;
+        anim = enemy.Anim;
         rb = enemy.GetComponent<Rigidbody2D>();
     }
     
@@ -33,9 +32,9 @@ public class ChaseNode : Node
         {
             FollowPlayer();
 
-            if (enemy.state != State.Chasing)
+            if (enemy.State != State.Chasing)
             {
-                enemy.state = State.Chasing;
+                enemy.ChangeState(State.Chasing);
                 enemy.chasing = true;
             }
             anim.SetTrigger("chasing");
@@ -62,7 +61,7 @@ public class ChaseNode : Node
         bool playerRightUnder = !playerOnTop && (target.position.x - enemy.transform.position.x > 1 || target.position.x - enemy.transform.position.x < -1);
         bool tryReachingPlayer = playerOnTop || playerRightUnder;
         
-        if (isGrounded && !enemy.JUMPING && tryReachingPlayer && dirXToPlayer != enemy.direction)
+        if (isGrounded && !enemy.jumping && tryReachingPlayer && dirXToPlayer != enemy.direction)
         {
             enemy.direction = dirXToPlayer;
             enemy.transform.Rotate(Vector2.up, 180f);
@@ -86,8 +85,7 @@ public class ChaseNode : Node
     /// </summary>
     private IEnumerator JumpTowardsClosestTile()
     {
-        enemy.JUMPING = true;//debug
-        jumping = true;
+        enemy.jumping = true;//debug
 
         float distToClosestTile;
         int dirXToClosestTile = (int)Mathf.Sign(GetClosestTile(out distToClosestTile).position.x - enemy.transform.position.x);
@@ -113,8 +111,7 @@ public class ChaseNode : Node
             }
         }
         yield return new WaitUntil(() => isGrounded);
-        jumping = false;
-        enemy.JUMPING = false; //debug
+        enemy.jumping = false; //debug
 
         yield return new WaitForSeconds(0.2f);
         canJump = true;

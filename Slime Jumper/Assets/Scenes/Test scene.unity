@@ -813,7 +813,7 @@ GameObject:
   - component: {fileID: 1796858541}
   - component: {fileID: 1796858542}
   m_Layer: 0
-  m_Name: Generator
+  m_Name: Generate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -831,6 +831,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a47b98003f3fa043b1c2c937c4b8d24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objPrefabs:
+  - {fileID: -3594398727063508767, guid: d9290f70bc811604284dc9dca457751b, type: 3}
+  - {fileID: 112994301938256641, guid: a1117e177e7ceaa46ab3a5b5eace1e47, type: 3}
+  - {fileID: 7317977665385685716, guid: a0861903c6db43f4eb7e318097967d9f, type: 3}
+  objParent: {fileID: 1696336327}
+  poolAmount: 30
   platformPrefab: {fileID: 1494097023998953240, guid: d9290f70bc811604284dc9dca457751b, type: 3}
   destroyingTilePrefab: {fileID: 1494097023998953240, guid: a1117e177e7ceaa46ab3a5b5eace1e47, type: 3}
   movingTilePrefab: {fileID: 1494097023998953240, guid: a0861903c6db43f4eb7e318097967d9f, type: 3}
@@ -869,8 +875,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69fe48217ddf10b4bb93660b7e6ef169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 8793635109528143244, guid: ec18023fbe19a4f798796250f4c8f7c5, type: 3}
-  enemyParent: {fileID: 715218219}
+  objPrefabs:
+  - {fileID: -5441061767366990029, guid: ec18023fbe19a4f798796250f4c8f7c5, type: 3}
+  objParent: {fileID: 715218219}
+  poolAmount: 10
 --- !u!114 &1796858542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -883,8 +891,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00d5e48c493f156419425fb291c06bec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 8004071773885029055, guid: b4485a4914e8c4e4993019a8e89d2d6a, type: 3}
-  objectParent: {fileID: 2075289039}
+  objPrefabs:
+  - {fileID: 8004071773885029061, guid: b4485a4914e8c4e4993019a8e89d2d6a, type: 3}
+  objParent: {fileID: 2075289039}
+  poolAmount: 10
 --- !u!1 &1918056403
 GameObject:
   m_ObjectHideFlags: 0

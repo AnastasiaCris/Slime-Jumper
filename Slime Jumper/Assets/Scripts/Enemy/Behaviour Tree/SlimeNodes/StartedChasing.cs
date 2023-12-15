@@ -9,7 +9,7 @@ public class StartedChasing : Node
     public StartedChasing(EnemyBehaviour enemy)
     {
         this.enemy = enemy;
-        anim = enemy.anim;
+        anim = enemy.Anim;
     }
     public override NodeState Evaluate()
     {

@@ -9,17 +9,16 @@ public class AttackNode : Node
 
     private float secUntilNextAttack;
 
-    public AttackNode(EnemyBehaviour enemy, Enemy enemyStats)
+    public AttackNode(EnemyBehaviour enemy, EnemyScriptableObject enemyScriptableObjectStats)
     {
         this.enemy = enemy;
-        this.player = player;
-        secUntilNextAttack = enemyStats.secUntilNextAttack;
-        anim = enemy.anim;
+        secUntilNextAttack = enemyScriptableObjectStats.secUntilNextAttack;
+        anim = enemy.Anim;
     }
 
     public override NodeState Evaluate()
     {
-        enemy.state = State.Attacking;
+        enemy.ChangeState(State.Attacking);
         if (enemy.canAttack)
         {
             enemy.canAttack = false;
@@ -34,7 +33,7 @@ public class AttackNode : Node
     {
         anim.SetBool("attacking", true);
 
-        while (enemy.state == State.Attacking)
+        while (enemy.State == State.Attacking)
         {
             anim.SetTrigger("attack");
             

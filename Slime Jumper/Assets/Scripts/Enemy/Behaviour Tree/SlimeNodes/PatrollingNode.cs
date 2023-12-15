@@ -6,14 +6,14 @@ public class PatrollingNode : Node
     public EnemyBehaviour enemy;
     public float movementSpeed;
 
-    public PatrollingNode(EnemyBehaviour enemy, Enemy enemyStats)
+    public PatrollingNode(EnemyBehaviour enemy, EnemyScriptableObject enemyScriptableObjectStats)
     {
         this.enemy = enemy;
-        movementSpeed = enemyStats.speed;
+        movementSpeed = enemyScriptableObjectStats.speed;
     }
     public override NodeState Evaluate()
     {
-        enemy.state = State.Patrolling;
+        enemy.ChangeState(State.Patrolling);
         Patrol();
         
         return NodeState.RUNNING;

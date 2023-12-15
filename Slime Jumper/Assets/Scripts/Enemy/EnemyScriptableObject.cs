@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Enemy", menuName = "Enemy") ]
-public class Enemy : ScriptableObject
+public class EnemyScriptableObject : ScriptableObject
 {
     public int maxHP;
     public int damage;

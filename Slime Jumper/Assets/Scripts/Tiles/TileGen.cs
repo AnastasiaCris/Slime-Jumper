@@ -2,39 +2,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class TileGen : MonoBehaviour
+public class TileGen : Generate<Tile>
 {
-    [Header("Tile Type")]
-    [SerializeField] private GameObject platformPrefab;
-    [SerializeField] private GameObject destroyingTilePrefab;
-    [SerializeField] private GameObject movingTilePrefab;
     
     [Header("Generation Properties")]
     [SerializeField] private Transform generationPoint;
     [SerializeField] private Transform cameraTopPoint;
-    [SerializeField] private Transform tileParent;
     [SerializeField] private float maxPlatformDistance = 2f;
     [SerializeField] private float minPlatformDistance = 0.2f;
     public List<GameObject> allCurrentTiles = new List<GameObject>();
     private float screenWidth;
-    
-    [Header("Spawn Chances")]
-    [SerializeField] private float selfDestroyTileSpawnChance = 25f;
-    [SerializeField] private float movingTileSpawnChance = 10f;
 
-    [Header("Object Pooling")]
-    private List<GameObject> pooledTiles = new List<GameObject>();
-    private List<GameObject> pooledDestroyingTiles = new List<GameObject>();
-    private List<GameObject> pooledMovingTiles = new List<GameObject>();
-    private int amountToPool = 30;
-    
     [Header("Other")]
     public static TileGen instance;
     private EnemyGen enemyGen;
     private ObjectGen objectGen;
 
-    private void Awake()
+    public override void Awake()
     {
+        base.Awake();
         if (instance == null)
         {
             instance = this;
@@ -46,24 +32,6 @@ public class TileGen : MonoBehaviour
         screenWidth = Camera.main.orthographicSize * 2 * Screen.width / Screen.height;
         enemyGen = GetComponent<EnemyGen>();
         objectGen = GetComponent<ObjectGen>();
-
-        for (int i = 0; i < amountToPool; i++)
-        {
-            //Simple Tiles
-            GameObject tile = Instantiate(platformPrefab, Vector3.zero, Quaternion.identity, tileParent);
-            tile.SetActive(false);
-            pooledTiles.Add(tile);
-            
-            //Destroying Tiles
-            GameObject destroyTile = Instantiate(destroyingTilePrefab, Vector3.zero, Quaternion.identity, tileParent);
-            destroyTile.SetActive(false);
-            pooledDestroyingTiles.Add(destroyTile);
-            
-            //Moving Tiles
-            GameObject movingTiles = Instantiate(movingTilePrefab, Vector3.zero, Quaternion.identity, tileParent);
-            movingTiles.SetActive(false);
-            pooledMovingTiles.Add(movingTiles);
-        }
     }
 
     void Update()
@@ -99,40 +67,26 @@ public class TileGen : MonoBehaviour
         
     }
 
+    //Tile Type: 0 - normal, 1 - self-destroy, 2 - moving
+    
     private GameObject GenerateRandomTile()
     {
-        if (Random.Range(0, 100) < selfDestroyTileSpawnChance)
+        if (Random.Range(0, 100) < objPrefabs[1].spawnChance)
         {
-            GameObject newTile = ReturnPooledObject(pooledDestroyingTiles);
+            GameObject newTile = ReturnPooledObject(1).gameObject;
             newTile.GetComponent<SelfDestroy>().StopAllCoroutines();
             newTile.SetActive(true);
             return newTile;
-        }
-
-        if (Random.Range(0, 100) < movingTileSpawnChance)
+        }else if (Random.Range(0, 100) < objPrefabs[2].spawnChance)
         {
-            GameObject newTile = ReturnPooledObject(pooledMovingTiles);
+            GameObject newTile = ReturnPooledObject(2).gameObject;
             newTile.SetActive(true);
             return newTile;
         }
-
-        GameObject normalTile = ReturnPooledObject(pooledTiles);
+        
+        GameObject normalTile = ReturnPooledObject(0).gameObject;
         normalTile.SetActive(true);
         return normalTile;
-    }
 
-    /// <summary>
-    /// Returns an inactive object
-    /// </summary>
-    private GameObject ReturnPooledObject(List<GameObject> pooledList)
-    {
-        for (int i = 0; i < pooledList.Count; i++)
-        {
-            if (!pooledList[i].activeSelf)
-            {
-                return pooledList[i];
-            }
-        }
-        return null;
     }
 }

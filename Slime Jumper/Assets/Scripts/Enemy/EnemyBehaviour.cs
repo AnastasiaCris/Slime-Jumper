@@ -1,30 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class EnemyBehaviour : MonoBehaviour
 {
-    [Header("Properties")] 
-    [SerializeField] private Enemy enemy;
-    public Enemy MyEnemy { get { return enemy; } private set { enemy = value; } }
+    [field: Header("Properties")]
+    [field: SerializeField] public EnemyScriptableObject EnemyScriptableObject { get; private set; }
+
     [SerializeField] private Transform groundPos;
-    public int maxHP;
-    public int currentHP;
-    [HideInInspector]public Animator anim;
-    
+    private int maxHP;
+    private int currentHp;
+    public Animator Anim { get; private set; }
+
     [Header("Player properties")]
     private Transform playerTransform;
     private Player player;
-    
-    [Header("Behaviour")]
-    public State state = State.Nothing;
+
+    [field: Header("Behaviour")] 
+    [field:SerializeField]public State State { get; private set; } = State.Nothing;
     [SerializeField] private float chaseRange;
     [SerializeField] private float attackRange;
     [HideInInspector] public int direction = -1;
     [HideInInspector] public bool chasing;
     [HideInInspector] public bool canAttack;
     [HideInInspector] public bool inAttackRange;
-    [SerializeField] public bool JUMPING; //debug
+    [HideInInspector] public bool jumping;
     
     [Header("Behaviour Tree")]
     private Node topNode;
@@ -34,9 +35,9 @@ public class EnemyBehaviour : MonoBehaviour
 
     void Start()
     {
-        maxHP = enemy.maxHP;
-        currentHP = maxHP;
-        anim = GetComponent<Animator>();
+        maxHP = EnemyScriptableObject.maxHP;
+        currentHp = maxHP;
+        Anim = GetComponent<Animator>();
         playerTransform = GameObject.FindWithTag("Player").transform;
         player = playerTransform.GetComponent<Player>();
         ConstructBehaviourTree();
@@ -47,11 +48,25 @@ public class EnemyBehaviour : MonoBehaviour
         topNode.Evaluate();
     }
 
+    public void ResetEnemy()
+    {
+        currentHp = maxHP;
+        if(patrollingSequence!= null && patrollingSequence.NodeState == NodeState.FAILURE) chasing = false;
+        if (jumping) jumping = false;
+    }
+    
+    //------------------------------Behaviour Tree---------------------------------
+
+    public void ChangeState(State stateChange)
+    {
+        State = stateChange;
+    }
+
     private void ConstructBehaviourTree()
     {
-        PatrollingNode patrollingNode = new PatrollingNode(this, enemy);
-        ChaseNode chaseNode = new ChaseNode(playerTransform, this, enemy, groundPos);
-        AttackNode attackNode = new AttackNode(this, enemy);
+        PatrollingNode patrollingNode = new PatrollingNode(this, EnemyScriptableObject);
+        ChaseNode chaseNode = new ChaseNode(playerTransform, this, EnemyScriptableObject, groundPos);
+        AttackNode attackNode = new AttackNode(this, EnemyScriptableObject);
         StartedChasing startChasingNode = new StartedChasing(this);
         SeePlayerNode seePlayerNode = new SeePlayerNode(this);
         RangeNode chaseRangeNode = new RangeNode(this, playerTransform, chaseRange);
@@ -68,16 +83,16 @@ public class EnemyBehaviour : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (currentHP > 0)
+        if (currentHp > 0)
         {
-           currentHP -= damage;
+           currentHp -= damage;
             StartCoroutine(Damaged()); 
         }
         
-        if (currentHP <= 0)
+        if (currentHp <= 0)
         {
-            currentHP = 0;
-            anim.SetTrigger("dead");
+            currentHp = 0;
+            Anim.SetTrigger("dead");
         }
     }
     
@@ -105,7 +120,7 @@ public class EnemyBehaviour : MonoBehaviour
         if (inAttackRange)
         {
             //damage player
-            player.DamagePlayer(enemy.damage);
+            player.DamagePlayer(EnemyScriptableObject.damage);
         }
     }
     //------------------------------Movement---------------------------------
@@ -141,7 +156,7 @@ public class EnemyBehaviour : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Player"))
         {
-            anim.SetBool("attacking", false);
+            Anim.SetBool("attacking", false);
             inAttackRange = false;
             canAttack = false;
         }

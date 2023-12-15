@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-public class MovingTile : MonoBehaviour
+public class MovingTile : Tile
 {
     private float speed;
     private float leftBoundary;

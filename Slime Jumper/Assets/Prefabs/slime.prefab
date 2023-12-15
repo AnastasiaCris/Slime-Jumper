@@ -217,14 +217,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f63a413baa0f8742b919481deef881b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 11400000, guid: 6ebabb30f5f83a34885da494cf226678, type: 2}
+  <EnemyScriptableObject>k__BackingField: {fileID: 11400000, guid: 6ebabb30f5f83a34885da494cf226678, type: 2}
   groundPos: {fileID: 1503250526704195247}
-  anim: {fileID: 4264584254688562113}
-  state: 0
+  <State>k__BackingField: 0
   chaseRange: 25
   attackRange: 1.5
   direction: -1
   chasing: 0
   canAttack: 0
   inAttackRange: 0
-  JUMPING: 0
+  jumping: 0
