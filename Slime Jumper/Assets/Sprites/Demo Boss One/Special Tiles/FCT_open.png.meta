@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: 86238344108834370a0b296f18d75fe4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FCT_open_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 888
+        width: 432
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -215, y: -56}
+        - {x: -216, y: 39}
+        - {x: -210, y: 39}
+        - {x: -147, y: -15}
+        - {x: 137, y: -14}
+        - {x: 204, y: 39}
+        - {x: 216, y: 39}
+        - {x: 216, y: -56}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81659b5bea3774bd9bcfd35c63946045
+      internalID: -1458661043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCT_open_1
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 888
+        width: 432
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -215, y: -56}
+        - {x: -216, y: 39}
+        - {x: -210, y: 39}
+        - {x: -147, y: -15}
+        - {x: 137, y: -14}
+        - {x: 204, y: 39}
+        - {x: 216, y: 39}
+        - {x: 216, y: -56}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a27eacbcbce40849f0297e55846e82
+      internalID: 1971537332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCT_open_2
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 888
+        width: 432
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -215, y: -56}
+        - {x: -216, y: 39}
+        - {x: -210, y: 39}
+        - {x: -147, y: -15}
+        - {x: 137, y: -14}
+        - {x: 204, y: 39}
+        - {x: 216, y: 39}
+        - {x: 216, y: -56}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b5fe561940b403784ac4b639a8e93a
+      internalID: -1521584203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCT_open_3
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 888
+        width: 432
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -215, y: -56}
+        - {x: -216, y: 39}
+        - {x: -210, y: 39}
+        - {x: -147, y: -15}
+        - {x: 137, y: -14}
+        - {x: 204, y: 39}
+        - {x: 216, y: 39}
+        - {x: 216, y: -56}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c30e1cfb7d24277b340153b6fcd6fc
+      internalID: 737003924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCT_open_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 504
+        width: 432
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -215, y: -56}
+        - {x: -216, y: 39}
+        - {x: -210, y: 39}
+        - {x: -147, y: -15}
+        - {x: 137, y: -14}
+        - {x: 204, y: 39}
+        - {x: 216, y: 39}
+        - {x: 216, y: -56}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d21ef215f1cb450c9af28a7ce80cf24
+      internalID: -2116719810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCT_open_5
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 504
+        width: 432
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -215, y: -56}
+        - {x: -216, y: 39}
+        - {x: -210, y: 39}
+        - {x: -147, y: -15}
+        - {x: 137, y: -14}
+        - {x: 204, y: 39}
+        - {x: 216, y: 39}
+        - {x: 216, y: -56}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c647f4a5c20994facaacba0377eab1e7
+      internalID: 997895931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCT_open_6
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 504
+        width: 432
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -215, y: -56}
+        - {x: -216, y: 39}
+        - {x: -210, y: 39}
+        - {x: -147, y: -15}
+        - {x: 137, y: -14}
+        - {x: 204, y: 39}
+        - {x: 216, y: 39}
+        - {x: 216, y: -56}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ba0c3aafb2f439ea4f431c275807ff
+      internalID: 1722198267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCT_open_7
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 504
+        width: 432
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -215, y: -56}
+        - {x: -216, y: 39}
+        - {x: -210, y: 39}
+        - {x: -147, y: -15}
+        - {x: 137, y: -14}
+        - {x: 204, y: 39}
+        - {x: 216, y: 39}
+        - {x: 216, y: -56}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9b53d08515243198f78986902a9a7f
+      internalID: 1903522863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCT_open_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 120
+        width: 432
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -215, y: -56}
+        - {x: -216, y: 39}
+        - {x: -210, y: 39}
+        - {x: -147, y: -15}
+        - {x: 137, y: -14}
+        - {x: 204, y: 39}
+        - {x: 216, y: 39}
+        - {x: 216, y: -56}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b75ea3bca0f411bbed8f3636da4b67
+      internalID: -369327333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FCT_open_0: -1458661043
+      FCT_open_1: 1971537332
+      FCT_open_2: -1521584203
+      FCT_open_3: 737003924
+      FCT_open_4: -2116719810
+      FCT_open_5: 997895931
+      FCT_open_6: 1722198267
+      FCT_open_7: 1903522863
+      FCT_open_8: -369327333
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
