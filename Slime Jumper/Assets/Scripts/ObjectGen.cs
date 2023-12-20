@@ -3,7 +3,7 @@ using UnityEngine;
 public class ObjectGen : Generate<ObjectBehaviour>
 {
     //A certain percent chance to spawn an object
-    public void SpawnObject(Vector2 tilePos)
+    public void AttemptObjectSpawn(Vector2 tilePos)
     {
         for (int i = 0; i < objPrefabs.Length; i++)
         {

@@ -14,9 +14,9 @@ public class TileGen : Generate<Tile>
     private float screenWidth;
 
     [Header("Other")]
+    [SerializeField]private EnemyGen enemyGen;
+    [SerializeField]private ObjectGen objectGen;
     public static TileGen instance;
-    private EnemyGen enemyGen;
-    private ObjectGen objectGen;
 
     public override void Awake()
     {
@@ -29,9 +29,7 @@ public class TileGen : Generate<Tile>
 
     void Start()
     {
-        screenWidth = Camera.main.orthographicSize * 2 * Screen.width / Screen.height;
-        enemyGen = GetComponent<EnemyGen>();
-        objectGen = GetComponent<ObjectGen>();
+        screenWidth = GameProperties.screenWidth;
     }
 
     void Update()
@@ -56,11 +54,9 @@ public class TileGen : Generate<Tile>
         newTile.transform.position = platformPosition;
         allCurrentTiles.Add(newTile);
         
-        //Try spawning enemy
-        enemyGen.SpawnEnemy(platformPosition);
+        enemyGen.AttemptEnemySpawn(platformPosition);
         
-        //Try spawning object
-        objectGen.SpawnObject(platformPosition);
+        objectGen.AttemptObjectSpawn(platformPosition);
 
         //Set the y pos of the next tile
         generationPoint.position = new Vector3(randomX, generationPoint.position.y + platformDistance, 0);
@@ -68,7 +64,6 @@ public class TileGen : Generate<Tile>
     }
 
     //Tile Type: 0 - normal, 1 - self-destroy, 2 - moving
-    
     private GameObject GenerateRandomTile()
     {
         if (Random.Range(0, 100) < objPrefabs[1].spawnChance)

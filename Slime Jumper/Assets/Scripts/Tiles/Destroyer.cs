@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-public class Destroyer : Tile
+public class Destroyer : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -14,7 +14,7 @@ public class Destroyer : Tile
         {
             //kill player
             //reset game - happens in death animation
-            Player playerScript = collision.gameObject.GetComponent<Player>();
+            Player playerScript = GameProperties.playerScript;
             if(playerScript != null)
                 playerScript.ResetScene();
         }

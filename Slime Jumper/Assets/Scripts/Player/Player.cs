@@ -52,7 +52,7 @@ public class Player : MonoBehaviour
         anim = GetComponent<Animator>();
         weaponBehaviour = gameObject.GetComponentInChildren<WeaponBehaviour>();
 
-        screenWidth = Camera.main.orthographicSize * 2 * Screen.width / Screen.height;
+        screenWidth = GameProperties.screenWidth;
 
         currentHP = maxHP;
     }

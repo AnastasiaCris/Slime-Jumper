@@ -125,6 +125,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -132,9 +144,9 @@ TextureImporter:
       name: Fallen Champion Death_0
       rect:
         serializedVersion: 2
-        x: 454
+        x: 0
         y: 2040
-        width: 661
+        width: 1280
         height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -153,9 +165,9 @@ TextureImporter:
       name: Fallen Champion Death_1
       rect:
         serializedVersion: 2
-        x: 1731
+        x: 1280
         y: 2040
-        width: 661
+        width: 1280
         height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -174,9 +186,9 @@ TextureImporter:
       name: Fallen Champion Death_2
       rect:
         serializedVersion: 2
-        x: 3015
+        x: 2560
         y: 2040
-        width: 661
+        width: 1280
         height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -195,9 +207,9 @@ TextureImporter:
       name: Fallen Champion Death_3
       rect:
         serializedVersion: 2
-        x: 4291
+        x: 3840
         y: 2040
-        width: 661
+        width: 1280
         height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -216,9 +228,9 @@ TextureImporter:
       name: Fallen Champion Death_4
       rect:
         serializedVersion: 2
-        x: 454
+        x: 0
         y: 1400
-        width: 661
+        width: 1280
         height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -237,9 +249,9 @@ TextureImporter:
       name: Fallen Champion Death_5
       rect:
         serializedVersion: 2
-        x: 1731
+        x: 1280
         y: 1400
-        width: 661
+        width: 1280
         height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -258,9 +270,9 @@ TextureImporter:
       name: Fallen Champion Death_6
       rect:
         serializedVersion: 2
-        x: 3015
+        x: 2560
         y: 1400
-        width: 661
+        width: 1280
         height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -279,9 +291,9 @@ TextureImporter:
       name: Fallen Champion Death_7
       rect:
         serializedVersion: 2
-        x: 4291
+        x: 3840
         y: 1400
-        width: 661
+        width: 1280
         height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -300,9 +312,9 @@ TextureImporter:
       name: Fallen Champion Death_8
       rect:
         serializedVersion: 2
-        x: 454
+        x: 0
         y: 760
-        width: 661
+        width: 1280
         height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -321,9 +333,9 @@ TextureImporter:
       name: Fallen Champion Death_9
       rect:
         serializedVersion: 2
-        x: 1731
-        y: 757
-        width: 661
+        x: 1280
+        y: 760
+        width: 1280
         height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -342,9 +354,9 @@ TextureImporter:
       name: Fallen Champion Death_10
       rect:
         serializedVersion: 2
-        x: 3015
+        x: 2560
         y: 760
-        width: 661
+        width: 1280
         height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -363,9 +375,9 @@ TextureImporter:
       name: Fallen Champion Death_11
       rect:
         serializedVersion: 2
-        x: 4291
+        x: 3840
         y: 760
-        width: 661
+        width: 1280
         height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -384,9 +396,9 @@ TextureImporter:
       name: Fallen Champion Death_12
       rect:
         serializedVersion: 2
-        x: 454
+        x: 0
         y: 120
-        width: 661
+        width: 1280
         height: 520
       alignment: 0
       pivot: {x: 0, y: 0}

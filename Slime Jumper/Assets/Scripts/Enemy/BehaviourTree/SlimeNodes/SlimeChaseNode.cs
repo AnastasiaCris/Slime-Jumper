@@ -1,10 +1,10 @@
 using System.Collections;
 using UnityEngine;
 
-public class ChaseNode : Node
+public class SlimeChaseNode : Node
 {
     private Transform target;
-    private EnemyBehaviour enemy;
+    private SlimeBehaviour _slime;
     private Animator anim;
     private Rigidbody2D rb;
     private Transform groundPos;
@@ -13,29 +13,29 @@ public class ChaseNode : Node
     private bool isGrounded;
     private bool canJump = true;
 
-    public ChaseNode(Transform target, EnemyBehaviour enemy, EnemyScriptableObject enemyScriptableObjectStats,Transform groundPos)
+    public SlimeChaseNode(Transform target, SlimeBehaviour slime, EnemyScriptableObject enemyScriptableObjectStats,Transform groundPos)
     {
         this.target = target;
-        this.enemy = enemy;
+        this._slime = slime;
         this.groundPos = groundPos;
         jumpForce = enemyScriptableObjectStats.jumpHeight;
         moveSpeed = enemyScriptableObjectStats.speed;
-        anim = enemy.Anim;
-        rb = enemy.GetComponent<Rigidbody2D>();
+        anim = slime.Anim;
+        rb = slime.GetComponent<Rigidbody2D>();
     }
     
     public override NodeState Evaluate()
     {
-        float distance = Vector2.Distance(target.position, enemy.transform.position);
+        float distance = Vector2.Distance(target.position, _slime.transform.position);
         
         if (distance > 1.4f)//so it doesn't overlap with the player
         {
             FollowPlayer();
 
-            if (enemy.State != State.Chasing)
+            if (_slime.State != State.Chasing)
             {
-                enemy.ChangeState(State.Chasing);
-                enemy.chasing = true;
+                _slime.ChangeState(State.Chasing);
+                _slime.chasing = true;
             }
             anim.SetTrigger("chasing");
 
@@ -55,16 +55,16 @@ public class ChaseNode : Node
         isGrounded = Physics2D.OverlapCircle(groundPos.position, 0.5f, 1 << 6);
 
         //Rotate enemy to face player
-        int dirXToPlayer = (int)Mathf.Sign(target.transform.position.x - enemy.transform.position.x);
-        bool playerFullyOnTop = target.position.y - enemy.transform.position.y > 1;
-        bool playerOnTop = target.position.y - enemy.transform.position.y > 0;
-        bool playerRightUnder = !playerOnTop && (target.position.x - enemy.transform.position.x > 1 || target.position.x - enemy.transform.position.x < -1);
+        int dirXToPlayer = (int)Mathf.Sign(target.transform.position.x - _slime.transform.position.x);
+        bool playerFullyOnTop = target.position.y - _slime.transform.position.y > 1;
+        bool playerOnTop = target.position.y - _slime.transform.position.y > 0;
+        bool playerRightUnder = !playerOnTop && (target.position.x - _slime.transform.position.x > 1 || target.position.x - _slime.transform.position.x < -1);
         bool tryReachingPlayer = playerOnTop || playerRightUnder;
         
-        if (isGrounded && !enemy.jumping && tryReachingPlayer && dirXToPlayer != enemy.direction)
+        if (isGrounded && !_slime.jumping && tryReachingPlayer && dirXToPlayer != _slime.direction)
         {
-            enemy.direction = dirXToPlayer;
-            enemy.transform.Rotate(Vector2.up, 180f);
+            _slime.direction = dirXToPlayer;
+            _slime.transform.Rotate(Vector2.up, 180f);
         }
 
         
@@ -73,11 +73,11 @@ public class ChaseNode : Node
         if (shouldJump)
         {
             canJump = false;
-            enemy.StartCoroutine(JumpTowardsClosestTile());
+            _slime.StartCoroutine(JumpTowardsClosestTile());
         }
         
         //Move forward
-        enemy.transform.Translate(-Vector2.right * (moveSpeed * Time.deltaTime));
+        _slime.transform.Translate(-Vector2.right * (moveSpeed * Time.deltaTime));
     }
 
     /// <summary>
@@ -85,10 +85,10 @@ public class ChaseNode : Node
     /// </summary>
     private IEnumerator JumpTowardsClosestTile()
     {
-        enemy.jumping = true;//debug
+        _slime.jumping = true;//debug
 
         float distToClosestTile;
-        int dirXToClosestTile = (int)Mathf.Sign(GetClosestTile(out distToClosestTile).position.x - enemy.transform.position.x);
+        int dirXToClosestTile = (int)Mathf.Sign(GetClosestTile(out distToClosestTile).position.x - _slime.transform.position.x);
 
         if (distToClosestTile < 13) // if close enough to the tile to jump
         {
@@ -101,17 +101,17 @@ public class ChaseNode : Node
             //rotate enemy to face closest tile
             while (!isGrounded)
             {
-                if (dirXToClosestTile != enemy.direction)
+                if (dirXToClosestTile != _slime.direction)
                 {
-                    enemy.direction = dirXToClosestTile;
-                    enemy.transform.Rotate(Vector2.up, 180f);
+                    _slime.direction = dirXToClosestTile;
+                    _slime.transform.Rotate(Vector2.up, 180f);
                 }
 
                 yield return new WaitForEndOfFrame();
             }
         }
         yield return new WaitUntil(() => isGrounded);
-        enemy.jumping = false; //debug
+        _slime.jumping = false; //debug
 
         yield return new WaitForSeconds(0.2f);
         canJump = true;
@@ -129,9 +129,9 @@ public class ChaseNode : Node
         foreach (GameObject tile in TileGen.instance.allCurrentTiles)
         {
             // Calculate the distance between the player and the current object
-            float distance = Vector2.Distance(enemy.transform.position, tile.transform.position);
-            bool tileOnTop = tile.transform.position.y > enemy.transform.position.y;
-            bool tileReachable = tile.transform.position.y - enemy.transform.position.y <= 4;
+            float distance = Vector2.Distance(_slime.transform.position, tile.transform.position);
+            bool tileOnTop = tile.transform.position.y > _slime.transform.position.y;
+            bool tileReachable = tile.transform.position.y - _slime.transform.position.y <= 4;
             
             // Check if the current object is closer than the previous closest object
             if (tileOnTop && distance < closestDistance && tileReachable) //Also check if the player is on top of the enemy then choose closes tile on top and vice-versa

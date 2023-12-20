@@ -5,9 +5,9 @@ public class RangeNode : Node
 {
     private float range;
     private Transform target;
-    private EnemyBehaviour enemy;
+    private Transform enemy;
 
-    public RangeNode (EnemyBehaviour enemy, Transform target, float range)
+    public RangeNode (Transform enemy, Transform target, float range)
     {
         this.enemy = enemy;
         this.target = target;
@@ -17,8 +17,6 @@ public class RangeNode : Node
     public override NodeState Evaluate()
     {
         float distance = Vector2.Distance(target.position, enemy.transform.position);
-        enemy.chasing = distance <= range;
         return distance <= range ? NodeState.SUCCESS : NodeState.FAILURE;
-        
     }
 }

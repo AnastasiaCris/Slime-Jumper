@@ -42,9 +42,9 @@ GameObject:
   - component: {fileID: 727370163295551323}
   - component: {fileID: 4922282881547775830}
   - component: {fileID: 2222325002806924160}
+  - component: {fileID: 2760670635182011625}
   - component: {fileID: 4664337135535499160}
   - component: {fileID: 4264584254688562113}
-  - component: {fileID: 2760670635182011625}
   - component: {fileID: -5441061767366990029}
   m_Layer: 8
   m_Name: slime
@@ -142,6 +142,32 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!61 &2760670635182011625
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8793635109528143244}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.65, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.49557656, y: 0.362271}
+    oldSize: {x: 1.34375, y: 0.90625}
+    newSize: {x: 0.43, y: 0.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9, y: 0.6}
+  m_EdgeRadius: 0
 --- !u!70 &4664337135535499160
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -179,32 +205,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!61 &2760670635182011625
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8793635109528143244}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.65, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.49557656, y: 0.362271}
-    oldSize: {x: 1.34375, y: 0.90625}
-    newSize: {x: 0.43, y: 0.29}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.6}
-  m_EdgeRadius: 0
 --- !u!114 &-5441061767366990029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,7 +219,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <EnemyScriptableObject>k__BackingField: {fileID: 11400000, guid: 6ebabb30f5f83a34885da494cf226678, type: 2}
   groundPos: {fileID: 1503250526704195247}
+  <Anim>k__BackingField: {fileID: 4264584254688562113}
   <State>k__BackingField: 0
+  range: 0
   chaseRange: 25
   attackRange: 1.5
   direction: -1

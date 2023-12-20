@@ -1,24 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
 
-public class EnemyBehaviour : MonoBehaviour
+public class SlimeBehaviour : EnemyBehaviour
 {
     [field: Header("Properties")]
-    [field: SerializeField] public EnemyScriptableObject EnemyScriptableObject { get; private set; }
-
     [SerializeField] private Transform groundPos;
-    private int maxHP;
-    private int currentHp;
-    public Animator Anim { get; private set; }
 
-    [Header("Player properties")]
-    private Transform playerTransform;
-    private Player player;
-
-    [field: Header("Behaviour")] 
-    [field:SerializeField]public State State { get; private set; } = State.Nothing;
+    [field: Header("Behaviour")]
     [SerializeField] private float chaseRange;
     [SerializeField] private float attackRange;
     [HideInInspector] public int direction = -1;
@@ -28,98 +17,60 @@ public class EnemyBehaviour : MonoBehaviour
     [HideInInspector] public bool jumping;
     
     [Header("Behaviour Tree")]
-    private Node topNode;
-    public Sequence patrollingSequence;
-    public Sequence chasingSequence;
-    public Sequence attackSequence;
+    private Sequence patrollingSequence;
+    
 
-    void Start()
+    public override void ResetEnemy()
     {
-        maxHP = EnemyScriptableObject.maxHP;
-        currentHp = maxHP;
-        Anim = GetComponent<Animator>();
-        playerTransform = GameObject.FindWithTag("Player").transform;
-        player = playerTransform.GetComponent<Player>();
-        ConstructBehaviourTree();
-    }
-
-    void Update()
-    {
-        topNode.Evaluate();
-    }
-
-    public void ResetEnemy()
-    {
-        currentHp = maxHP;
+        base.ResetEnemy();
         if(patrollingSequence!= null && patrollingSequence.NodeState == NodeState.FAILURE) chasing = false;
         if (jumping) jumping = false;
     }
     
     //------------------------------Behaviour Tree---------------------------------
 
-    public void ChangeState(State stateChange)
+    protected override void ConstructBehaviourTree()
     {
-        State = stateChange;
-    }
-
-    private void ConstructBehaviourTree()
-    {
-        PatrollingNode patrollingNode = new PatrollingNode(this, EnemyScriptableObject);
-        ChaseNode chaseNode = new ChaseNode(playerTransform, this, EnemyScriptableObject, groundPos);
-        AttackNode attackNode = new AttackNode(this, EnemyScriptableObject);
-        StartedChasing startChasingNode = new StartedChasing(this);
+        SlimePatrollingNode slimePatrollingNode = new SlimePatrollingNode(this, EnemyScriptableObject);
+        SlimeChaseNode slimeChaseNode = new SlimeChaseNode(playerTransform, this, EnemyScriptableObject, groundPos);
+        SlimeAttackNode slimeAttackNode = new SlimeAttackNode(this, EnemyScriptableObject);
+        SlimeIsChasing slimeIsChasingNode = new SlimeIsChasing(this);
         SeePlayerNode seePlayerNode = new SeePlayerNode(this);
-        RangeNode chaseRangeNode = new RangeNode(this, playerTransform, chaseRange);
-        RangeNode attackRangeNode = new RangeNode(this, playerTransform, attackRange);
+        RangeNode chaseRangeNode = new RangeNode(transform, playerTransform, chaseRange);
+        RangeNode attackRangeNode = new RangeNode(transform, playerTransform, attackRange);
 
-        patrollingSequence = new Sequence(new List<Node> { startChasingNode, seePlayerNode, patrollingNode });
-        chasingSequence = new Sequence(new List<Node>{chaseRangeNode, chaseNode});
-        attackSequence = new Sequence(new List<Node>{attackRangeNode, attackNode});
+        patrollingSequence = new Sequence(new List<Node> { slimeIsChasingNode, seePlayerNode, slimePatrollingNode });
+        Sequence chasingSequence = new Sequence(new List<Node>{chaseRangeNode, slimeChaseNode});
+        Sequence attackSequence = new Sequence(new List<Node>{attackRangeNode, slimeAttackNode});
 
         topNode = new Selector(new List<Node> {patrollingSequence, chasingSequence, attackSequence });
+
+        if (chasing && chaseRangeNode.NodeState == NodeState.FAILURE) chasing = false;
     }
     
     //------------------------------Damage---------------------------------
 
-    public void TakeDamage(int damage)
+    protected override IEnumerator Damaged()
     {
-        if (currentHp > 0)
-        {
-           currentHp -= damage;
-            StartCoroutine(Damaged()); 
-        }
-        
-        if (currentHp <= 0)
-        {
-            currentHp = 0;
-            Anim.SetTrigger("dead");
-        }
-    }
-    
-    IEnumerator Damaged()
-    {
+        //play damaged animation
         GetComponent<SpriteRenderer>().color = Color.red;//debug
         yield return new WaitForSeconds(0.5f);
         GetComponent<SpriteRenderer>().color = Color.white;//debug
     }
-    
-    /// <summary>
-    /// Plays in the death animation of the enemy
-    /// </summary>
-    public void EnemyDead()
+
+    protected override void EnemyDying()
     {
         //give player points or something
-        gameObject.SetActive(false);
+        base.EnemyDying();
     }
 
     /// <summary>
     /// Called in the enemy attack animation
     /// </summary>
-    public void DealDamage()
+    protected override void DealDamage()
     {
         if (inAttackRange)
         {
-            //damage player
             player.DamagePlayer(EnemyScriptableObject.damage);
         }
     }
@@ -164,6 +115,4 @@ public class EnemyBehaviour : MonoBehaviour
     
 }
 
-public enum State{
-Nothing, Patrolling, Chasing, Attacking
-}
+

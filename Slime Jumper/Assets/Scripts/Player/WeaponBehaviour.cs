@@ -6,7 +6,7 @@ public class WeaponBehaviour : MonoBehaviour
 {
     [SerializeField] Player player;
     [Header("Weapons")]
-    public List<EnemyBehaviour> enemiesInAttackRange = new List<EnemyBehaviour>();
+    public List<SlimeBehaviour> enemiesInAttackRange = new List<SlimeBehaviour>();
     public List<ObjectBehaviour> objectsInAttackRange = new List<ObjectBehaviour>();
 
     void Start()
@@ -24,9 +24,9 @@ public class WeaponBehaviour : MonoBehaviour
             
         }else if (other.CompareTag("Enemy"))
         {
-            EnemyBehaviour enemyScript = other.GetComponent<EnemyBehaviour>();
-            if(enemyScript != null)
-                enemiesInAttackRange.Add(enemyScript);
+            SlimeBehaviour slimeScript = other.GetComponent<SlimeBehaviour>();
+            if(slimeScript != null)
+                enemiesInAttackRange.Add(slimeScript);
             
             RemoveDuplicates(enemiesInAttackRange); //in case the same enemy has 2 colliders
         }
@@ -36,9 +36,9 @@ public class WeaponBehaviour : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
-            EnemyBehaviour enemyScript = other.GetComponent<EnemyBehaviour>();
-            if(enemyScript != null)
-                enemiesInAttackRange.Remove(enemyScript);
+            SlimeBehaviour slimeScript = other.GetComponent<SlimeBehaviour>();
+            if(slimeScript != null)
+                enemiesInAttackRange.Remove(slimeScript);
         }else if (other.CompareTag("Objects"))
         {
             ObjectBehaviour objScript = other.GetComponent<ObjectBehaviour>();

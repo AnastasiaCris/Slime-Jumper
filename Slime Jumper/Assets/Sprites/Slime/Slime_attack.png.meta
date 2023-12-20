@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 192
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -125,6 +125,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -132,12 +144,12 @@ TextureImporter:
       name: Slime_attack_0
       rect:
         serializedVersion: 2
-        x: 119
-        y: 1768
-        width: 421
+        x: 108
+        y: 1764
+        width: 660
         height: 247
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -160,12 +172,12 @@ TextureImporter:
       name: Slime_attack_1
       rect:
         serializedVersion: 2
-        x: 879
+        x: 876
         y: 1764
-        width: 421
+        width: 660
         height: 247
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -189,12 +201,12 @@ TextureImporter:
       name: Slime_attack_2
       rect:
         serializedVersion: 2
-        x: 1647
-        y: 1764
-        width: 421
+        x: 1644
+        y: 1765
+        width: 660
         height: 247
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -231,12 +243,12 @@ TextureImporter:
       name: Slime_attack_3
       rect:
         serializedVersion: 2
-        x: 2393
+        x: 2410
         y: 1764
-        width: 421
+        width: 660
         height: 247
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -292,12 +304,12 @@ TextureImporter:
       name: Slime_attack_4
       rect:
         serializedVersion: 2
-        x: 119
-        y: 996
-        width: 421
+        x: 108
+        y: 995
+        width: 660
         height: 247
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -338,71 +350,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_attack_5
-      rect:
-        serializedVersion: 2
-        x: 879
-        y: 996
-        width: 421
-        height: 247
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: 122.5, y: 10.5}
-        - {x: 54.5, y: 10.5}
-        - {x: -80.5, y: -86.5}
-        - {x: -115.5, y: -102.5}
-        - {x: -156.5, y: -88.5}
-        - {x: -203.5, y: -70.5}
-        - {x: -203.5, y: -103.5}
-        - {x: -186.5, y: -123.5}
-        - {x: 154.5, y: -123.5}
-        - {x: 160.5, y: -117.5}
-        - {x: 160.5, y: -62.5}
-      - - {x: -143.5, y: -91.5}
-        - {x: -143.5, y: -101.5}
-        - {x: -127.5, y: -101.5}
-        - {x: -127.5, y: -91.5}
-      - - {x: -101.5, y: -101.5}
-        - {x: -91.5, y: -101.5}
-        - {x: -91.5, y: -91.5}
-        - {x: -101.5, y: -91.5}
-      - - {x: -135.5, y: -79.5}
-        - {x: -137.5, y: -81.5}
-        - {x: -137.5, y: -87.5}
-        - {x: -135.5, y: -89.5}
-        - {x: -129.5, y: -89.5}
-        - {x: -127.5, y: -87.5}
-        - {x: -127.5, y: -81.5}
-        - {x: -129.5, y: -79.5}
-      - - {x: -99.5, y: -79.5}
-        - {x: -101.5, y: -81.5}
-        - {x: -101.5, y: -87.5}
-        - {x: -99.5, y: -89.5}
-        - {x: -93.5, y: -89.5}
-        - {x: -91.5, y: -87.5}
-        - {x: -91.5, y: -81.5}
-        - {x: -93.5, y: -79.5}
-      tessellationDetail: 0
-      bones: []
-      spriteID: e402cd208e3bd4f5d94b772bbacf8ef6
-      internalID: -476282252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Slime_attack_6
       rect:
         serializedVersion: 2
-        x: 1643
+        x: 1644
         y: 996
-        width: 421
-        height: 246
+        width: 660
+        height: 247
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -423,41 +379,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_attack_7
-      rect:
-        serializedVersion: 2
-        x: 2393
-        y: 996
-        width: 421
-        height: 247
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -20.5, y: -120.5}
-        - {x: 47.5, y: -25.5}
-        - {x: 99.5, y: 16.5}
-        - {x: 196.5, y: 1.5}
-        - {x: 206.5, y: -119.5}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85472807f702344bebf15f8c4d03d4dd
-      internalID: -599985803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Slime_attack_8
       rect:
         serializedVersion: 2
-        x: 119
+        x: 108
         y: 228
-        width: 421
+        width: 660
         height: 247
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -480,12 +410,12 @@ TextureImporter:
       name: Slime_attack_9
       rect:
         serializedVersion: 2
-        x: 879
+        x: 876
         y: 228
-        width: 421
+        width: 660
         height: 247
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -507,6 +437,48 @@ TextureImporter:
       bones: []
       spriteID: 541160e639d304b30b38dde203f83fad
       internalID: 2037509410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_attack_5
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 996
+        width: 660
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9f86c3fc0680144a78f25a00c71ee6
+      internalID: -476282252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_attack_7
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 996
+        width: 660
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820eb0dab31171c488654a5374e586c1
+      internalID: -599985803
       vertices: []
       indices: 
       edges: []

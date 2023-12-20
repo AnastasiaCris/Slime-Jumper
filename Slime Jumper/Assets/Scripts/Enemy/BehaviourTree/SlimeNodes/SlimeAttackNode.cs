@@ -1,29 +1,29 @@
 using System.Collections;
 using UnityEngine;
 
-public class AttackNode : Node
+public class SlimeAttackNode : Node
 {
-    private EnemyBehaviour enemy;
+    private SlimeBehaviour _slime;
     private Player player;
     private Animator anim;
 
     private float secUntilNextAttack;
 
-    public AttackNode(EnemyBehaviour enemy, EnemyScriptableObject enemyScriptableObjectStats)
+    public SlimeAttackNode(SlimeBehaviour slime, EnemyScriptableObject enemyScriptableObjectStats)
     {
-        this.enemy = enemy;
+        this._slime = slime;
         secUntilNextAttack = enemyScriptableObjectStats.secUntilNextAttack;
-        anim = enemy.Anim;
+        anim = slime.Anim;
     }
 
     public override NodeState Evaluate()
     {
-        enemy.ChangeState(State.Attacking);
-        if (enemy.canAttack)
+        _slime.ChangeState(State.Attacking);
+        if (_slime.canAttack)
         {
-            enemy.canAttack = false;
-            enemy.StopCoroutine(AttackSequence());
-            enemy.StartCoroutine(AttackSequence());
+            _slime.canAttack = false;
+            _slime.StopCoroutine(AttackSequence());
+            _slime.StartCoroutine(AttackSequence());
         }
 
         return NodeState.RUNNING;
@@ -33,7 +33,7 @@ public class AttackNode : Node
     {
         anim.SetBool("attacking", true);
 
-        while (enemy.State == State.Attacking)
+        while (_slime.State == State.Attacking)
         {
             anim.SetTrigger("attack");
             

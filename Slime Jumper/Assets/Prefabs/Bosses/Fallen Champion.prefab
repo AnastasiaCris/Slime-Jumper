@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 6142523229766394534}
   - component: {fileID: 343859705193263463}
   - component: {fileID: 2014824573705343756}
-  - component: {fileID: 6199472741334548375}
   - component: {fileID: 4987246302924794008}
+  - component: {fileID: 2077026069420100516}
+  - component: {fileID: 559913723597960261}
   m_Layer: 0
   m_Name: Fallen Champion
   m_TagString: Untagged
@@ -108,32 +109,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &6199472741334548375
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7483983730738184812}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.81012344, y: 0.7196773}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 2.5390625, y: 1.875}
-    newSize: {x: 2.5390625, y: 1.875}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.1291561, y: 1.4393547}
-  m_EdgeRadius: 0
 --- !u!95 &4987246302924794008
 Animator:
   serializedVersion: 5
@@ -155,3 +130,48 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!61 &2077026069420100516
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7483983730738184812}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.096031904, y: -0.16462576}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5, y: 2.03125}
+    newSize: {x: 2.5390625, y: 1.875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.4056706, y: 1.7019985}
+  m_EdgeRadius: 0
+--- !u!114 &559913723597960261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7483983730738184812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e544f987d3fc1e641bd8a52dc908fcdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <EnemyScriptableObject>k__BackingField: {fileID: 11400000, guid: 141d8ebc389637d4d81a659890080981, type: 2}
+  <Anim>k__BackingField: {fileID: 4987246302924794008}
+  <State>k__BackingField: 0
+  enemyTypes: 020000000300000004000000
+  allEnemies: []
+  tiles: []
+  canAttack: 0
