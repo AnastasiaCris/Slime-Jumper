@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b02e57589775445828069e2e4b1fd57d
+guid: 13e8fbd756de4467b960f014d68a6ec9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FCM_01 Death_0
+      name: FCM_03_Move_0
       rect:
         serializedVersion: 2
-        x: 104
-        y: 711
-        width: 554.2
-        height: 481
+        x: 0
+        y: 500
+        width: 471
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc47a727ad194a989649bcab4f1f502
-      internalID: -1433894209
+      spriteID: 7df0d161ddc5d4a6ab29270746d75321
+      internalID: 1609833936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_1
+      name: FCM_03_Move_1
       rect:
         serializedVersion: 2
-        x: 723
-        y: 711
-        width: 554.2
-        height: 481
+        x: 600
+        y: 500
+        width: 471
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82f94980c37ed4155b94fa0f423ccd20
-      internalID: 194169
+      spriteID: a1952c32de1344d3fb0f95a53f02217f
+      internalID: 79613423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_2
+      name: FCM_03_Move_2
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 711
-        width: 554.2
-        height: 481
+        x: 1200
+        y: 500
+        width: 471
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ef55181cbc5e423f966106deabe3da7
-      internalID: -1605294770
+      spriteID: fdeff7de074b142dd8c1a75e342bd0c0
+      internalID: -1867894911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_3
+      name: FCM_03_Move_3
       rect:
         serializedVersion: 2
-        x: 1961
-        y: 711
-        width: 554.2
-        height: 481
+        x: 1800
+        y: 500
+        width: 471
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ee0c21a58f874ee5883d3de74414a99
-      internalID: -2085477185
+      spriteID: 15ac5e9d970424ea08244a6dba74f44d
+      internalID: 344455855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_4
+      name: FCM_03_Move_4
       rect:
         serializedVersion: 2
-        x: 2580
-        y: 711
-        width: 554.2
-        height: 481
+        x: 0
+        y: 0
+        width: 471
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6307ef25631c4ce187b720c560bea86
-      internalID: -1260415429
+      spriteID: 752dcbe0ac9124e23a6da03f032b7b33
+      internalID: -1916284922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_5
+      name: FCM_03_Move_5
       rect:
         serializedVersion: 2
-        x: 104
-        y: 115
-        width: 554.2
-        height: 481
+        x: 600
+        y: 0
+        width: 471
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 720ad3ef08b024491bf89338baa7a526
-      internalID: 1845507485
+      spriteID: f1eb07526cded4dc79d6c8b98d982ad5
+      internalID: -1360523562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_6
+      name: FCM_03_Move_6
       rect:
         serializedVersion: 2
-        x: 723
-        y: 115
-        width: 554.2
-        height: 481
+        x: 1200
+        y: 0
+        width: 471
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 632a7ff812e034d40a8cd5767220f58a
-      internalID: -960126416
+      spriteID: bf09a5364ea1242e499888d514481ed9
+      internalID: -1314234290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_7
+      name: FCM_03_Move_7
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 115
-        width: 554.2
-        height: 481
+        x: 1800
+        y: 0
+        width: 471
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbcebee5904e64ee2adb66ce40d97281
-      internalID: 1246623016
+      spriteID: dd327ef70b1c94b4db1f1da8cee75bed
+      internalID: 1864984900
       vertices: []
       indices: 
       edges: []
@@ -307,14 +307,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FCM_01 Death_0: -1433894209
-      FCM_01 Death_1: 194169
-      FCM_01 Death_2: -1605294770
-      FCM_01 Death_3: -2085477185
-      FCM_01 Death_4: -1260415429
-      FCM_01 Death_5: 1845507485
-      FCM_01 Death_6: -960126416
-      FCM_01 Death_7: 1246623016
+      FCM_03_Move_0: 1609833936
+      FCM_03_Move_1: 79613423
+      FCM_03_Move_2: -1867894911
+      FCM_03_Move_3: 344455855
+      FCM_03_Move_4: -1916284922
+      FCM_03_Move_5: -1360523562
+      FCM_03_Move_6: -1314234290
+      FCM_03_Move_7: 1864984900
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

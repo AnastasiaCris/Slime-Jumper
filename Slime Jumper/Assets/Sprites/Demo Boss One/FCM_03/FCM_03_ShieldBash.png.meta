@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b02e57589775445828069e2e4b1fd57d
+guid: d008e9ed263284f94b2d40b45807dd7e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FCM_01 Death_0
+      name: FCM_03_ShieldBash_0
       rect:
         serializedVersion: 2
-        x: 104
-        y: 711
-        width: 554.2
-        height: 481
+        x: 0
+        y: 1015
+        width: 506
+        height: 485
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc47a727ad194a989649bcab4f1f502
-      internalID: -1433894209
+      spriteID: 0405841ee161e45bdae55aad9869e84a
+      internalID: 1857337190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_1
+      name: FCM_03_ShieldBash_1
       rect:
         serializedVersion: 2
-        x: 723
-        y: 711
-        width: 554.2
-        height: 481
+        x: 600
+        y: 1015
+        width: 506
+        height: 485
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82f94980c37ed4155b94fa0f423ccd20
-      internalID: 194169
+      spriteID: 83b9d828a424b4990ae66406b6c97839
+      internalID: 1617493033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_2
+      name: FCM_03_ShieldBash_2
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 711
-        width: 554.2
-        height: 481
+        x: 1200
+        y: 1015
+        width: 506
+        height: 485
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ef55181cbc5e423f966106deabe3da7
-      internalID: -1605294770
+      spriteID: 2cc096307e9174db5bab1ab4367ff794
+      internalID: -200907169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_3
+      name: FCM_03_ShieldBash_3
       rect:
         serializedVersion: 2
-        x: 1961
-        y: 711
-        width: 554.2
-        height: 481
+        x: 0
+        y: 515
+        width: 506
+        height: 485
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ee0c21a58f874ee5883d3de74414a99
-      internalID: -2085477185
+      spriteID: d3abffa54164849a19d467adead2d66d
+      internalID: -581588362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_4
+      name: FCM_03_ShieldBash_4
       rect:
         serializedVersion: 2
-        x: 2580
-        y: 711
-        width: 554.2
-        height: 481
+        x: 600
+        y: 515
+        width: 506
+        height: 485
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6307ef25631c4ce187b720c560bea86
-      internalID: -1260415429
+      spriteID: 02e620cedecaa476f8d39cdf5867d8dc
+      internalID: 999486763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_5
+      name: FCM_03_ShieldBash_5
       rect:
         serializedVersion: 2
-        x: 104
-        y: 115
-        width: 554.2
-        height: 481
+        x: 1200
+        y: 515
+        width: 506
+        height: 485
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 720ad3ef08b024491bf89338baa7a526
-      internalID: 1845507485
+      spriteID: c61c7f26373da43ccb7188ec5ffc4bf6
+      internalID: -2139421818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_6
+      name: FCM_03_ShieldBash_6
       rect:
         serializedVersion: 2
-        x: 723
-        y: 115
-        width: 554.2
-        height: 481
+        x: 0
+        y: 15
+        width: 506
+        height: 485
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,29 +269,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 632a7ff812e034d40a8cd5767220f58a
-      internalID: -960126416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FCM_01 Death_7
-      rect:
-        serializedVersion: 2
-        x: 1342
-        y: 115
-        width: 554.2
-        height: 481
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbcebee5904e64ee2adb66ce40d97281
-      internalID: 1246623016
+      spriteID: 9c6c829f8e035438b8351f21aa28d764
+      internalID: 1868545184
       vertices: []
       indices: 
       edges: []
@@ -307,14 +286,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FCM_01 Death_0: -1433894209
-      FCM_01 Death_1: 194169
-      FCM_01 Death_2: -1605294770
-      FCM_01 Death_3: -2085477185
-      FCM_01 Death_4: -1260415429
-      FCM_01 Death_5: 1845507485
-      FCM_01 Death_6: -960126416
-      FCM_01 Death_7: 1246623016
+      FCM_03_ShieldBash_0: 1857337190
+      FCM_03_ShieldBash_1: 1617493033
+      FCM_03_ShieldBash_2: -200907169
+      FCM_03_ShieldBash_3: -581588362
+      FCM_03_ShieldBash_4: 999486763
+      FCM_03_ShieldBash_5: -2139421818
+      FCM_03_ShieldBash_6: 1868545184
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

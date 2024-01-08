@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b02e57589775445828069e2e4b1fd57d
+guid: 76ee0258292124ca981bfaf052ab14af
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FCM_01 Death_0
+      name: FCM_03_Attack_0
       rect:
         serializedVersion: 2
-        x: 104
-        y: 711
-        width: 554.2
-        height: 481
+        x: 0
+        y: 1000
+        width: 576
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc47a727ad194a989649bcab4f1f502
-      internalID: -1433894209
+      spriteID: 2ee316210b05642ae846a7c75b85cf09
+      internalID: 801233385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_1
+      name: FCM_03_Attack_1
       rect:
         serializedVersion: 2
-        x: 723
-        y: 711
-        width: 554.2
-        height: 481
+        x: 600
+        y: 1000
+        width: 576
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82f94980c37ed4155b94fa0f423ccd20
-      internalID: 194169
+      spriteID: 00f00477cc82549498af39403ecb8c5f
+      internalID: -1902650446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_2
+      name: FCM_03_Attack_2
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 711
-        width: 554.2
-        height: 481
+        x: 1200
+        y: 1000
+        width: 576
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ef55181cbc5e423f966106deabe3da7
-      internalID: -1605294770
+      spriteID: dbc1431157076444493871c7e9f12ce7
+      internalID: -1226633898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_3
+      name: FCM_03_Attack_3
       rect:
         serializedVersion: 2
-        x: 1961
-        y: 711
-        width: 554.2
-        height: 481
+        x: 1800
+        y: 1000
+        width: 576
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ee0c21a58f874ee5883d3de74414a99
-      internalID: -2085477185
+      spriteID: 00671f0f2870541589a33dfe4c81d1ff
+      internalID: 1461903326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_4
+      name: FCM_03_Attack_4
       rect:
         serializedVersion: 2
-        x: 2580
-        y: 711
-        width: 554.2
-        height: 481
+        x: 2400
+        y: 1000
+        width: 576
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6307ef25631c4ce187b720c560bea86
-      internalID: -1260415429
+      spriteID: 930da70fd7f944782a8b74a4aa354521
+      internalID: 476317048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_5
+      name: FCM_03_Attack_5
       rect:
         serializedVersion: 2
-        x: 104
-        y: 115
-        width: 554.2
-        height: 481
+        x: 0
+        y: 500
+        width: 576
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 720ad3ef08b024491bf89338baa7a526
-      internalID: 1845507485
+      spriteID: d6424576b5f0848b5ac969056bae85fc
+      internalID: -957692811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_6
+      name: FCM_03_Attack_6
       rect:
         serializedVersion: 2
-        x: 723
-        y: 115
-        width: 554.2
-        height: 481
+        x: 600
+        y: 500
+        width: 576
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 632a7ff812e034d40a8cd5767220f58a
-      internalID: -960126416
+      spriteID: 2b1cbc2518d984ba88bd8145d8f729e6
+      internalID: -509977258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_7
+      name: FCM_03_Attack_7
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 115
-        width: 554.2
-        height: 481
+        x: 1200
+        y: 500
+        width: 576
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +290,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbcebee5904e64ee2adb66ce40d97281
-      internalID: 1246623016
+      spriteID: f96d117dce61e4832a3e6e7786f08bda
+      internalID: -1556063755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCM_03_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 500
+        width: 576
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08dd933e99f3a417788b9ce2dbfd5735
+      internalID: -267029529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCM_03_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 500
+        width: 576
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ba1b47d138d4477a44db998041b1d4
+      internalID: -431823317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCM_03_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 576
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbd63850f39e41ad8a532ff8d516d92
+      internalID: -477200186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCM_03_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 576
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7214b5e075644a13860b86f80e94a1f
+      internalID: 981048456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCM_03_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 576
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1d951f0ec514caf8700f04e8beb0c6
+      internalID: -1535662521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FCM_03_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 576
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321a2311ef707440bb6315bcb0496676
+      internalID: 969855437
       vertices: []
       indices: 
       edges: []
@@ -307,14 +433,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FCM_01 Death_0: -1433894209
-      FCM_01 Death_1: 194169
-      FCM_01 Death_2: -1605294770
-      FCM_01 Death_3: -2085477185
-      FCM_01 Death_4: -1260415429
-      FCM_01 Death_5: 1845507485
-      FCM_01 Death_6: -960126416
-      FCM_01 Death_7: 1246623016
+      FCM_03_Attack_0: 801233385
+      FCM_03_Attack_1: -1902650446
+      FCM_03_Attack_10: -477200186
+      FCM_03_Attack_11: 981048456
+      FCM_03_Attack_12: -1535662521
+      FCM_03_Attack_13: 969855437
+      FCM_03_Attack_2: -1226633898
+      FCM_03_Attack_3: 1461903326
+      FCM_03_Attack_4: 476317048
+      FCM_03_Attack_5: -957692811
+      FCM_03_Attack_6: -509977258
+      FCM_03_Attack_7: -1556063755
+      FCM_03_Attack_8: -267029529
+      FCM_03_Attack_9: -431823317
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

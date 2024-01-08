@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b02e57589775445828069e2e4b1fd57d
+guid: 994a6f41b45ce45dca5cf8dde8abd107
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FCM_01 Death_0
+      name: FCM_03_NoShieldMove_0
       rect:
         serializedVersion: 2
-        x: 104
-        y: 711
-        width: 554.2
-        height: 481
+        x: 0
+        y: 500
+        width: 471
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc47a727ad194a989649bcab4f1f502
-      internalID: -1433894209
+      spriteID: 825ec37a48a144572b810920d6a0a74c
+      internalID: 1951788475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_1
+      name: FCM_03_NoShieldMove_1
       rect:
         serializedVersion: 2
-        x: 723
-        y: 711
-        width: 554.2
-        height: 481
+        x: 600
+        y: 500
+        width: 471
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82f94980c37ed4155b94fa0f423ccd20
-      internalID: 194169
+      spriteID: d5081f79598a449a48009a2cc4867349
+      internalID: 1561606292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_2
+      name: FCM_03_NoShieldMove_2
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 711
-        width: 554.2
-        height: 481
+        x: 1200
+        y: 500
+        width: 471
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ef55181cbc5e423f966106deabe3da7
-      internalID: -1605294770
+      spriteID: 5b5ddf307894643158be35f6e0a5eb05
+      internalID: -1845245583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_3
+      name: FCM_03_NoShieldMove_3
       rect:
         serializedVersion: 2
-        x: 1961
-        y: 711
-        width: 554.2
-        height: 481
+        x: 1800
+        y: 500
+        width: 471
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ee0c21a58f874ee5883d3de74414a99
-      internalID: -2085477185
+      spriteID: 12f0d0cd4f7f848a5b187d1b5e9d0854
+      internalID: 1065594773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_4
+      name: FCM_03_NoShieldMove_4
       rect:
         serializedVersion: 2
-        x: 2580
-        y: 711
-        width: 554.2
-        height: 481
+        x: 0
+        y: 0
+        width: 471
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6307ef25631c4ce187b720c560bea86
-      internalID: -1260415429
+      spriteID: e750ac3344f1b4918bd9598fef54bc74
+      internalID: 756481252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_5
+      name: FCM_03_NoShieldMove_5
       rect:
         serializedVersion: 2
-        x: 104
-        y: 115
-        width: 554.2
-        height: 481
+        x: 600
+        y: 0
+        width: 471
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 720ad3ef08b024491bf89338baa7a526
-      internalID: 1845507485
+      spriteID: c9143ab607fcc42f3af2f9ffacb73b74
+      internalID: -319390647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_6
+      name: FCM_03_NoShieldMove_6
       rect:
         serializedVersion: 2
-        x: 723
-        y: 115
-        width: 554.2
-        height: 481
+        x: 1200
+        y: 0
+        width: 471
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 632a7ff812e034d40a8cd5767220f58a
-      internalID: -960126416
+      spriteID: 716f987969fce4143b3cde16b6da0e4d
+      internalID: 1997807945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_01 Death_7
+      name: FCM_03_NoShieldMove_7
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 115
-        width: 554.2
-        height: 481
+        x: 1800
+        y: 0
+        width: 471
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbcebee5904e64ee2adb66ce40d97281
-      internalID: 1246623016
+      spriteID: 78b22f366dd994170a973f3f29cbe66d
+      internalID: -1864428697
       vertices: []
       indices: 
       edges: []
@@ -307,14 +307,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FCM_01 Death_0: -1433894209
-      FCM_01 Death_1: 194169
-      FCM_01 Death_2: -1605294770
-      FCM_01 Death_3: -2085477185
-      FCM_01 Death_4: -1260415429
-      FCM_01 Death_5: 1845507485
-      FCM_01 Death_6: -960126416
-      FCM_01 Death_7: 1246623016
+      FCM_03_NoShieldMove_0: 1951788475
+      FCM_03_NoShieldMove_1: 1561606292
+      FCM_03_NoShieldMove_2: -1845245583
+      FCM_03_NoShieldMove_3: 1065594773
+      FCM_03_NoShieldMove_4: 756481252
+      FCM_03_NoShieldMove_5: -319390647
+      FCM_03_NoShieldMove_6: 1997807945
+      FCM_03_NoShieldMove_7: -1864428697
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
