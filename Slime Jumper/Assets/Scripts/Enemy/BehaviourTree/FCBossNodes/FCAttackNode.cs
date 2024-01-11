@@ -6,10 +6,10 @@ public class FCAttackNode : Node
 {
     private FCBossBehaviour boss;
     private Animator anim;
-    private List<int> attackSequence = new List<int>();
+    private List<FCAttackType> attackSequence = new List<FCAttackType>();
     private WaitUntil wait;
 
-    public FCAttackNode(FCBossBehaviour boss, List<int> attackSequence)
+    public FCAttackNode(FCBossBehaviour boss, List<FCAttackType> attackSequence)
     {
         this.boss = boss;
         this.attackSequence = attackSequence;
@@ -19,31 +19,43 @@ public class FCAttackNode : Node
     }
     public override NodeState Evaluate()
     {
-        if (boss.canAttack)
+        boss.ChangeState(State.Attacking);
+        if (boss.canAttack && boss.InAttackRange && boss.hasIdled)
         {
-            boss.canAttack = false;
+            boss.SetHasIdled(false);
+            boss.SetIdleFinished(false);
+            boss.SetHasAttacked(false);
+            boss.SetCanAttack(false);
+            boss.SetIsAttacking(true);
             boss.StopCoroutine(AttackSequence());
             boss.StartCoroutine(AttackSequence());
         }
-        return NodeState.RUNNING;
+        
+        return boss.State == State.Attacking ? NodeState.RUNNING : NodeState.FAILURE;
     }
 
     IEnumerator AttackSequence()
     {
         for (int i = 0; i < attackSequence.Count; i++)
         {
-            if (anim.GetParameter(attackSequence[i]).type == AnimatorControllerParameterType.Trigger)
+            boss.CheckFacingPlayer();
+            if (attackSequence[i] == FCAttackType.Attack)
             {
-                anim.SetTrigger(attackSequence[i]);
-            }
-            else if (anim.GetParameter(attackSequence[i]).type == AnimatorControllerParameterType.Bool)
-            {
-                anim.SetBool(attackSequence[i], true);
+                anim.SetTrigger(boss.attackAnimHash);
+                
+                if(i+1 < attackSequence.Count-1 && attackSequence[i+1] == FCAttackType.FakeRecovery)
+                    anim.SetBool(boss.fakeRecoveryAnimHash, true);
+                else
+                    anim.SetBool(boss.fakeRecoveryAnimHash, false);
+                    
             }
 
             yield return wait;
             boss.SetAnimState(false);
         } 
+        boss.SetIsAttacking(false);
+        boss.SetHasAttacked(true);
+        boss.SetCanAttack(true);
     }
 
 }

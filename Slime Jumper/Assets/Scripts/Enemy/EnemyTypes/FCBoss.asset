@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemytype: 0
   maxHP: 100
-  damage: 10
+  damage: 5
   speed: 0
   jumpHeight: 0
   secUntilNextAttack: 0

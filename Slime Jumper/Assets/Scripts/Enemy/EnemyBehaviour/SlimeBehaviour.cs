@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SlimeBehaviour : EnemyBehaviour
+public class SlimeBehaviour : BaseEnemyBehaviour
 {
     [field: Header("Properties")]
     [SerializeField] private Transform groundPos;
@@ -19,14 +19,22 @@ public class SlimeBehaviour : EnemyBehaviour
     [Header("Behaviour Tree")]
     private Sequence patrollingSequence;
     
-
     public override void ResetEnemy()
     {
         base.ResetEnemy();
         if(patrollingSequence!= null && patrollingSequence.NodeState == NodeState.FAILURE) chasing = false;
         if (jumping) jumping = false;
     }
-    
+
+    protected override void Update()
+    {
+        base.Update();
+        if(!chasing)return;
+        
+        float distance = Vector2.Distance(playerTransform.position, transform.position);
+        if (distance > chaseRange) chasing = false;
+    }
+
     //------------------------------Behaviour Tree---------------------------------
 
     protected override void ConstructBehaviourTree()
@@ -36,8 +44,8 @@ public class SlimeBehaviour : EnemyBehaviour
         SlimeAttackNode slimeAttackNode = new SlimeAttackNode(this, EnemyScriptableObject);
         SlimeIsChasing slimeIsChasingNode = new SlimeIsChasing(this);
         SeePlayerNode seePlayerNode = new SeePlayerNode(this);
-        RangeNode chaseRangeNode = new RangeNode(transform, playerTransform, chaseRange);
-        RangeNode attackRangeNode = new RangeNode(transform, playerTransform, attackRange);
+        RangeNode attackRangeNode = new RangeNode(transform, attackRange, true);
+        RangeNode chaseRangeNode = new RangeNode(transform, chaseRange, true);
 
         patrollingSequence = new Sequence(new List<Node> { slimeIsChasingNode, seePlayerNode, slimePatrollingNode });
         Sequence chasingSequence = new Sequence(new List<Node>{chaseRangeNode, slimeChaseNode});
@@ -45,7 +53,6 @@ public class SlimeBehaviour : EnemyBehaviour
 
         topNode = new Selector(new List<Node> {patrollingSequence, chasingSequence, attackSequence });
 
-        if (chasing && chaseRangeNode.NodeState == NodeState.FAILURE) chasing = false;
     }
     
     //------------------------------Damage---------------------------------

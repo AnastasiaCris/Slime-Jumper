@@ -3,30 +3,32 @@ using UnityEngine;
 
 public class SlimePatrollingNode : Node
 {
-    public SlimeBehaviour Slime;
-    public float movementSpeed;
+    private SlimeBehaviour slime;
+    private float movementSpeed;
+
 
     public SlimePatrollingNode(SlimeBehaviour slime, EnemyScriptableObject enemyScriptableObjectStats)
     {
-        this.Slime = slime;
+        this.slime = slime;
         movementSpeed = enemyScriptableObjectStats.speed;
     }
     public override NodeState Evaluate()
     {
-        Slime.ChangeState(State.Patrolling);
+        slime.ChangeState(State.Patrolling);
         Patrol();
         
-        return NodeState.RUNNING;
+        if(slime.State == State.Patrolling)return NodeState.RUNNING;
+        return NodeState.FAILURE;
     }
 
     private void Patrol()
     {
-        if (Slime.TileFinished())
+        if (slime.TileFinished())
         {
-            Slime.transform.Rotate(Vector3.up, 180f);
-            Slime.direction *= -1; //change rotation
+            slime.transform.Rotate(Vector3.up, 180f);
+            slime.direction *= -1; //change rotation
         }
-        Slime.transform.Translate(-Vector2.right * (movementSpeed * Time.deltaTime));
+        slime.transform.Translate(-Vector2.right * (movementSpeed * Time.deltaTime));
     }
     
 }

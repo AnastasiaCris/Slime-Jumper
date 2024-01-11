@@ -371,6 +371,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Fallen Champion Teleport_11
+      rect:
+        serializedVersion: 2
+        x: 3842
+        y: 125
+        width: 1278
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba8d3428819d4e41932a929f0e6ea1a
+      internalID: -1234599424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -385,6 +406,7 @@ TextureImporter:
       Fallen Champion Teleport_0: -618093380
       Fallen Champion Teleport_1: -1113217051
       Fallen Champion Teleport_10: 450234558
+      Fallen Champion Teleport_11: -1234599424
       Fallen Champion Teleport_2: 450604524
       Fallen Champion Teleport_3: 1200796736
       Fallen Champion Teleport_4: -850754867

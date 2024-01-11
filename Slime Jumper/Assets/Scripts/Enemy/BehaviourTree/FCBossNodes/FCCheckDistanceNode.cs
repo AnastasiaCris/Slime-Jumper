@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class FCCheckDistanceNode : Node
 {
+    private Player target;
+    private FCBossBehaviour boss;
     public FCCheckDistanceNode()
     {
-        
+        target = GameProperties.playerScript;
     }
 
     public override NodeState Evaluate()

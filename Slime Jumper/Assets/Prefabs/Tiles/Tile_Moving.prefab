@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 5665420214915301325}
   - component: {fileID: 4119489258052604933}
   - component: {fileID: 7317977665385685716}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Tile_Moving
   m_TagString: Tile
   m_Icon: {fileID: 0}

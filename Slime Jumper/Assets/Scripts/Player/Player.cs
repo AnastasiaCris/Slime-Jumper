@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -14,15 +13,18 @@ public class Player : MonoBehaviour
     private Animator anim;
 
     [Header("Player Movement")][Space]
-    [SerializeField] private float playerSpeed = 10;
-    [SerializeField] private float jumpForce = 10;
+    [SerializeField] private float originalPSpeed = 5;
+    [SerializeField] private float originalJForce = 14;
     [SerializeField] private Transform groundCheck;
+    private float playerSpeed = 5;
+    private float jumpForce = 14;
     private Vector2 moveDir;
     private float direction = 1;
     private int jumpCounter = 1;
-    private bool isGrounded;
+    public bool IsGrounded { get; private set; }
     private bool isJumping;
     private bool preparingJump;
+    private bool slowed;
 
     [Header("Player Properties")] [Space]
     [SerializeField] private float maxHP = 10;
@@ -55,6 +57,8 @@ public class Player : MonoBehaviour
         screenWidth = GameProperties.screenWidth;
 
         currentHP = maxHP;
+        playerSpeed = originalPSpeed;
+        jumpForce = originalJForce;
     }
 
     void Update()
@@ -62,11 +66,10 @@ public class Player : MonoBehaviour
         if(dead)
             return;
         
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.3f, 1 << 6);
+        IsGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.3f, 1 << 7);
 
         Move();
-        if ((isGrounded || !isGrounded && jumpCounter > 0) && Input.GetButtonDown("Jump"))
-            StartCoroutine(Jump());
+        if ((IsGrounded || !IsGrounded && jumpCounter > 0) && Input.GetButtonDown("Jump")) StartCoroutine(Jump());
         ChangeSpriteDirection();
         ReachedEndOfScreen();
     }
@@ -75,10 +78,10 @@ public class Player : MonoBehaviour
 
     void OnMove()
     {
-        if (preparingJump && isGrounded) // if it's at the first frame of jumping then stop jumping
+        if (preparingJump && IsGrounded) // if it's at the first frame of jumping then stop jumping
         {
             anim.SetBool("IsJumping", false);
-            jumpCounter = 1;
+            if(!slowed)jumpCounter = 1;
             preparingJump = false;
         }
     }
@@ -90,8 +93,6 @@ public class Player : MonoBehaviour
         rb.velocity = playerVelocity;
         bool playerMovesOnX = Mathf.Abs(rb.velocity.x) > Mathf.Epsilon;
         anim.SetBool("IsRunning", playerMovesOnX);
-
-        
     }
 
     private IEnumerator Jump()
@@ -100,7 +101,7 @@ public class Player : MonoBehaviour
         preparingJump = true;
         anim.SetBool("IsJumping", true);
         anim.SetInteger("JumpCount", 0); //set the first frame of the jump animation
-        if (!isGrounded && isJumping)
+        if (!IsGrounded && isJumping)
                 jumpCounter--;
 
         yield return new WaitUntil(() => Input.GetButtonUp("Jump"));
@@ -114,7 +115,7 @@ public class Player : MonoBehaviour
             yield return new WaitUntil(() => rb.velocity.y < 0); //wait until falling
             anim.SetInteger("JumpCount", 2); //set the third frame of the jump animation
 
-            yield return new WaitUntil(() => isGrounded); //wait until grounded
+            yield return new WaitUntil(() => IsGrounded); //wait until grounded
             anim.SetInteger("JumpCount", 0); //set the first frame of the jump animation
             anim.SetBool("IsJumping", false);
             isJumping = false;
@@ -219,6 +220,29 @@ public class Player : MonoBehaviour
         }
     }
 
+    //------------------------------Effects------------------------------
+    /// <summary>
+    /// Slows the players movement speed and jump force
+    /// </summary>
+    /// <param name="slowingAmount"></param>
+    /// <param name="slowJumpAmount"></param>
+    public void SlowDown(float slowingAmount, float slowJumpAmount)
+    {
+        slowed = true;
+        playerSpeed *= slowingAmount;
+        jumpForce *= slowJumpAmount;
+        jumpCounter = 0;
+    }
+
+    /// <summary>
+    /// Resets player speed and jump force
+    /// </summary>
+    public void UnSlow()
+    {
+        slowed = false;
+        playerSpeed = originalPSpeed;
+        jumpForce = originalJForce;
+    }
     //------------------------------Death------------------------------
 
     public void DamagePlayer(float dmgAmount)

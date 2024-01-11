@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 
 [Serializable]
-public class EnemyBehaviour : MonoBehaviour
+public class BaseEnemyBehaviour : MonoBehaviour
 {
     //properties
     [field: SerializeField] public EnemyScriptableObject EnemyScriptableObject { get; private set; }
@@ -56,7 +56,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     //------------------------------Damage---------------------------------
 
-    public void TakeDamage(int damage)
+    public virtual void TakeDamage(int damage)
     {
         if (currentHP > 0)
         {
@@ -88,6 +88,11 @@ public class EnemyBehaviour : MonoBehaviour
     /// </summary>
     public void EnemyDeadInAnimation()
     {
+        EnemyDead();
+    }
+    
+    protected virtual void EnemyDead()
+    {
         gameObject.SetActive(false);
     }
 
@@ -98,7 +103,7 @@ public class EnemyBehaviour : MonoBehaviour
 }
 
 public enum State{
-    Nothing, Patrolling, Chasing, Attacking
+    Nothing, Patrolling, Chasing, Attacking, Teleporting, Idle
 }
 
 public enum EnemyType{
