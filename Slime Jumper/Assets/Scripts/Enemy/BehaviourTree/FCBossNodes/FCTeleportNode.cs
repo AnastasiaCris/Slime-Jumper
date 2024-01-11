@@ -85,6 +85,7 @@ public class FCTeleportNode : Node
         finishedTeleporting = true;
         startedTeleport = false;
         
+        boss.CheckFacingPlayer();
         boss.SetHasAttacked(false); //reset the hasAttacked bool
     }
 

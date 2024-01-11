@@ -7,12 +7,18 @@ public class IdleNode : Node
     private FCBossBehaviour boss;
     private float timeToIdle;
     private bool idleStarted;
-    private Node playerClose;
-    public IdleNode(FCBossBehaviour boss, float timeToIdle, Node playerClose)
+    private float playerRange;
+
+    private Transform enemy;
+    private Transform target;
+    public IdleNode(FCBossBehaviour boss, float timeToIdle, float playerRange)
     {
         this.boss = boss;
         this.timeToIdle = timeToIdle;
-        this.playerClose = playerClose;
+        this.playerRange = playerRange;
+
+        enemy = boss.transform;
+        target = GameProperties.playerLoc;
     }
 
     public override NodeState Evaluate()
@@ -33,10 +39,15 @@ public class IdleNode : Node
         yield return new WaitForSeconds(timeToIdle);
         boss.SetHasIdled(true);
         boss.SetIdleFinished(true);
-        boss.CheckFacingPlayer();
         idleStarted = false;
         
-        if(playerClose.NodeState == NodeState.SUCCESS) //prepare for the next attack
+        float distance = Vector2.Distance(target.position, enemy.position);
+        float yDist = target.position.y - enemy.position.y;
+        if (yDist is < 1.5f and > -1.5f && distance <= playerRange)//prepare for the next attack
+        {
+            boss.CheckFacingPlayer();
             boss.SetHasAttacked(false);
+        }
+
     }
 }

@@ -71,10 +71,10 @@ public class FCBossBehaviour : BaseEnemyBehaviour
         
         FCTeleportNode teleportNode = new FCTeleportNode(this);
         
-        RangeNode isPlayerCloseNode = new RangeNode(transform, attackRange, true);
-        RangeNode isPlayerFarNode = new RangeNode(transform, attackRange, false);
+        FCRangeNode isPlayerCloseNode = new FCRangeNode(transform, attackRange, true);
+        FCRangeNode isPlayerFarNode = new FCRangeNode(transform, attackRange, false);
 
-        IdleNode idleNode = new IdleNode(this, idleTime, isPlayerCloseNode);
+        IdleNode idleNode = new IdleNode(this, idleTime, attackRange);
         FCCheckIdleFinishedNode idleNotFinishedNode = new FCCheckIdleFinishedNode(this,false);
 
         FCActivateTiles activateSomeSpecialTilesNode = new FCActivateTiles(this, false, specialTiles);
