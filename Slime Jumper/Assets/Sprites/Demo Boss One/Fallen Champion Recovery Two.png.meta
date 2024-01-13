@@ -125,6 +125,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -132,12 +144,12 @@ TextureImporter:
       name: Fallen Champion Recovery Two_0
       rect:
         serializedVersion: 2
-        x: 413
+        x: 0
         y: 1400
-        width: 764
-        height: 480
-      alignment: 9
-      pivot: {x: 0.39405823, y: 0.36349487}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,12 +165,12 @@ TextureImporter:
       name: Fallen Champion Recovery Two_1
       rect:
         serializedVersion: 2
-        x: 1661
+        x: 1280
         y: 1400
-        width: 764
-        height: 480
-      alignment: 9
-      pivot: {x: 0.47477555, y: 0.29925716}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,12 +186,12 @@ TextureImporter:
       name: Fallen Champion Recovery Two_2
       rect:
         serializedVersion: 2
-        x: 2925
-        y: 1396
-        width: 764
-        height: 480
-      alignment: 9
-      pivot: {x: 0.45964107, y: 0.27516785}
+        x: 2560
+        y: 1400
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,12 +207,12 @@ TextureImporter:
       name: Fallen Champion Recovery Two_3
       rect:
         serializedVersion: 2
-        x: 4199
-        y: 1397
-        width: 764
-        height: 480
-      alignment: 9
-      pivot: {x: 0.44955108, y: 0.21895981}
+        x: 3840
+        y: 1400
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,12 +228,12 @@ TextureImporter:
       name: Fallen Champion Recovery Two_4
       rect:
         serializedVersion: 2
-        x: 392
+        x: 0
         y: 760
-        width: 764
-        height: 480
-      alignment: 9
-      pivot: {x: 0.39910313, y: 0.24304923}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,12 +249,12 @@ TextureImporter:
       name: Fallen Champion Recovery Two_5
       rect:
         serializedVersion: 2
-        x: 1661
-        y: 763
-        width: 764
-        height: 480
-      alignment: 9
-      pivot: {x: 0.4192823, y: 0.2671383}
+        x: 1280
+        y: 760
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -258,12 +270,12 @@ TextureImporter:
       name: Fallen Champion Recovery Two_6
       rect:
         serializedVersion: 2
-        x: 2929
-        y: 760
-        width: 764
-        height: 480
-      alignment: 9
-      pivot: {x: 0.38901317, y: 0.33940583}
+        x: 2560
+        y: 761
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,12 +291,12 @@ TextureImporter:
       name: Fallen Champion Recovery Two_7
       rect:
         serializedVersion: 2
-        x: 4199
+        x: 3840
         y: 760
-        width: 764
-        height: 480
-      alignment: 9
-      pivot: {x: 0.41423696, y: 0.4357623}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -300,12 +312,12 @@ TextureImporter:
       name: Fallen Champion Recovery Two_8
       rect:
         serializedVersion: 2
-        x: 388
+        x: 0
         y: 120
-        width: 764
-        height: 480
-      alignment: 9
-      pivot: {x: 0.3486547, y: 0.46788126}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -321,12 +333,12 @@ TextureImporter:
       name: Fallen Champion Recovery Two_9
       rect:
         serializedVersion: 2
-        x: 1661
+        x: 1280
         y: 120
-        width: 764
-        height: 480
-      alignment: 9
-      pivot: {x: 0.3839685, y: 0.37152475}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -342,12 +354,12 @@ TextureImporter:
       name: Fallen Champion Recovery Two_10
       rect:
         serializedVersion: 2
-        x: 2925
+        x: 2560
         y: 120
-        width: 764
-        height: 480
-      alignment: 9
-      pivot: {x: 0.4344166, y: 0.37955442}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -363,10 +375,10 @@ TextureImporter:
       name: Fallen Champion Recovery Two_11
       rect:
         serializedVersion: 2
-        x: 4199
+        x: 3840
         y: 120
-        width: 764
-        height: 480
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

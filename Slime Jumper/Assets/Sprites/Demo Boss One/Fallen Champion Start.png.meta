@@ -125,6 +125,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -132,11 +144,11 @@ TextureImporter:
       name: Fallen Champion Start_0
       rect:
         serializedVersion: 2
-        x: 426
+        x: 0
         y: 1400
-        width: 650
-        height: 480
-      alignment: 9
+        width: 1280
+        height: 520
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -153,11 +165,11 @@ TextureImporter:
       name: Fallen Champion Start_1
       rect:
         serializedVersion: 2
-        x: 1688
-        y: 1399
-        width: 650
-        height: 480
-      alignment: 9
+        x: 1280
+        y: 1400
+        width: 1280
+        height: 520
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -174,12 +186,12 @@ TextureImporter:
       name: Fallen Champion Start_2
       rect:
         serializedVersion: 2
-        x: 2955
+        x: 2560
         y: 1400
-        width: 650
-        height: 480
-      alignment: 9
-      pivot: {x: 0.32234487, y: 0.4828163}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,12 +207,12 @@ TextureImporter:
       name: Fallen Champion Start_3
       rect:
         serializedVersion: 2
-        x: 4242
+        x: 3840
         y: 1400
-        width: 650
-        height: 480
-      alignment: 9
-      pivot: {x: 0.33926457, y: 0.47136027}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,12 +228,12 @@ TextureImporter:
       name: Fallen Champion Start_4
       rect:
         serializedVersion: 2
-        x: 426
+        x: 0
         y: 760
-        width: 650
-        height: 480
-      alignment: 9
-      pivot: {x: 0.2969655, y: 0.46563226}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,12 +249,12 @@ TextureImporter:
       name: Fallen Champion Start_5
       rect:
         serializedVersion: 2
-        x: 1688
-        y: 753
-        width: 650
-        height: 480
-      alignment: 9
-      pivot: {x: 0.38537598, y: 0.4792918}
+        x: 1280
+        y: 760
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -258,12 +270,12 @@ TextureImporter:
       name: Fallen Champion Start_6
       rect:
         serializedVersion: 2
-        x: 2955
+        x: 2560
         y: 760
-        width: 650
-        height: 480
-      alignment: 9
-      pivot: {x: 0.44924167, y: 0.42553648}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,12 +291,12 @@ TextureImporter:
       name: Fallen Champion Start_7
       rect:
         serializedVersion: 2
-        x: 4242
-        y: 763
-        width: 650
-        height: 480
-      alignment: 9
-      pivot: {x: 0.44924128, y: 0.36825663}
+        x: 3840
+        y: 760
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -300,12 +312,12 @@ TextureImporter:
       name: Fallen Champion Start_8
       rect:
         serializedVersion: 2
-        x: 426
+        x: 0
         y: 120
-        width: 650
-        height: 480
-      alignment: 9
-      pivot: {x: 0.40708196, y: 0.39705086}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

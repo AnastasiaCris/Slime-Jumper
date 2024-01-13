@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class SelfDestroy : MonoBehaviour
+public class SelfDestroy : Tile
 {
     [SerializeField] private float secToDestroy;
     [SerializeField] private float shakeIntensity;

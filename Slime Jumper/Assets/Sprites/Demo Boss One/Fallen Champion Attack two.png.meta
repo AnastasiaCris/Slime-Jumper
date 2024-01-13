@@ -125,6 +125,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -132,12 +144,12 @@ TextureImporter:
       name: Fallen Champion Attack two_0
       rect:
         serializedVersion: 2
-        x: 459
+        x: 0
         y: 760
-        width: 814
-        height: 460
-      alignment: 9
-      pivot: {x: 0.25571737, y: 0.4790835}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,12 +165,12 @@ TextureImporter:
       name: Fallen Champion Attack two_1
       rect:
         serializedVersion: 2
-        x: 1739
+        x: 1280
         y: 760
-        width: 814
-        height: 460
-      alignment: 9
-      pivot: {x: 0.25374743, y: 0.45119482}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,12 +186,12 @@ TextureImporter:
       name: Fallen Champion Attack two_2
       rect:
         serializedVersion: 2
-        x: 3019
+        x: 2560
         y: 760
-        width: 814
-        height: 460
-      alignment: 9
-      pivot: {x: 0.27935776, y: 0.37101492}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,12 +207,12 @@ TextureImporter:
       name: Fallen Champion Attack two_3
       rect:
         serializedVersion: 2
-        x: 4298
+        x: 3840
         y: 760
-        width: 814
-        height: 460
-      alignment: 9
-      pivot: {x: 0.29981908, y: 0.37214422}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,12 +228,12 @@ TextureImporter:
       name: Fallen Champion Attack two_4
       rect:
         serializedVersion: 2
-        x: 459
+        x: 0
         y: 120
-        width: 814
-        height: 460
-      alignment: 9
-      pivot: {x: 0.2951178, y: 0.35707054}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,12 +249,12 @@ TextureImporter:
       name: Fallen Champion Attack two_5
       rect:
         serializedVersion: 2
-        x: 1739
+        x: 1280
         y: 120
-        width: 814
-        height: 460
-      alignment: 9
-      pivot: {x: 0.30102795, y: 0.3500983}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,6 +283,7 @@ TextureImporter:
       Fallen Champion Attack two_3: -1807685286
       Fallen Champion Attack two_4: -432592717
       Fallen Champion Attack two_5: -987669240
+      Fallen Champion Attack two_6: -2117650062
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
