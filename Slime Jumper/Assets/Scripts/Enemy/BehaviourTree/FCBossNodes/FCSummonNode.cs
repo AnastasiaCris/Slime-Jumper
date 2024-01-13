@@ -9,6 +9,9 @@ public class FCSummonNode : Node
     private List<SlimeBehaviour> allEnemies;
     private bool endOfSummon;
     private int nrOfSummons;
+
+    private bool activated;
+    private bool startSummon;
     public FCSummonNode(FCBossBehaviour boss, bool allEnemyTypes, List<EnemyType> enemyTypes, List<SlimeBehaviour> allEnemies)
     {
         this.boss = boss;
@@ -18,7 +21,13 @@ public class FCSummonNode : Node
     }
     public override NodeState Evaluate()
     {
-        throw new System.NotImplementedException();
+        if (!startSummon)
+        {
+            startSummon = true;
+            SummonEnemies();
+        }
+        
+        return activated ? NodeState.FAILURE : NodeState.SUCCESS;
     }
 
     private void SummonEnemies()
@@ -44,5 +53,20 @@ public class FCSummonNode : Node
                 //}
             }
         }
+        
+        if (allEnemyTypes)//stage 3
+        {
+            boss.stage3ActivationChecks++;
+            if(boss.stage3ActivationChecks == 2)
+                boss.SetStageActivation(3, true);
+        }
+        else//stage 2
+        {
+            boss.stage2ActivationChecks++;
+            if(boss.stage2ActivationChecks == 2)
+                boss.SetStageActivation(2, true);
+        }
+        
+        activated = true;
     }
 }

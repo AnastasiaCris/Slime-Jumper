@@ -24,7 +24,7 @@ public class IdleNode : Node
     public override NodeState Evaluate()
     {
         boss.ChangeState(State.Idle);
-        if (!boss.idleFinished && !idleStarted)
+        if (!boss.idleFinished && !idleStarted && !boss.isAttacking)
         {
             idleStarted = true;
             boss.StartCoroutine(StartIdle());

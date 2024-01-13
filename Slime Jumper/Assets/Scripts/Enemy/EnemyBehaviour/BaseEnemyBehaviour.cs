@@ -8,8 +8,8 @@ public class BaseEnemyBehaviour : MonoBehaviour
     //properties
     [field: SerializeField] public EnemyScriptableObject EnemyScriptableObject { get; private set; }
     protected int maxHP;
-    protected int currentHP;
-    
+    public int currentHP { get; private set; }
+
     //animation
     [field: SerializeField]public Animator Anim { get; private set; }
     protected int DeadAnimHash = Animator.StringToHash("dead");

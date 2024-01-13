@@ -27,7 +27,7 @@ public class FCTeleportNode : Node
         this.boss = boss;
         anim = boss.Anim;
 
-        waitUntilGrounded = new WaitUntil(() => GameProperties.playerScript.IsGrounded && boss.GetAnimState());
+        waitUntilGrounded = new WaitUntil(() => GameProperties.playerScript.IsGrounded && boss.animEnd);
         waitUntilIdle = new WaitUntil(() => boss.isIdleInAnim && !boss.isAttacking);
         teleportAnimHash = Animator.StringToHash("teleport");
         showTeleportAnimHash = Animator.StringToHash("showTeleportLoc");

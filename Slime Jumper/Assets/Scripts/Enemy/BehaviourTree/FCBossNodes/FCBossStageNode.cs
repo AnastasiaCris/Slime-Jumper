@@ -1,19 +1,19 @@
 public class FCBossStageNode : Node
 {
-    private int currentHP;
+    private FCBossBehaviour boss;
     private float hpThreshHoldHigher;
     private float hpThreshHoldLower;
     
-    public FCBossStageNode(int currentHP, float hpThreshHoldHigher, float hpThreshHoldLower)
+    public FCBossStageNode(FCBossBehaviour boss, float hpThreshHoldHigher, float hpThreshHoldLower)
     {
-        this.currentHP = currentHP;
+        this.boss = boss;
         this.hpThreshHoldHigher = hpThreshHoldHigher;
         this.hpThreshHoldLower = hpThreshHoldLower;
     }
 
     public override NodeState Evaluate()
     {
-        if (currentHP > hpThreshHoldHigher && currentHP <= hpThreshHoldLower) return NodeState.SUCCESS;
+        if (boss.currentHP > hpThreshHoldHigher && boss.currentHP <= hpThreshHoldLower) return NodeState.SUCCESS;
         return NodeState.FAILURE;
     }
 }

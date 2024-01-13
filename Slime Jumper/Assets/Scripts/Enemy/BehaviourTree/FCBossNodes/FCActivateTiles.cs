@@ -48,5 +48,18 @@ public class FCActivateTiles : Node
         }
 
         activated = true;
+        
+        if (activateAll)//stage 3
+        {
+            boss.stage3ActivationChecks++;
+            if(boss.stage3ActivationChecks == 2)
+                boss.SetStageActivation(3, true);
+        }
+        else//stage 2
+        {
+            boss.stage2ActivationChecks++;
+            if(boss.stage2ActivationChecks == 2)
+                boss.SetStageActivation(2, true);
+        }
     }
 }

@@ -15,13 +15,14 @@ public class FCAttackNode : Node
         this.attackSequence = attackSequence;
         anim = boss.Anim;
         
-        wait = new WaitUntil(boss.GetAnimState);
+        wait = new WaitUntil(() => boss.animEnd);
     }
     public override NodeState Evaluate()
     {
         boss.ChangeState(State.Attacking);
         if (boss.canAttack && boss.InAttackRange && boss.hasIdled)
         {
+            anim.SetBool(boss.idleAnimHash, false);
             boss.SetHasIdled(false);
             boss.SetIdleFinished(false);
             boss.SetHasAttacked(false);
@@ -53,9 +54,11 @@ public class FCAttackNode : Node
             yield return wait;
             boss.SetAnimState(false);
         } 
+        yield return new WaitForSeconds(0.5f);
         boss.SetIsAttacking(false);
         boss.SetHasAttacked(true);
         boss.SetCanAttack(true);
+        anim.SetBool(boss.idleAnimHash, true); 
     }
 
 }

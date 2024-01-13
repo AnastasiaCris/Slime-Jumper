@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,26 +8,31 @@ public class FCBossBehaviour : BaseEnemyBehaviour
     [SerializeField] private List<SlimeBehaviour> allEnemies = new List<SlimeBehaviour>();
     [SerializeField] private List<FCSpecialTile> specialTiles = new List<FCSpecialTile>();
 
-    //Behaviour
-    [SerializeField] private Stage stage = Stage.Stage1;
+    //BEHAVIOURS
+    private int direction = 1;
+    //-attack
     [SerializeField] private float attackRange = 3;
-    [SerializeField]private float idleTime = 3;
     public bool InAttackRange { get; private set; }
+    public bool canAttack { get; private set; }
+    public bool isAttacking { get; private set; }
+    public bool hasAttacked { get; private set; }
+    //-idle 
+    [SerializeField]private float idleTime = 3;
     public bool hasIdled { get; private set; }
     public bool isIdleInAnim { get; private set; }
     public bool idleFinished { get; private set; }
-    public bool canAttack { get; private set; }
-    private int direction = 1;
-    public bool isAttacking { get; private set; }
-    public bool hasAttacked { get; private set; }
-    private bool isTeleporting;
-    private bool isDying;
+    //-stages
+    [SerializeField] private Stage stage = Stage.Stage1;
+    public bool stage2Activated { get; private set; }
+    public bool stage3Activated { get; private set; }
+    public int stage2ActivationChecks;
+    public int stage3ActivationChecks;
 
     //Animation
-    private bool animEnd;
+    public bool animEnd { get; private set; }
     public int attackAnimHash { get; private set; }
-    public int attackingAnimHash { get; private set; }
     public int fakeRecoveryAnimHash { get; private set; }
+    public int idleAnimHash { get; private set; }
     public bool canBeDamaged { get; private set; }
 
     protected override void Start()
@@ -36,9 +40,9 @@ public class FCBossBehaviour : BaseEnemyBehaviour
         hasIdled = true;
         canBeDamaged = true;
         
-        attackingAnimHash = Animator.StringToHash("attacking");
         attackAnimHash = Animator.StringToHash("attack");
         fakeRecoveryAnimHash = Animator.StringToHash("attack2");
+        idleAnimHash = Animator.StringToHash("idle");
         
         base.Start();
     }
@@ -58,45 +62,60 @@ public class FCBossBehaviour : BaseEnemyBehaviour
 
     protected override void ConstructBehaviourTree()
     {
-        FCBossStageNode checkStage1Node = new FCBossStageNode(currentHP, maxHP * 0.7f, maxHP); // while above 70% of maxHP and lower then 100%
-        FCBossStageNode checkStage2Node = new FCBossStageNode(currentHP, maxHP * 0.5f, maxHP * 0.7f); // while above 50% of maxHP and lower then 70%
-        FCBossStageNode checkStage3Node = new FCBossStageNode(currentHP, 0, maxHP * 0.5f); // while above 0% of maxHP and lower then 50%
+        //Stage Checks Nodes
+        FCBossStageNode checkStage1Node = new FCBossStageNode(this, maxHP * 0.7f, maxHP); // while above 70% of maxHP and lower then 100%
+        FCBossStageNode checkStage2Node = new FCBossStageNode(this, maxHP * 0.5f, maxHP * 0.7f); // while above 50% of maxHP and lower then 70%
+        FCBossStageNode checkStage3Node = new FCBossStageNode(this, 0, maxHP * 0.5f); // while above 0% of maxHP and lower then 50%
         
+        //Attack Nodes
         FCAttackNode stage1AttackNode = new FCAttackNode(this, new List<FCAttackType> { FCAttackType.Attack , FCAttackType.Attack});
-        FCAttackNode stage2AttackNode = new FCAttackNode(this, new List<FCAttackType> { FCAttackType.Attack , FCAttackType.Attack, FCAttackType.FakeRecovery, FCAttackType.Attack, FCAttackType.Attack});
+        FCAttackNode stage2AttackNode = new FCAttackNode(this, new List<FCAttackType> { FCAttackType.Attack , FCAttackType.Attack, FCAttackType.FakeRecovery, FCAttackType.Attack});
         FCAttackNode stage3AttackNode = new FCAttackNode(this, new List<FCAttackType> { FCAttackType.Attack , FCAttackType.FakeRecovery, FCAttackType.Attack, FCAttackType.Attack, FCAttackType.Attack});
 
         FCCheckAttackNode hasAttackedNode = new FCCheckAttackNode(this, true);
         FCCheckAttackNode hasNotAttackedNode = new FCCheckAttackNode(this, false);
         
+        //Teleport Node
         FCTeleportNode teleportNode = new FCTeleportNode(this);
         
+        //Range Nodes
         FCRangeNode isPlayerCloseNode = new FCRangeNode(transform, attackRange, true);
         FCRangeNode isPlayerFarNode = new FCRangeNode(transform, attackRange, false);
 
+        //Idle Node
         IdleNode idleNode = new IdleNode(this, idleTime, attackRange);
         FCCheckIdleFinishedNode idleNotFinishedNode = new FCCheckIdleFinishedNode(this,false);
 
+        //Stage 2 Activation Nodes
+        FCCheckStageActivation stage2ActivationDone = new FCCheckStageActivation(this, 2);
         FCActivateTiles activateSomeSpecialTilesNode = new FCActivateTiles(this, false, specialTiles);
-        FCActivateTiles activateAllSpecialTilesNode = new FCActivateTiles(this,true, specialTiles);
-
         FCSummonNode resurrectEnemyNode = new FCSummonNode(this,false, enemyTypes, allEnemies);
+
+        //Stage 3 Activation Nodes
+        FCCheckStageActivation stage3ActivationDone = new FCCheckStageActivation(this, 3);
+        FCActivateTiles activateAllSpecialTilesNode = new FCActivateTiles(this,true, specialTiles);
         FCSummonNode resurrectAllEnemiesNode = new FCSummonNode(this,true, enemyTypes, allEnemies);
         
+        //Idle Sequence
         Sequence idleSequence = new Sequence(new List<Node>{hasAttackedNode, idleNotFinishedNode, idleNode});
 
+        //Teleport Sequence
         Sequence teleportSequence = new Sequence(new List<Node>{isPlayerFarNode, teleportNode});
+        Sequence stage2TeleportSequence = new Sequence(new List<Node>{stage2ActivationDone, isPlayerFarNode, teleportNode});
+        Sequence stage3TeleportSequence = new Sequence(new List<Node>{stage3ActivationDone, isPlayerFarNode, teleportNode});
         
+        //Attack Sequence
         Sequence stage1AttackSequence = new Sequence(new List<Node>{isPlayerCloseNode,hasNotAttackedNode, stage1AttackNode});
-        Sequence stage2AttackSequence = new Sequence(new List<Node>{isPlayerCloseNode,hasNotAttackedNode, stage2AttackNode});
-        Sequence stage3AttackSequence = new Sequence(new List<Node>{isPlayerCloseNode,hasNotAttackedNode, stage3AttackNode});
+        Sequence stage2AttackSequence = new Sequence(new List<Node>{stage2ActivationDone, isPlayerCloseNode,hasNotAttackedNode, stage2AttackNode});
+        Sequence stage3AttackSequence = new Sequence(new List<Node>{stage3ActivationDone, isPlayerCloseNode,hasNotAttackedNode, stage3AttackNode});
 
-        Sequence stage2ActivationSequence = new Sequence(new List<Node>{activateSomeSpecialTilesNode, resurrectEnemyNode});
-        Sequence stage3ActivationSequence = new Sequence(new List<Node>{activateAllSpecialTilesNode, resurrectAllEnemiesNode});
+        //Stage Activations
+        Selector stage2ActivationSequence = new Selector(new List<Node>{resurrectEnemyNode, activateSomeSpecialTilesNode});//check
+        Selector stage3ActivationSequence = new Selector(new List<Node>{activateAllSpecialTilesNode, resurrectAllEnemiesNode});
         
         Selector stage1Selector = new Selector(new List<Node> {stage1AttackSequence, idleSequence, teleportSequence});
-        Selector stage2Selector = new Selector(new List<Node>{stage2ActivationSequence, stage2AttackSequence, idleSequence, teleportSequence});
-        Selector stage3Selector = new Selector(new List<Node>{stage3ActivationSequence, stage3AttackSequence, idleSequence, teleportSequence});
+        Selector stage2Selector = new Selector(new List<Node>{stage2ActivationSequence, stage2AttackSequence, idleSequence, stage2TeleportSequence});
+        Selector stage3Selector = new Selector(new List<Node>{stage3ActivationSequence, stage3AttackSequence, idleSequence, stage3TeleportSequence});
 
         Sequence stage1Sequence = new Sequence(new List<Node>{checkStage1Node, stage1Selector});
         Sequence stage2Sequence = new Sequence(new List<Node>{checkStage2Node, stage2Selector});
@@ -155,7 +174,6 @@ public class FCBossBehaviour : BaseEnemyBehaviour
     {
         if (col.gameObject.CompareTag("Player"))
         {
-            Anim.SetBool(attackingAnimHash, false);
             InAttackRange = false;
             canAttack = false;
         }
@@ -191,7 +209,21 @@ public class FCBossBehaviour : BaseEnemyBehaviour
             ChangeDirection();
         }
     }
+    
+    //------------------------------Stage---------------------------------
 
+    public void SetStageActivation(int stageNr, bool activated)
+    {
+        switch (stageNr)
+        {
+            case 2:
+                stage2Activated = activated;
+                break;
+            case 3:
+                stage3Activated = activated;
+                break;
+        }
+    }
     //------------------------------Animation---------------------------------
 
     /// <summary>
@@ -207,9 +239,11 @@ public class FCBossBehaviour : BaseEnemyBehaviour
     {
         animEnd = true;
     }
-    public bool GetAnimState()
+    
+    //played in animation
+    private void SetAnimStateFalse()
     {
-        return animEnd;
+        animEnd = true;
     }
 
     //played in animation

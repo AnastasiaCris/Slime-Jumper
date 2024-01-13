@@ -19,7 +19,7 @@ public class FCSpecialTile : MonoBehaviour
     private void TileOpened()
     {
         if (!playerInTrigger) return;
-        GameProperties.playerScript.SlowDown(0.1f, 0.1f);
+        GameProperties.playerScript.SlowDown(0.5f, 0.5f);
     }
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -27,7 +27,7 @@ public class FCSpecialTile : MonoBehaviour
         if (col.CompareTag("Player"))
         {
             playerInTrigger = true;
-            
+            TileOpened();
         }
     }
 
