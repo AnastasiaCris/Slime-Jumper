@@ -33,6 +33,7 @@ public class FCBossBehaviour : BaseEnemyBehaviour
     public int attackAnimHash { get; private set; }
     public int fakeRecoveryAnimHash { get; private set; }
     public int idleAnimHash { get; private set; }
+    public int stageActivationAnimHash { get; private set; }
     public bool canBeDamaged { get; private set; }
 
     protected override void Start()
@@ -43,7 +44,7 @@ public class FCBossBehaviour : BaseEnemyBehaviour
         attackAnimHash = Animator.StringToHash("attack");
         fakeRecoveryAnimHash = Animator.StringToHash("attack2");
         idleAnimHash = Animator.StringToHash("idle");
-        
+        stageActivationAnimHash = Animator.StringToHash("newStage");
         base.Start();
     }
 
@@ -85,13 +86,15 @@ public class FCBossBehaviour : BaseEnemyBehaviour
         //Idle Node
         IdleNode idleNode = new IdleNode(this, idleTime, attackRange);
         FCCheckIdleFinishedNode idleNotFinishedNode = new FCCheckIdleFinishedNode(this,false);
-
+        
         //Stage 2 Activation Nodes
+        FCStageActivationPush stage2ActivationNode = new FCStageActivationPush(this, 4, 60);
         FCCheckStageActivation stage2ActivationDone = new FCCheckStageActivation(this, 2);
         FCActivateTiles activateSomeSpecialTilesNode = new FCActivateTiles(this, false, specialTiles);
         FCSummonNode resurrectEnemyNode = new FCSummonNode(this,false, enemyTypes, allEnemies);
 
         //Stage 3 Activation Nodes
+        FCStageActivationPush stage3ActivationNode = new FCStageActivationPush(this, 5, 100);
         FCCheckStageActivation stage3ActivationDone = new FCCheckStageActivation(this, 3);
         FCActivateTiles activateAllSpecialTilesNode = new FCActivateTiles(this,true, specialTiles);
         FCSummonNode resurrectAllEnemiesNode = new FCSummonNode(this,true, enemyTypes, allEnemies);
@@ -110,12 +113,12 @@ public class FCBossBehaviour : BaseEnemyBehaviour
         Sequence stage3AttackSequence = new Sequence(new List<Node>{stage3ActivationDone, isPlayerCloseNode,hasNotAttackedNode, stage3AttackNode});
 
         //Stage Activations
-        Selector stage2ActivationSequence = new Selector(new List<Node>{resurrectEnemyNode, activateSomeSpecialTilesNode});//check
-        Selector stage3ActivationSequence = new Selector(new List<Node>{activateAllSpecialTilesNode, resurrectAllEnemiesNode});
+        Selector stage2ActivationSelector = new Selector(new List<Node>{stage2ActivationNode, resurrectEnemyNode, activateSomeSpecialTilesNode});//check
+        Selector stage3ActivationSelector = new Selector(new List<Node>{stage3ActivationNode, activateAllSpecialTilesNode, resurrectAllEnemiesNode});
         
         Selector stage1Selector = new Selector(new List<Node> {stage1AttackSequence, idleSequence, teleportSequence});
-        Selector stage2Selector = new Selector(new List<Node>{stage2ActivationSequence, stage2AttackSequence, idleSequence, stage2TeleportSequence});
-        Selector stage3Selector = new Selector(new List<Node>{stage3ActivationSequence, stage3AttackSequence, idleSequence, stage3TeleportSequence});
+        Selector stage2Selector = new Selector(new List<Node>{stage2ActivationSelector, stage2AttackSequence, idleSequence, stage2TeleportSequence});
+        Selector stage3Selector = new Selector(new List<Node>{stage3ActivationSelector, stage3AttackSequence, idleSequence, stage3TeleportSequence});
 
         Sequence stage1Sequence = new Sequence(new List<Node>{checkStage1Node, stage1Selector});
         Sequence stage2Sequence = new Sequence(new List<Node>{checkStage2Node, stage2Selector});

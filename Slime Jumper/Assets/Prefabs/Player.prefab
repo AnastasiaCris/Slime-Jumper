@@ -299,6 +299,7 @@ MonoBehaviour:
   originalPSpeed: 5
   originalJForce: 14
   groundCheck: {fileID: 639345415}
+  canControl: 1
   maxHP: 30
   damage: 5
   currentHP: 0

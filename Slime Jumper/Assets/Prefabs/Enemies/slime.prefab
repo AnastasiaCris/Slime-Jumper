@@ -255,6 +255,9 @@ MonoBehaviour:
   groundPos: {fileID: 1503250526704195247}
   chaseRange: 20
   attackRange: 1.5
+  tileLayer:
+    serializedVersion: 2
+    m_Bits: 128
   direction: -1
   chasing: 0
   canAttack: 0

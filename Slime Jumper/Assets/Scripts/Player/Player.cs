@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float originalPSpeed = 5;
     [SerializeField] private float originalJForce = 14;
     [SerializeField] private Transform groundCheck;
+    public bool canControl = true;
     private float playerSpeed = 5;
     private float jumpForce = 14;
     private Vector2 moveDir;
@@ -34,6 +35,9 @@ public class Player : MonoBehaviour
 
     [Header("Attack")] [Space]
     [SerializeField] private int deactivateComboInSec = 2;
+    [SerializeField] private float attackForce = 40;
+    private bool isAttacking;
+    private Vector2 attackVelocity;
     private WeaponBehaviour weaponBehaviour;
     private int attackCounter;
     private float attackTimer;
@@ -67,11 +71,14 @@ public class Player : MonoBehaviour
             return;
         
         IsGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.3f, 1 << 7);
-
+        ReachedEndOfScreen();
+        
+        if(!canControl)
+            return;
+        
         Move();
         if ((IsGrounded || !IsGrounded && jumpCounter > 0) && Input.GetButtonDown("Jump")) StartCoroutine(Jump());
         ChangeSpriteDirection();
-        ReachedEndOfScreen();
     }
     
     //------------------------------Movement------------------------------
@@ -90,7 +97,13 @@ public class Player : MonoBehaviour
     {
         moveDir = movementControl.ReadValue<Vector2>();
         Vector2 playerVelocity = new Vector2(moveDir.x * playerSpeed, rb.velocity.y);
-        rb.velocity = playerVelocity;
+        if (isAttacking)
+        {
+            attackVelocity = new Vector2(direction, 0) * attackForce ;
+            rb.velocity = playerVelocity + attackVelocity;
+        }
+        else
+            rb.velocity = playerVelocity;
         bool playerMovesOnX = Mathf.Abs(rb.velocity.x) > Mathf.Epsilon;
         anim.SetBool("IsRunning", playerMovesOnX);
     }
@@ -155,8 +168,10 @@ public class Player : MonoBehaviour
     //------------------------------Attacking------------------------------
     void OnFire(InputValue value)
     {
-        if(dead || isJumping)
+        if(dead || isJumping || !canControl)
             return;
+
+        isAttacking = true;
         
         if (!anim.GetBool("IsAttacking") || attackCounter > 2)
         {
@@ -171,14 +186,18 @@ public class Player : MonoBehaviour
             if(attackCounter == 1) anim.SetInteger("AttackCounter", attackCounter);
             else if (attackCounter == 2) anim.SetInteger("AttackCounter", attackCounter);
         }
+
         
         attackCounter ++;// add + 1 to attack counter
         StopCoroutine(ComboTimer());
         StartCoroutine(ComboTimer());
+        
     }
     IEnumerator ComboTimer()
     {
         attackTimer = deactivateComboInSec;
+        yield return new WaitForSeconds(0.017f);
+        isAttacking = false;
         while (attackTimer > 0)
         {
             attackTimer -= Time.deltaTime;
