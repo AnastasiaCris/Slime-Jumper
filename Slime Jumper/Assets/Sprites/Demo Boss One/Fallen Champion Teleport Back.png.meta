@@ -125,6 +125,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -132,12 +144,12 @@ TextureImporter:
       name: Fallen Champion Teleport Back_0
       rect:
         serializedVersion: 2
-        x: 1694
+        x: 1280
         y: 1400
-        width: 560
-        height: 480
-      alignment: 9
-      pivot: {x: 0.4999998, y: 0.47049662}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,12 +165,12 @@ TextureImporter:
       name: Fallen Champion Teleport Back_1
       rect:
         serializedVersion: 2
-        x: 2979
+        x: 2560
         y: 1400
-        width: 560
-        height: 480
-      alignment: 9
-      pivot: {x: 0.5036124, y: 0.37355754}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,12 +186,12 @@ TextureImporter:
       name: Fallen Champion Teleport Back_2
       rect:
         serializedVersion: 2
-        x: 4256
+        x: 3840
         y: 1400
-        width: 560
-        height: 480
-      alignment: 9
-      pivot: {x: 0.4809056, y: 0.41831893}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,12 +207,12 @@ TextureImporter:
       name: Fallen Champion Teleport Back_3
       rect:
         serializedVersion: 2
-        x: 425
-        y: 760
-        width: 560
-        height: 480
-      alignment: 9
-      pivot: {x: 0.45303562, y: 0.42413443}
+        x: 0
+        y: 761
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,12 +228,12 @@ TextureImporter:
       name: Fallen Champion Teleport Back_4
       rect:
         serializedVersion: 2
-        x: 1694
-        y: 760
-        width: 560
-        height: 480
-      alignment: 9
-      pivot: {x: 0.48193642, y: 0.415705}
+        x: 1280
+        y: 761
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,12 +249,12 @@ TextureImporter:
       name: Fallen Champion Teleport Back_5
       rect:
         serializedVersion: 2
-        x: 2979
-        y: 762
-        width: 560
-        height: 480
-      alignment: 9
-      pivot: {x: 0.4783238, y: 0.4199197}
+        x: 2560
+        y: 760
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -258,12 +270,12 @@ TextureImporter:
       name: Fallen Champion Teleport Back_6
       rect:
         serializedVersion: 2
-        x: 4256
+        x: 3840
         y: 760
-        width: 560
-        height: 480
-      alignment: 9
-      pivot: {x: 0.49045235, y: 0.42945734}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,12 +291,12 @@ TextureImporter:
       name: Fallen Champion Teleport Back_7
       rect:
         serializedVersion: 2
-        x: 425
-        y: 122
-        width: 560
-        height: 480
-      alignment: 9
-      pivot: {x: 0.4641873, y: 0.43036383}
+        x: 0
+        y: 120
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -300,12 +312,12 @@ TextureImporter:
       name: Fallen Champion Teleport Back_8
       rect:
         serializedVersion: 2
-        x: 1692
+        x: 1281
         y: 120
-        width: 560
-        height: 480
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4257215}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -321,12 +333,12 @@ TextureImporter:
       name: Fallen Champion Teleport Back_9
       rect:
         serializedVersion: 2
-        x: 2979
+        x: 2560
         y: 120
-        width: 560
-        height: 480
-      alignment: 9
-      pivot: {x: 0.49999955, y: 0.41460627}
+        width: 1280
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -334,27 +346,6 @@ TextureImporter:
       bones: []
       spriteID: 60f4a088bacc447f88067746342436ad
       internalID: 983379798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fallen Champion Teleport Back_10
-      rect:
-        serializedVersion: 2
-        x: 425
-        y: 1354
-        width: 560
-        height: 480
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 041852e7155f943599e9ae724d0f9298
-      internalID: 814694432
       vertices: []
       indices: 
       edges: []
@@ -372,7 +363,7 @@ TextureImporter:
     nameFileIdTable:
       Fallen Champion Teleport Back_0: -1698070488
       Fallen Champion Teleport Back_1: -1548574579
-      Fallen Champion Teleport Back_10: 814694432
+      Fallen Champion Teleport Back_10: 98205393
       Fallen Champion Teleport Back_2: 1709451352
       Fallen Champion Teleport Back_3: -560444723
       Fallen Champion Teleport Back_4: 1145181820

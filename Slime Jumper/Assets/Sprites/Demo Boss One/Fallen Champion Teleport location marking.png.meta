@@ -125,6 +125,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -132,10 +144,10 @@ TextureImporter:
       name: Fallen Champion Teleport location marking_0
       rect:
         serializedVersion: 2
-        x: 523
+        x: 0
         y: 1400
-        width: 375
-        height: 345
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +165,10 @@ TextureImporter:
       name: Fallen Champion Teleport location marking_1
       rect:
         serializedVersion: 2
-        x: 1790
+        x: 1280
         y: 1400
-        width: 375
-        height: 345
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,10 +186,10 @@ TextureImporter:
       name: Fallen Champion Teleport location marking_2
       rect:
         serializedVersion: 2
-        x: 3075
-        y: 1396
-        width: 375
-        height: 345
+        x: 2560
+        y: 1400
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +207,10 @@ TextureImporter:
       name: Fallen Champion Teleport location marking_3
       rect:
         serializedVersion: 2
-        x: 4356
-        y: 1396
-        width: 375
-        height: 345
+        x: 3840
+        y: 1400
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +228,10 @@ TextureImporter:
       name: Fallen Champion Teleport location marking_4
       rect:
         serializedVersion: 2
-        x: 523
+        x: 0
         y: 760
-        width: 375
-        height: 345
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +249,10 @@ TextureImporter:
       name: Fallen Champion Teleport location marking_5
       rect:
         serializedVersion: 2
-        x: 1790
+        x: 1280
         y: 760
-        width: 375
-        height: 345
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +270,10 @@ TextureImporter:
       name: Fallen Champion Teleport location marking_6
       rect:
         serializedVersion: 2
-        x: 3075
+        x: 2560
         y: 760
-        width: 375
-        height: 345
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +291,10 @@ TextureImporter:
       name: Fallen Champion Teleport location marking_7
       rect:
         serializedVersion: 2
-        x: 4356
+        x: 3840
         y: 760
-        width: 375
-        height: 345
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +312,10 @@ TextureImporter:
       name: Fallen Champion Teleport location marking_8
       rect:
         serializedVersion: 2
-        x: 523
-        y: 120
-        width: 375
-        height: 345
+        x: 0
+        y: 121
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,27 +325,6 @@ TextureImporter:
       bones: []
       spriteID: 3992bcb83ff3f40eb899e5b31c50c51d
       internalID: -904755726
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fallen Champion Teleport location marking_9
-      rect:
-        serializedVersion: 2
-        x: 1790
-        y: 116
-        width: 375
-        height: 345
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0d869557a98340279ead83e60077e50
-      internalID: -425966216
       vertices: []
       indices: 
       edges: []
@@ -358,7 +349,6 @@ TextureImporter:
       Fallen Champion Teleport location marking_6: -1992053039
       Fallen Champion Teleport location marking_7: -1314806266
       Fallen Champion Teleport location marking_8: -904755726
-      Fallen Champion Teleport location marking_9: -425966216
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

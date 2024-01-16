@@ -125,6 +125,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -132,10 +144,10 @@ TextureImporter:
       name: Fallen Champion Attack two charge_0
       rect:
         serializedVersion: 2
-        x: 470
+        x: 0
         y: 1400
-        width: 507
-        height: 480
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +165,10 @@ TextureImporter:
       name: Fallen Champion Attack two charge_1
       rect:
         serializedVersion: 2
-        x: 1758
+        x: 1280
         y: 1400
-        width: 507
-        height: 480
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,10 +186,10 @@ TextureImporter:
       name: Fallen Champion Attack two charge_2
       rect:
         serializedVersion: 2
-        x: 3038
+        x: 2560
         y: 1400
-        width: 507
-        height: 480
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +207,10 @@ TextureImporter:
       name: Fallen Champion Attack two charge_3
       rect:
         serializedVersion: 2
-        x: 4315
+        x: 3840
         y: 1400
-        width: 507
-        height: 480
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +228,10 @@ TextureImporter:
       name: Fallen Champion Attack two charge_4
       rect:
         serializedVersion: 2
-        x: 470
+        x: 0
         y: 760
-        width: 507
-        height: 480
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +249,10 @@ TextureImporter:
       name: Fallen Champion Attack two charge_5
       rect:
         serializedVersion: 2
-        x: 1758
+        x: 1280
         y: 760
-        width: 507
-        height: 480
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +270,10 @@ TextureImporter:
       name: Fallen Champion Attack two charge_6
       rect:
         serializedVersion: 2
-        x: 3038
+        x: 2560
         y: 760
-        width: 507
-        height: 480
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +291,10 @@ TextureImporter:
       name: Fallen Champion Attack two charge_7
       rect:
         serializedVersion: 2
-        x: 4312
-        y: 761
-        width: 507
-        height: 480
+        x: 3840
+        y: 760
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +312,10 @@ TextureImporter:
       name: Fallen Champion Attack two charge_8
       rect:
         serializedVersion: 2
-        x: 472
+        x: 0
         y: 120
-        width: 507
-        height: 480
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,10 +333,10 @@ TextureImporter:
       name: Fallen Champion Attack two charge_9
       rect:
         serializedVersion: 2
-        x: 1758
+        x: 1280
         y: 120
-        width: 507
-        height: 480
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,10 +354,10 @@ TextureImporter:
       name: Fallen Champion Attack two charge_10
       rect:
         serializedVersion: 2
-        x: 3038
+        x: 2560
         y: 120
-        width: 507
-        height: 480
+        width: 1280
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

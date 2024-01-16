@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 639345415}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 946790959416196447}
   - component: {fileID: 6632410801973224662}
   - component: {fileID: 1210026588792213702}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: WeaponCollider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -104,6 +104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 9097731277720873947}
   enemiesInAttackRange: []
+  objectsInAttackRange: []
 --- !u!1 &9097731277720873948
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,7 +120,7 @@ GameObject:
   - component: {fileID: 9097731277720873950}
   - component: {fileID: 9097731277720873949}
   - component: {fileID: 9097731277720873947}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -181,8 +182,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1653250281
-  m_SortingLayer: 0
+  m_SortingLayerID: -1080164005
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 2006510355, guid: a7d5e91ee12ec4ca5a95d6e648cb6ed3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -295,11 +296,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f00cbf0956bb0477ca08c1cc997d51f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 5
-  jumpForce: 14
+  originalPSpeed: 5
+  originalJForce: 14
   groundCheck: {fileID: 639345415}
-  maxHP: 10
+  maxHP: 30
   damage: 5
   currentHP: 0
-  weaponBehaviour: {fileID: 0}
   deactivateComboInSec: 2

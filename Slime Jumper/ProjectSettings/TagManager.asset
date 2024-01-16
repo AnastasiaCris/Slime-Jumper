@@ -22,10 +22,10 @@ TagManager:
   - Water
   - UI
   - Enemies
-  - 
-  - 
-  - 
-  - 
+  - Tile
+  - EnemyCollider
+  - Player
+  - PlayerWeapon
   - 
   - 
   - 
@@ -53,4 +53,7 @@ TagManager:
     locked: 0
   - name: Enemies
     uniqueID: 1062457327
+    locked: 0
+  - name: Player
+    uniqueID: 3214803291
     locked: 0

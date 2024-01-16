@@ -14,7 +14,7 @@ public class Destroyer : MonoBehaviour
         {
             //kill player
             //reset game - happens in death animation
-            Player playerScript = collision.gameObject.GetComponent<Player>();
+            Player playerScript = GameProperties.playerScript;
             if(playerScript != null)
                 playerScript.ResetScene();
         }
