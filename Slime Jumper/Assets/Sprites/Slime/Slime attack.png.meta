@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2ef927390472945168b04421a234e488
+guid: 0397a8bb17ba74d01b57b896f9565c8d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 220
+  spritePixelsToUnits: 120
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FCM_03_Idle_0
+      name: Slime attack_0
       rect:
         serializedVersion: 2
-        x: 40
-        y: 585
-        width: 400
-        height: 350
+        x: 140
+        y: 895
+        width: 140
+        height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5906e6a2d22243cbaf7cc33381149c6
-      internalID: -1806728211
+      spriteID: 4df496784af3841ce885e4d95828db8a
+      internalID: 1400457235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Idle_1
+      name: Slime attack_1
       rect:
         serializedVersion: 2
-        x: 645
-        y: 580
-        width: 395
-        height: 355
+        x: 550
+        y: 895
+        width: 135
+        height: 125
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c44369ebcd134c0caae3dd5f9095d92
-      internalID: 1802710629
+      spriteID: aeed838bc37b247c2a2c75a9c5f485e7
+      internalID: 860049864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Idle_2
+      name: Slime attack_2
       rect:
         serializedVersion: 2
-        x: 1260
-        y: 560
-        width: 375
-        height: 370
+        x: 920
+        y: 895
+        width: 175
+        height: 175
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6437970c6a62d491787f4b70216c6331
-      internalID: -123427887
+      spriteID: c878f8342c2a54a96a7736401e950186
+      internalID: -83152511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Idle_3
+      name: Slime attack_3
       rect:
         serializedVersion: 2
-        x: 1880
-        y: 540
-        width: 360
-        height: 385
+        x: 1335
+        y: 897
+        width: 185
+        height: 193
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c6ace3bf40ae40a3a92a3c5fc5bf598
-      internalID: 28662644
+      spriteID: de995299ae3564992b9aa036ed7b09cd
+      internalID: 416259311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Idle_4
+      name: Slime attack_4
       rect:
         serializedVersion: 2
-        x: 85
-        y: 80
-        width: 360
-        height: 345
+        x: 115
+        y: 487
+        width: 180
+        height: 203
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aeec9d42b3dc144cbbee097ff8f5bf2b
-      internalID: 798307497
+      spriteID: 9a40d4f351cd641319e34c1f96ae97b5
+      internalID: -1107830092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Idle_5
+      name: Slime attack_5
       rect:
         serializedVersion: 2
-        x: 670
-        y: 85
-        width: 370
-        height: 345
+        x: 450
+        y: 485
+        width: 300
+        height: 115
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cfaa724dfc6b483d8782e9a5ccd3a9d
-      internalID: -471379454
+      spriteID: dae281cdd44c94e109f7ed781a9d0d98
+      internalID: 613078261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Idle_6
+      name: Slime attack_6
       rect:
         serializedVersion: 2
-        x: 1260
-        y: 85
-        width: 375
-        height: 340
+        x: 860
+        y: 485
+        width: 315
+        height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf20ca5a120b54e04973bad194618d63
-      internalID: 1269833635
+      spriteID: cb417f012d2104ab0a1df9ab61f2db37
+      internalID: 1389967928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Idle_7
+      name: Slime attack_7
       rect:
         serializedVersion: 2
-        x: 1850
-        y: 80
-        width: 390
-        height: 355
+        x: 1290
+        y: 485
+        width: 295
+        height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +290,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52c9c5e7ebf964390afb79194d6edbcd
-      internalID: -1554550653
+      spriteID: 17cd9ca91f8ba43eaadf44e064c76021
+      internalID: 1147264824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime attack_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 75
+        width: 165
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fccb0f53ce924ab39d279e5397e17bf
+      internalID: 1488518287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime attack_9
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 75
+        width: 155
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebd7ad5e8c1e4971bf4a9c8b98d5b65
+      internalID: -860477540
       vertices: []
       indices: 
       edges: []
@@ -307,14 +349,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FCM_03_Idle_0: -1806728211
-      FCM_03_Idle_1: 1802710629
-      FCM_03_Idle_2: -123427887
-      FCM_03_Idle_3: 28662644
-      FCM_03_Idle_4: 798307497
-      FCM_03_Idle_5: -471379454
-      FCM_03_Idle_6: 1269833635
-      FCM_03_Idle_7: -1554550653
+      Slime attack_0: 1400457235
+      Slime attack_1: 860049864
+      Slime attack_2: -83152511
+      Slime attack_3: 416259311
+      Slime attack_4: -1107830092
+      Slime attack_5: 613078261
+      Slime attack_6: 1389967928
+      Slime attack_7: 1147264824
+      Slime attack_8: 1488518287
+      Slime attack_9: -860477540
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

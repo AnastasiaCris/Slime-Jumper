@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ab8cc0d92ff4f4778aaa87247eec2253
+guid: 2645688f9b9114db1934aec80434b8e1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -125,50 +125,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slime Enemy_0
+      name: Fallen Champion Phase Transition _0
       rect:
         serializedVersion: 2
-        x: 53
-        y: 550
-        width: 43
-        height: 29
-      alignment: 9
-      pivot: {x: 0.49557656, y: 0.362271}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2cf2325d4e174815b137484916551ff
-      internalID: 1004436859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime Enemy_1
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 422
-        width: 43
-        height: 29
+        x: 0
+        y: 2685
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13eca719ba41345a9aaf150804d8ae5f
-      internalID: -949209525
+      spriteID: 71f1f530dd6f849bda857eb99b1a1d81
+      internalID: 1260156686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_2
+      name: Fallen Champion Phase Transition _1
       rect:
         serializedVersion: 2
-        x: 181
-        y: 422
-        width: 43
-        height: 29
+        x: 950
+        y: 2685
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5eaaddab3944d4fa389609bb9ac3dd36
-      internalID: -1963556644
+      spriteID: c2ef1d8c2a7954ff89f1845f209fac13
+      internalID: 1110027012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_3
+      name: Fallen Champion Phase Transition _2
       rect:
         serializedVersion: 2
-        x: 309
-        y: 422
-        width: 43
-        height: 29
+        x: 1900
+        y: 2685
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7ab099cb721a492bb90735ee4c49d72
-      internalID: -885388162
+      spriteID: f4c0ed34d77aa43a9a59721bd831a4e2
+      internalID: 619340302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_4
+      name: Fallen Champion Phase Transition _3
       rect:
         serializedVersion: 2
-        x: 437
-        y: 422
-        width: 43
-        height: 29
+        x: 2850
+        y: 2685
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af09b006227b240698580eaad71d86d9
-      internalID: 1887739896
+      spriteID: 15165c2b02f9c4ddfbc2558dca6b919c
+      internalID: -927414846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_6
+      name: Fallen Champion Phase Transition _4
       rect:
         serializedVersion: 2
-        x: 565
-        y: 422
-        width: 43
-        height: 29
+        x: 3800
+        y: 2685
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e58de1baaea94d24a6b6c65595db88d
-      internalID: -30789574
+      spriteID: cbcc2fb2be1e04328b86a9340754bad4
+      internalID: 2132060375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_7
+      name: Fallen Champion Phase Transition _5
       rect:
         serializedVersion: 2
-        x: 693
-        y: 422
-        width: 43
-        height: 29
+        x: 0
+        y: 2045
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b36aad7a55e3644cba0bb89f04e81012
-      internalID: -1708708299
+      spriteID: bbbced861c73440199a18989c6023cec
+      internalID: 1558459743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_8
+      name: Fallen Champion Phase Transition _6
       rect:
         serializedVersion: 2
-        x: 821
-        y: 422
-        width: 43
-        height: 29
+        x: 950
+        y: 2045
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dbc0459f61d947629708fe7c195d3a5
-      internalID: -2075360456
+      spriteID: c2328b2674d5d40869f2f475c306aba4
+      internalID: -94652759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_9
+      name: Fallen Champion Phase Transition _7
       rect:
         serializedVersion: 2
-        x: 949
-        y: 422
-        width: 43
-        height: 29
+        x: 1900
+        y: 2045
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,20 +290,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c37822029d40f4d25a788cc9405831d2
-      internalID: 958173792
+      spriteID: 054db20754d41489a8c4c9bd0e977d08
+      internalID: -81029889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_10
+      name: Fallen Champion Phase Transition _8
       rect:
         serializedVersion: 2
-        x: 51
-        y: 294
-        width: 43
-        height: 29
+        x: 2850
+        y: 2045
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,20 +311,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c36f0e28a87c429f9f6fee8cc1d1c8e
-      internalID: -152731107
+      spriteID: b14ef9e60bea648bf95c6921b7efe34f
+      internalID: -415944713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_11
+      name: Fallen Champion Phase Transition _9
       rect:
         serializedVersion: 2
-        x: 180
-        y: 294
-        width: 43
-        height: 29
+        x: 3800
+        y: 2045
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,20 +332,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 540b9aeeb72a84da391885828338e9df
-      internalID: 2051277717
+      spriteID: 93fff79050e844960b7950114fca6f48
+      internalID: -1651688732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_12
+      name: Fallen Champion Phase Transition _10
       rect:
         serializedVersion: 2
-        x: 309
-        y: 294
-        width: 43
-        height: 29
+        x: 0
+        y: 1405
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,20 +353,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcbf4d73f940d45a7b7e127a3933f762
-      internalID: 1696282022
+      spriteID: 95b55193a90b64fe1ae04acd2044b0c9
+      internalID: -174278008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_14
+      name: Fallen Champion Phase Transition _11
       rect:
         serializedVersion: 2
-        x: 438
-        y: 294
-        width: 43
-        height: 29
+        x: 950
+        y: 1405
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,20 +374,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f69df402caf4a41dab37ab83c65ddd36
-      internalID: -1826160951
+      spriteID: adbcfb803be954aea8cd483d5d4d58cd
+      internalID: 821213358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_15
+      name: Fallen Champion Phase Transition _12
       rect:
         serializedVersion: 2
-        x: 565
-        y: 294
-        width: 43
-        height: 29
+        x: 1900
+        y: 1405
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,20 +395,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66b243844b1f14bf5bbc584aadacdb27
-      internalID: 1057216097
+      spriteID: 8f34ab39d30b14819ba051a318ce24c9
+      internalID: -612072199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_16
+      name: Fallen Champion Phase Transition _13
       rect:
         serializedVersion: 2
-        x: 693
-        y: 294
-        width: 43
-        height: 29
+        x: 2850
+        y: 1405
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,20 +416,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aeb7c6d679b1545799f745f1134655b4
-      internalID: -1207254023
+      spriteID: 9a4860b5f3b3d4df7a50f9fb8352b24b
+      internalID: -1536083847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_17
+      name: Fallen Champion Phase Transition _14
       rect:
         serializedVersion: 2
-        x: 819
-        y: 294
-        width: 43
-        height: 29
+        x: 3800
+        y: 1405
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd210c2760b254ac9916a084d3a18091
-      internalID: 1350639519
+      spriteID: 4f5c629f67fbb445998913c5b495696e
+      internalID: -680590308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_18
+      name: Fallen Champion Phase Transition _15
       rect:
         serializedVersion: 2
-        x: 948
-        y: 294
-        width: 43
-        height: 29
+        x: 0
+        y: 765
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,20 +458,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3e8c00e266f24de095fbe3484a18cad
-      internalID: 972207366
+      spriteID: 52aff0d64a84e4541951f613c4900114
+      internalID: -194926436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_19
+      name: Fallen Champion Phase Transition _16
       rect:
         serializedVersion: 2
-        x: 44
-        y: 166
-        width: 61
-        height: 41
+        x: 950
+        y: 765
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,20 +479,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c611b374af5c4ce19345df499e728d9
-      internalID: 255498019
+      spriteID: 6725a1bc0f53146cab0a12b733e25d5c
+      internalID: 1424428719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_20
+      name: Fallen Champion Phase Transition _17
       rect:
         serializedVersion: 2
-        x: 171
-        y: 166
-        width: 61
-        height: 41
+        x: 1900
+        y: 765
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,20 +500,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dd1f136df3924cb2a276c738e45ad90
-      internalID: -2088259469
+      spriteID: 375f71a94e0f542609fd7b2d9743c035
+      internalID: -1468680798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_21
+      name: Fallen Champion Phase Transition _18
       rect:
         serializedVersion: 2
-        x: 299
-        y: 166
-        width: 61
-        height: 41
+        x: 2850
+        y: 765
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,20 +521,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e06be0526c49b4c91b25b3ef296764eb
-      internalID: -1412618977
+      spriteID: 13506218af4fe46de952a72ce53e9e3f
+      internalID: -1830673057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_22
+      name: Fallen Champion Phase Transition _19
       rect:
         serializedVersion: 2
-        x: 427
-        y: 166
-        width: 61
-        height: 41
+        x: 3800
+        y: 765
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,20 +542,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0e0e0e5e3cf94ed9a4fe12caaba46c7
-      internalID: 1756038126
+      spriteID: 8921e24ea4b724941bb24d5e67eef796
+      internalID: 1890671945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_24
+      name: Fallen Champion Phase Transition _20
       rect:
         serializedVersion: 2
-        x: 537
-        y: 166
-        width: 61
-        height: 41
+        x: 0
+        y: 125
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,20 +563,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4b927164b79841b8988cdf17ff27a5b
-      internalID: -1651714599
+      spriteID: 902633098ac9f4958a7d01f2088a7db9
+      internalID: -12578723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Enemy_25
+      name: Fallen Champion Phase Transition _21
       rect:
         serializedVersion: 2
-        x: 666
-        y: 166
-        width: 61
-        height: 41
+        x: 950
+        y: 125
+        width: 950
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,176 +584,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 147f3af6f05c74e1f8b5b79e601d5045
-      internalID: 1241007575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime Enemy_26
-      rect:
-        serializedVersion: 2
-        x: 809
-        y: 166
-        width: 61
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 846789cf048d44e5d9e5a1693220ef5a
-      internalID: -1487268878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime Enemy_27
-      rect:
-        serializedVersion: 2
-        x: 939
-        y: 166
-        width: 61
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0f9e4ac8ccb74eb8a348b8ec391654a
-      internalID: -2143722681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime Enemy_28
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 38
-        width: 63
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a27c2694969f415b8fde645140ca7d5
-      internalID: 1425941518
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime Enemy_29
-      rect:
-        serializedVersion: 2
-        x: 171
-        y: 38
-        width: 63
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e99c035cd577f463483cc9959d4ac6a9
-      internalID: -857107066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime Enemy_30
-      rect:
-        serializedVersion: 2
-        x: 301
-        y: 38
-        width: 63
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60800cce4d88d447c8a9230c285b5262
-      internalID: 1277866820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime Enemy_31
-      rect:
-        serializedVersion: 2
-        x: 429
-        y: 38
-        width: 63
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01abaf020d51149d5af36d0754e44fd8
-      internalID: 1216279972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime Enemy_32
-      rect:
-        serializedVersion: 2
-        x: 557
-        y: 38
-        width: 63
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fedc80944036f4c4aba404cb45a1d074
-      internalID: -1992315239
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime Enemy_33
-      rect:
-        serializedVersion: 2
-        x: 690
-        y: 37
-        width: 63
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3271c1fafa28f423985fdb694948f6f6
-      internalID: 1762314073
+      spriteID: 231a06b0bd44d41528861563bacd366d
+      internalID: -1488608328
       vertices: []
       indices: 
       edges: []
@@ -802,41 +601,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Slime Enemy_0: 1004436859
-      Slime Enemy_1: -949209525
-      Slime Enemy_10: -152731107
-      Slime Enemy_11: 2051277717
-      Slime Enemy_12: 1696282022
-      Slime Enemy_13: 578737995
-      Slime Enemy_14: -1826160951
-      Slime Enemy_15: 1057216097
-      Slime Enemy_16: -1207254023
-      Slime Enemy_17: 1350639519
-      Slime Enemy_18: 972207366
-      Slime Enemy_19: 255498019
-      Slime Enemy_2: -1963556644
-      Slime Enemy_20: -2088259469
-      Slime Enemy_21: -1412618977
-      Slime Enemy_22: 1756038126
-      Slime Enemy_23: -1357999249
-      Slime Enemy_24: -1651714599
-      Slime Enemy_25: 1241007575
-      Slime Enemy_26: -1487268878
-      Slime Enemy_27: -2143722681
-      Slime Enemy_28: 1425941518
-      Slime Enemy_29: -857107066
-      Slime Enemy_3: -885388162
-      Slime Enemy_30: 1277866820
-      Slime Enemy_31: 1216279972
-      Slime Enemy_32: -1992315239
-      Slime Enemy_33: 1762314073
-      Slime Enemy_34: -659078349
-      Slime Enemy_4: 1887739896
-      Slime Enemy_5: 231417029
-      Slime Enemy_6: -30789574
-      Slime Enemy_7: -1708708299
-      Slime Enemy_8: -2075360456
-      Slime Enemy_9: 958173792
+      Fallen Champion Phase Transition _0: 1260156686
+      Fallen Champion Phase Transition _1: 1110027012
+      Fallen Champion Phase Transition _10: -174278008
+      Fallen Champion Phase Transition _11: 821213358
+      Fallen Champion Phase Transition _12: -612072199
+      Fallen Champion Phase Transition _13: -1536083847
+      Fallen Champion Phase Transition _14: -680590308
+      Fallen Champion Phase Transition _15: -194926436
+      Fallen Champion Phase Transition _16: 1424428719
+      Fallen Champion Phase Transition _17: -1468680798
+      Fallen Champion Phase Transition _18: -1830673057
+      Fallen Champion Phase Transition _19: 1890671945
+      Fallen Champion Phase Transition _2: 619340302
+      Fallen Champion Phase Transition _20: -12578723
+      Fallen Champion Phase Transition _21: -1488608328
+      Fallen Champion Phase Transition _3: -927414846
+      Fallen Champion Phase Transition _4: 2132060375
+      Fallen Champion Phase Transition _5: 1558459743
+      Fallen Champion Phase Transition _6: -94652759
+      Fallen Champion Phase Transition _7: -81029889
+      Fallen Champion Phase Transition _8: -415944713
+      Fallen Champion Phase Transition _9: -1651688732
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

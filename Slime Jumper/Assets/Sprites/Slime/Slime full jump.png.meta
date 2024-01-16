@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 76ee0258292124ca981bfaf052ab14af
+guid: 57b201102890b444c9e29bc03722f50d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 220
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FCM_03_Attack_0
+      name: Slime full jump_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 1085
-        width: 395
-        height: 345
+        x: 118
+        y: 1713
+        width: 164
+        height: 114
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ee316210b05642ae846a7c75b85cf09
-      internalID: 801233385
+      spriteID: 54dda0b077f3d49f28ec9b4f701a52d6
+      internalID: -1306689973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Attack_1
+      name: Slime full jump_1
       rect:
         serializedVersion: 2
-        x: 630
-        y: 1080
-        width: 425
-        height: 350
+        x: 513
+        y: 1713
+        width: 204
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00f00477cc82549498af39403ecb8c5f
-      internalID: -1902650446
+      spriteID: 208933bff2a834dc28621821d83e7a6e
+      internalID: -738457318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Attack_2
+      name: Slime full jump_2
       rect:
         serializedVersion: 2
-        x: 1230
-        y: 1080
-        width: 425
-        height: 350
+        x: 923
+        y: 1713
+        width: 204
+        height: 99
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbc1431157076444493871c7e9f12ce7
-      internalID: -1226633898
+      spriteID: 197ab65d6d0f643f9abf31fa6e3e2fbd
+      internalID: -1841339512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Attack_3
+      name: Slime full jump_3
       rect:
         serializedVersion: 2
-        x: 1830
-        y: 1060
-        width: 415
-        height: 365
+        x: 1333
+        y: 1713
+        width: 204
+        height: 99
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00671f0f2870541589a33dfe4c81d1ff
-      internalID: 1461903326
+      spriteID: 41c628a130a9947ca88f5d24da8cb66d
+      internalID: -1353488336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Attack_4
+      name: Slime full jump_4
       rect:
         serializedVersion: 2
-        x: 2445
-        y: 1040
-        width: 400
-        height: 380
+        x: 1753
+        y: 1713
+        width: 194
+        height: 114
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 930da70fd7f944782a8b74a4aa354521
-      internalID: 476317048
+      spriteID: 43a02b50b28334a019ca8076c6f9edf6
+      internalID: 1003514182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Attack_5
+      name: Slime full jump_5
       rect:
         serializedVersion: 2
-        x: 55
-        y: 605
-        width: 390
-        height: 315
+        x: 118
+        y: 1303
+        width: 189
+        height: 154
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6424576b5f0848b5ac969056bae85fc
-      internalID: -957692811
+      spriteID: 2f2e03adc7c524f54bc9236a4d958232
+      internalID: -1418504618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Attack_6
+      name: Slime full jump_6
       rect:
         serializedVersion: 2
-        x: 705
-        y: 605
-        width: 360
-        height: 315
+        x: 515
+        y: 1305
+        width: 210
+        height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,20 +269,146 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b1cbc2518d984ba88bd8145d8f729e6
-      internalID: -509977258
+      spriteID: aab0ce1506851468da7304927ef2d246
+      internalID: -1021876628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Attack_7
+      name: Slime full jump_7
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1335
+        width: 180
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426de486e0f924a6298af4b68a55335a
+      internalID: 1359791912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime full jump_8
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1340
+        width: 180
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a21540d72a4474aa2b58ba376933b8
+      internalID: -1572484964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime full jump_9
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 1320
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba994e7167d3947aab632687d6db0675
+      internalID: 355806814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime full jump_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 920
+        width: 195
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb5825ec0d434ea3973abe61776c56e
+      internalID: 1688875978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime full jump_11
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 915
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5232da50ca3c04f61bfc09e6b291000e
+      internalID: -997659053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime full jump_12
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 910
+        width: 200
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae63af65539f34ef6af81d26137b9f32
+      internalID: -447354408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime full jump_13
       rect:
         serializedVersion: 2
         x: 1335
-        y: 605
-        width: 440
-        height: 310
+        y: 910
+        width: 195
+        height: 185
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,20 +416,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f96d117dce61e4832a3e6e7786f08bda
-      internalID: -1556063755
+      spriteID: 466b19536489040489030b10de2daed2
+      internalID: -810831129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Attack_8
+      name: Slime full jump_14
       rect:
         serializedVersion: 2
-        x: 1935
-        y: 590
-        width: 440
-        height: 325
+        x: 1750
+        y: 915
+        width: 185
+        height: 175
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08dd933e99f3a417788b9ce2dbfd5735
-      internalID: -267029529
+      spriteID: 80c5af1562df54bf685ff6c5cf243889
+      internalID: 1849920332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Attack_9
+      name: Slime full jump_15
       rect:
         serializedVersion: 2
-        x: 2535
-        y: 580
-        width: 440
-        height: 335
+        x: 110
+        y: 515
+        width: 195
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,20 +458,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90ba1b47d138d4477a44db998041b1d4
-      internalID: -431823317
+      spriteID: 5a7c14800011b43cd890ae800be419f5
+      internalID: 17514576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Attack_10
+      name: Slime full jump_16
       rect:
         serializedVersion: 2
-        x: 160
-        y: 80
-        width: 415
-        height: 330
+        x: 505
+        y: 485
+        width: 215
+        height: 175
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,20 +479,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dbd63850f39e41ad8a532ff8d516d92
-      internalID: -477200186
+      spriteID: 2268bfd2b032d4db4ad66107e943eb31
+      internalID: -1081717221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Attack_11
+      name: Slime full jump_17
       rect:
         serializedVersion: 2
-        x: 725
-        y: 85
-        width: 360
-        height: 325
+        x: 865
+        y: 485
+        width: 285
+        height: 135
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,20 +500,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7214b5e075644a13860b86f80e94a1f
-      internalID: 981048456
+      spriteID: 2b373c36860b449fb942ff55c09bb158
+      internalID: -819578527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Attack_12
+      name: Slime full jump_18
       rect:
         serializedVersion: 2
-        x: 1305
-        y: 85
-        width: 360
-        height: 335
+        x: 1315
+        y: 485
+        width: 245
+        height: 100
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,20 +521,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f1d951f0ec514caf8700f04e8beb0c6
-      internalID: -1535662521
+      spriteID: 019e75747588f46619eda65ff9c9a2bc
+      internalID: -2006455843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Attack_13
+      name: Slime full jump_19
       rect:
         serializedVersion: 2
-        x: 1860
-        y: 60
-        width: 380
-        height: 370
+        x: 1755
+        y: 485
+        width: 185
+        height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,8 +542,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 321a2311ef707440bb6315bcb0496676
-      internalID: 969855437
+      spriteID: cfc928ee9c5824fd3bf6751bb3326fb7
+      internalID: -991581455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime full jump_20
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 75
+        width: 140
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86385a743cf74413a312030c7c4cc59
+      internalID: 131372185
       vertices: []
       indices: 
       edges: []
@@ -433,20 +580,27 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FCM_03_Attack_0: 801233385
-      FCM_03_Attack_1: -1902650446
-      FCM_03_Attack_10: -477200186
-      FCM_03_Attack_11: 981048456
-      FCM_03_Attack_12: -1535662521
-      FCM_03_Attack_13: 969855437
-      FCM_03_Attack_2: -1226633898
-      FCM_03_Attack_3: 1461903326
-      FCM_03_Attack_4: 476317048
-      FCM_03_Attack_5: -957692811
-      FCM_03_Attack_6: -509977258
-      FCM_03_Attack_7: -1556063755
-      FCM_03_Attack_8: -267029529
-      FCM_03_Attack_9: -431823317
+      Slime full jump_0: -1306689973
+      Slime full jump_1: -738457318
+      Slime full jump_10: 1688875978
+      Slime full jump_11: -997659053
+      Slime full jump_12: -447354408
+      Slime full jump_13: -810831129
+      Slime full jump_14: 1849920332
+      Slime full jump_15: 17514576
+      Slime full jump_16: -1081717221
+      Slime full jump_17: -819578527
+      Slime full jump_18: -2006455843
+      Slime full jump_19: -991581455
+      Slime full jump_2: -1841339512
+      Slime full jump_20: 131372185
+      Slime full jump_3: -1353488336
+      Slime full jump_4: 1003514182
+      Slime full jump_5: -1418504618
+      Slime full jump_6: -1021876628
+      Slime full jump_7: 1359791912
+      Slime full jump_8: -1572484964
+      Slime full jump_9: 355806814
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
