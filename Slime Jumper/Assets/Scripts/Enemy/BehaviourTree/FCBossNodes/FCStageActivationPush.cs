@@ -22,6 +22,7 @@ public class FCStageActivationPush : Node
     {
         if (!pushed)
         {
+            boss.SetHasIdled(true);
             boss.StartCoroutine(PushAway());
             pushed = true;
         }

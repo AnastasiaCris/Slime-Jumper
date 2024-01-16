@@ -36,7 +36,6 @@ public class Player : MonoBehaviour
     [Header("Attack")] [Space]
     [SerializeField] private int deactivateComboInSec = 2;
     [SerializeField] private float attackForce = 40;
-    private bool isAttacking;
     private Vector2 attackVelocity;
     private WeaponBehaviour weaponBehaviour;
     private int attackCounter;
@@ -97,13 +96,7 @@ public class Player : MonoBehaviour
     {
         moveDir = movementControl.ReadValue<Vector2>();
         Vector2 playerVelocity = new Vector2(moveDir.x * playerSpeed, rb.velocity.y);
-        if (isAttacking)
-        {
-            attackVelocity = new Vector2(direction, 0) * attackForce ;
-            rb.velocity = playerVelocity + attackVelocity;
-        }
-        else
-            rb.velocity = playerVelocity;
+        rb.velocity = playerVelocity;
         bool playerMovesOnX = Mathf.Abs(rb.velocity.x) > Mathf.Epsilon;
         anim.SetBool("IsRunning", playerMovesOnX);
     }
@@ -170,8 +163,6 @@ public class Player : MonoBehaviour
     {
         if(dead || isJumping || !canControl)
             return;
-
-        isAttacking = true;
         
         if (!anim.GetBool("IsAttacking") || attackCounter > 2)
         {
@@ -187,7 +178,6 @@ public class Player : MonoBehaviour
             else if (attackCounter == 2) anim.SetInteger("AttackCounter", attackCounter);
         }
 
-        
         attackCounter ++;// add + 1 to attack counter
         StopCoroutine(ComboTimer());
         StartCoroutine(ComboTimer());
@@ -196,8 +186,6 @@ public class Player : MonoBehaviour
     IEnumerator ComboTimer()
     {
         attackTimer = deactivateComboInSec;
-        yield return new WaitForSeconds(0.017f);
-        isAttacking = false;
         while (attackTimer > 0)
         {
             attackTimer -= Time.deltaTime;
