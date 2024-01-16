@@ -2304,6 +2304,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fallen Champion
       objectReference: {fileID: 0}
+    - target: {fileID: 7483983730738184812, guid: 0ebc571e24734443582be3a8cb7fb6db, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1386372896748094509, guid: 0ebc571e24734443582be3a8cb7fb6db, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0ebc571e24734443582be3a8cb7fb6db, type: 3}

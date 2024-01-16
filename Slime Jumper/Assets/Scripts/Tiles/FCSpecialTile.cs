@@ -5,6 +5,7 @@ public class FCSpecialTile : MonoBehaviour
     [SerializeField] private Animator anim;
     private int triggerAnimHash;
     private bool playerInTrigger;
+    public bool tileTriggered;
     void Start()
     {
         triggerAnimHash = Animator.StringToHash("trigger");
@@ -12,6 +13,7 @@ public class FCSpecialTile : MonoBehaviour
 
     public void TriggerTile()
     {
+        tileTriggered = true;
         anim.SetTrigger(triggerAnimHash);
     }
 
@@ -24,7 +26,7 @@ public class FCSpecialTile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Player"))
+        if (col.CompareTag("Player") && tileTriggered)
         {
             playerInTrigger = true;
             TileOpened();
@@ -33,7 +35,7 @@ public class FCSpecialTile : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && tileTriggered)
         {
             playerInTrigger = false;
             GameProperties.playerScript.UnSlow();

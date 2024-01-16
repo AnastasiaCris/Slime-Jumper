@@ -10,6 +10,7 @@ public class SlimeBehaviour : BaseEnemyBehaviour
     [field: Header("Behaviour")]
     [SerializeField] private float chaseRange;
     [SerializeField] private float attackRange;
+    [SerializeField] private LayerMask tileLayer;
     [HideInInspector] public int direction = -1;
     [HideInInspector] public bool chasing;
     [HideInInspector] public bool canAttack;
@@ -90,7 +91,7 @@ public class SlimeBehaviour : BaseEnemyBehaviour
     public bool TileFinished()
     {
         Vector2 boxcastOrigin = direction == 1 ? new Vector2(transform.position.x + 1, transform.position.y - 0.5f) : new Vector2(transform.position.x - 1, transform.position.y - 0.5f);
-        RaycastHit2D hit = Physics2D.BoxCast(boxcastOrigin, new Vector2(1, 0.5f), 0f, Vector2.right * direction, 0f, 1 << 6);
+        RaycastHit2D hit = Physics2D.BoxCast(boxcastOrigin, new Vector2(1, 0.5f), 0f, Vector2.right * direction, 0f, tileLayer);
         
         if (hit.collider == null)
         {

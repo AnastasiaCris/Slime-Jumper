@@ -16,10 +16,8 @@ public class FCCheckStageActivation : Node
         {
             case 2:
                 return boss.stage2Activated ? NodeState.SUCCESS : NodeState.FAILURE;
-                break;
             case 3:
                 return boss.stage3Activated ? NodeState.SUCCESS : NodeState.FAILURE;
-                break;
         }
 
         return NodeState.FAILURE;
