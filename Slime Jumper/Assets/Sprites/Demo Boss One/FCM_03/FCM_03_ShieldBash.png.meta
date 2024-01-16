@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 384
+  spritePixelsToUnits: 220
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -132,12 +132,12 @@ TextureImporter:
       name: FCM_03_ShieldBash_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1015
-        width: 506
-        height: 485
+        x: 55
+        y: 1070
+        width: 385
+        height: 355
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,12 +153,12 @@ TextureImporter:
       name: FCM_03_ShieldBash_1
       rect:
         serializedVersion: 2
-        x: 600
-        y: 1015
-        width: 506
-        height: 485
+        x: 640
+        y: 1070
+        width: 440
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,12 +174,12 @@ TextureImporter:
       name: FCM_03_ShieldBash_2
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 1015
-        width: 506
-        height: 485
+        x: 1235
+        y: 1060
+        width: 470
+        height: 365
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,12 +195,12 @@ TextureImporter:
       name: FCM_03_ShieldBash_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 515
-        width: 506
-        height: 485
+        x: 35
+        y: 555
+        width: 470
+        height: 370
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,12 +216,12 @@ TextureImporter:
       name: FCM_03_ShieldBash_4
       rect:
         serializedVersion: 2
-        x: 600
-        y: 515
-        width: 506
-        height: 485
+        x: 635
+        y: 560
+        width: 471
+        height: 365
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,12 +237,12 @@ TextureImporter:
       name: FCM_03_ShieldBash_5
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 515
-        width: 506
-        height: 485
+        x: 1235
+        y: 565
+        width: 470
+        height: 360
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -258,12 +258,12 @@ TextureImporter:
       name: FCM_03_ShieldBash_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 15
-        width: 506
-        height: 485
+        x: 40
+        y: 70
+        width: 440
+        height: 350
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
