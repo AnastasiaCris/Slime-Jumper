@@ -132,12 +132,12 @@ TextureImporter:
       name: FCM_03_NoShieldMove_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 570
-        width: 345
-        height: 355
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 545
+        width: 504
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,12 +153,12 @@ TextureImporter:
       name: FCM_03_NoShieldMove_1
       rect:
         serializedVersion: 2
-        x: 650
-        y: 570
-        width: 350
-        height: 355
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 600
+        y: 545
+        width: 504
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,12 +174,12 @@ TextureImporter:
       name: FCM_03_NoShieldMove_2
       rect:
         serializedVersion: 2
-        x: 1240
-        y: 575
-        width: 361
-        height: 350
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1200
+        y: 545
+        width: 504
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,12 +195,12 @@ TextureImporter:
       name: FCM_03_NoShieldMove_3
       rect:
         serializedVersion: 2
-        x: 1830
-        y: 570
-        width: 376
-        height: 350
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1800
+        y: 545
+        width: 504
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,12 +216,12 @@ TextureImporter:
       name: FCM_03_NoShieldMove_4
       rect:
         serializedVersion: 2
-        x: 20
-        y: 75
-        width: 386
-        height: 345
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 45
+        width: 504
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,12 +237,12 @@ TextureImporter:
       name: FCM_03_NoShieldMove_5
       rect:
         serializedVersion: 2
-        x: 630
-        y: 70
-        width: 376
-        height: 350
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 600
+        y: 45
+        width: 504
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -258,12 +258,12 @@ TextureImporter:
       name: FCM_03_NoShieldMove_6
       rect:
         serializedVersion: 2
-        x: 1240
-        y: 75
-        width: 360
-        height: 345
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1200
+        y: 45
+        width: 504
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,12 +279,12 @@ TextureImporter:
       name: FCM_03_NoShieldMove_7
       rect:
         serializedVersion: 2
-        x: 1850
-        y: 70
-        width: 350
-        height: 350
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1800
+        y: 45
+        width: 504
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

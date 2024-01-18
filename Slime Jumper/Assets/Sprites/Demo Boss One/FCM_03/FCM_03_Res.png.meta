@@ -133,11 +133,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2015
-        width: 501
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 2016
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -154,11 +154,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 600
-        y: 2015
-        width: 501
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 2016
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -175,11 +175,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1200
-        y: 2015
-        width: 501
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 2016
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -196,11 +196,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1800
-        y: 2015
-        width: 501
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 2016
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,12 +216,12 @@ TextureImporter:
       name: FCM_03_Res_4
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1515
-        width: 496
-        height: 157
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 1516
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,12 +237,12 @@ TextureImporter:
       name: FCM_03_Res_5
       rect:
         serializedVersion: 2
-        x: 604
-        y: 1515
-        width: 496
-        height: 157
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 600
+        y: 1516
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -258,12 +258,12 @@ TextureImporter:
       name: FCM_03_Res_6
       rect:
         serializedVersion: 2
-        x: 1204
-        y: 1515
-        width: 496
-        height: 196
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1200
+        y: 1516
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,12 +279,12 @@ TextureImporter:
       name: FCM_03_Res_7
       rect:
         serializedVersion: 2
-        x: 1804
-        y: 1515
-        width: 496
-        height: 210
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1800
+        y: 1516
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -300,12 +300,12 @@ TextureImporter:
       name: FCM_03_Res_8
       rect:
         serializedVersion: 2
-        x: 5
-        y: 1017
-        width: 495
-        height: 268
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 1016
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -321,12 +321,12 @@ TextureImporter:
       name: FCM_03_Res_9
       rect:
         serializedVersion: 2
-        x: 605
-        y: 1015
-        width: 495
-        height: 315
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 600
+        y: 1016
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -342,12 +342,12 @@ TextureImporter:
       name: FCM_03_Res_10
       rect:
         serializedVersion: 2
-        x: 1205
-        y: 1015
-        width: 495
-        height: 375
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1200
+        y: 1016
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -363,12 +363,12 @@ TextureImporter:
       name: FCM_03_Res_11
       rect:
         serializedVersion: 2
-        x: 1805
-        y: 1015
-        width: 496
-        height: 422
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1800
+        y: 1016
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -384,12 +384,12 @@ TextureImporter:
       name: FCM_03_Res_12
       rect:
         serializedVersion: 2
-        x: 5
-        y: 515
-        width: 511
-        height: 427
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 516
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -405,12 +405,12 @@ TextureImporter:
       name: FCM_03_Res_13
       rect:
         serializedVersion: 2
-        x: 605
-        y: 515
-        width: 499
-        height: 425
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 600
+        y: 516
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -426,12 +426,12 @@ TextureImporter:
       name: FCM_03_Res_14
       rect:
         serializedVersion: 2
-        x: 1214
-        y: 515
-        width: 470
-        height: 425
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1200
+        y: 516
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -447,12 +447,12 @@ TextureImporter:
       name: FCM_03_Res_15
       rect:
         serializedVersion: 2
-        x: 1815
-        y: 565
-        width: 395
-        height: 370
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1800
+        y: 516
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -468,12 +468,12 @@ TextureImporter:
       name: FCM_03_Res_16
       rect:
         serializedVersion: 2
-        x: 15
-        y: 75
-        width: 410
-        height: 360
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 16
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -489,12 +489,12 @@ TextureImporter:
       name: FCM_03_Res_17
       rect:
         serializedVersion: 2
-        x: 640
-        y: 85
-        width: 390
-        height: 350
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 600
+        y: 16
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -510,12 +510,12 @@ TextureImporter:
       name: FCM_03_Res_18
       rect:
         serializedVersion: 2
-        x: 1240
-        y: 85
-        width: 400
-        height: 350
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1200
+        y: 16
+        width: 504
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

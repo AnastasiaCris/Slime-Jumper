@@ -132,12 +132,12 @@ TextureImporter:
       name: FCM_03_AttackNoShield_0
       rect:
         serializedVersion: 2
-        x: 62
-        y: 2566
-        width: 402
-        height: 371
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 2545
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,12 +153,12 @@ TextureImporter:
       name: FCM_03_AttackNoShield_1
       rect:
         serializedVersion: 2
-        x: 662
-        y: 2548
-        width: 398
-        height: 399
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 600
+        y: 2545
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,12 +174,12 @@ TextureImporter:
       name: FCM_03_AttackNoShield_2
       rect:
         serializedVersion: 2
-        x: 1239
-        y: 2548
-        width: 388
-        height: 406
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1200
+        y: 2545
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,12 +195,12 @@ TextureImporter:
       name: FCM_03_AttackNoShield_3
       rect:
         serializedVersion: 2
-        x: 1859
-        y: 2557
-        width: 378
-        height: 397
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1800
+        y: 2545
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,12 +216,12 @@ TextureImporter:
       name: FCM_03_AttackNoShield_4
       rect:
         serializedVersion: 2
-        x: 2548
-        y: 2538
-        width: 400
-        height: 416
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2400
+        y: 2545
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,12 +237,12 @@ TextureImporter:
       name: FCM_03_AttackNoShield_5
       rect:
         serializedVersion: 2
-        x: 163
-        y: 2108
-        width: 437
-        height: 346
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 2045
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -259,11 +259,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 600
-        y: 2082
+        y: 2045
         width: 600
-        height: 372
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,12 +279,12 @@ TextureImporter:
       name: FCM_03_AttackNoShield_7
       rect:
         serializedVersion: 2
-        x: 1350
-        y: 2085
-        width: 448
-        height: 370
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1200
+        y: 2045
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -300,12 +300,12 @@ TextureImporter:
       name: FCM_03_AttackNoShield_8
       rect:
         serializedVersion: 2
-        x: 1933
-        y: 2088
-        width: 415
-        height: 366
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1800
+        y: 2045
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -321,12 +321,12 @@ TextureImporter:
       name: FCM_03_AttackNoShield_9
       rect:
         serializedVersion: 2
-        x: 2474
-        y: 2077
-        width: 367
-        height: 377
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2400
+        y: 2045
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -342,12 +342,12 @@ TextureImporter:
       name: FCM_03_AttackNoShield_10
       rect:
         serializedVersion: 2
-        x: 112
-        y: 1547
-        width: 465
-        height: 390
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 1545
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -363,12 +363,12 @@ TextureImporter:
       name: FCM_03_AttackNoShield_11
       rect:
         serializedVersion: 2
-        x: 775
-        y: 1585
-        width: 415
-        height: 350
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 600
+        y: 1545
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -384,12 +384,12 @@ TextureImporter:
       name: FCM_03_AttackNoShield_12
       rect:
         serializedVersion: 2
-        x: 1375
-        y: 1585
-        width: 415
-        height: 350
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1200
+        y: 1545
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -405,12 +405,12 @@ TextureImporter:
       name: FCM_03_AttackNoShield_13
       rect:
         serializedVersion: 2
-        x: 1930
-        y: 1560
-        width: 460
-        height: 375
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1800
+        y: 1545
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -426,12 +426,12 @@ TextureImporter:
       name: FCM_03_AttackNoShield_14
       rect:
         serializedVersion: 2
-        x: 2555
-        y: 1590
-        width: 395
-        height: 345
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2400
+        y: 1545
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -447,19 +447,19 @@ TextureImporter:
       name: FCM_03_AttackNoShield_15
       rect:
         serializedVersion: 2
-        x: 140
-        y: 1090
-        width: 375
-        height: 345
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 1045
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd6860ecf080c415d868088fccecab3e
-      internalID: -2127205541
+      spriteID: 05e5fd5d8225a4a14ad28be19716e355
+      internalID: 1572580917
       vertices: []
       indices: 
       edges: []
@@ -468,19 +468,19 @@ TextureImporter:
       name: FCM_03_AttackNoShield_16
       rect:
         serializedVersion: 2
-        x: 675
-        y: 1080
-        width: 360
-        height: 345
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 600
+        y: 1045
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6a9b83a9a025449fad5fdf7e1895390
-      internalID: 1570843955
+      spriteID: ec92c2e3e63d0430eb0a19091f069fb1
+      internalID: 289378111
       vertices: []
       indices: 
       edges: []
@@ -489,19 +489,19 @@ TextureImporter:
       name: FCM_03_AttackNoShield_17
       rect:
         serializedVersion: 2
-        x: 1300
-        y: 1080
-        width: 360
-        height: 345
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1200
+        y: 1045
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98fc104db1eda46128fcf20da4a5d692
-      internalID: -1519880882
+      spriteID: a88814ed2a4a54762bbec86f4ac2cab6
+      internalID: 44344270
       vertices: []
       indices: 
       edges: []
@@ -510,19 +510,19 @@ TextureImporter:
       name: FCM_03_AttackNoShield_18
       rect:
         serializedVersion: 2
-        x: 1925
-        y: 1060
-        width: 365
-        height: 365
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1800
+        y: 1045
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c19ae32d669e482d9cf825ff257829e
-      internalID: 1396536515
+      spriteID: 29a62f794dab44e7398a55e5a5fb5caa
+      internalID: 291772779
       vertices: []
       indices: 
       edges: []
@@ -531,19 +531,19 @@ TextureImporter:
       name: FCM_03_AttackNoShield_19
       rect:
         serializedVersion: 2
-        x: 2525
-        y: 1040
-        width: 475
-        height: 385
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2400
+        y: 1045
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fb8b14a7d1a44cfeb1e340333f889d5
-      internalID: 293097500
+      spriteID: a32dfd0fa36d14835879a2d69e4ed168
+      internalID: 1416837280
       vertices: []
       indices: 
       edges: []
@@ -552,19 +552,19 @@ TextureImporter:
       name: FCM_03_AttackNoShield_20
       rect:
         serializedVersion: 2
-        x: 160
-        y: 560
-        width: 440
-        height: 365
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 545
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fc1919e5b2de4a58b4c4be2afb1080b
-      internalID: -1099409248
+      spriteID: a33bfa493cb3b4cf6a810526c0b6a31a
+      internalID: 338152467
       vertices: []
       indices: 
       edges: []
@@ -573,19 +573,19 @@ TextureImporter:
       name: FCM_03_AttackNoShield_21
       rect:
         serializedVersion: 2
-        x: 735
-        y: 560
-        width: 465
-        height: 365
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 600
+        y: 545
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4679cfbabf2f418f9104aff427611c2
-      internalID: -797688654
+      spriteID: 4a56ec7217cd748ecbac0b0056229f14
+      internalID: -803136804
       vertices: []
       indices: 
       edges: []
@@ -594,19 +594,19 @@ TextureImporter:
       name: FCM_03_AttackNoShield_22
       rect:
         serializedVersion: 2
-        x: 1335
-        y: 600
-        width: 405
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1200
+        y: 545
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9c8f3ba35c5a42f68c9070d237884db
-      internalID: -1444892199
+      spriteID: a9e694c7583594429abbdc571667ad75
+      internalID: 588013115
       vertices: []
       indices: 
       edges: []
@@ -615,19 +615,19 @@ TextureImporter:
       name: FCM_03_AttackNoShield_23
       rect:
         serializedVersion: 2
-        x: 1925
-        y: 590
-        width: 365
-        height: 345
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1800
+        y: 545
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d230c984ea9ae4d0bbc7d769dd911415
-      internalID: 277886429
+      spriteID: b18b33bb745744abe8c220ceeb5609b4
+      internalID: 1472118528
       vertices: []
       indices: 
       edges: []
@@ -636,19 +636,19 @@ TextureImporter:
       name: FCM_03_AttackNoShield_24
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 580
-        width: 360
-        height: 355
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2400
+        y: 545
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: defb95e21d9944c9e9c9f226f0f2af8b
-      internalID: 1278536865
+      spriteID: bdede5a79e932408ea999033f7a7c955
+      internalID: 1372489071
       vertices: []
       indices: 
       edges: []
@@ -657,19 +657,19 @@ TextureImporter:
       name: FCM_03_AttackNoShield_25
       rect:
         serializedVersion: 2
-        x: 95
-        y: 80
-        width: 360
-        height: 355
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 45
+        width: 600
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd12a1f9fcc624895a8d0061f028f0c8
-      internalID: -1165223920
+      spriteID: c6b1d487de9f74c2fb28b9097ac44ba3
+      internalID: -1495500707
       vertices: []
       indices: 
       edges: []
@@ -692,18 +692,18 @@ TextureImporter:
       FCM_03_AttackNoShield_12: 431673970
       FCM_03_AttackNoShield_13: -1648758260
       FCM_03_AttackNoShield_14: -1049931962
-      FCM_03_AttackNoShield_15: -2127205541
-      FCM_03_AttackNoShield_16: 1570843955
-      FCM_03_AttackNoShield_17: -1519880882
-      FCM_03_AttackNoShield_18: 1396536515
-      FCM_03_AttackNoShield_19: 293097500
+      FCM_03_AttackNoShield_15: 1572580917
+      FCM_03_AttackNoShield_16: 289378111
+      FCM_03_AttackNoShield_17: 44344270
+      FCM_03_AttackNoShield_18: 291772779
+      FCM_03_AttackNoShield_19: 1416837280
       FCM_03_AttackNoShield_2: -216352606
-      FCM_03_AttackNoShield_20: -1099409248
-      FCM_03_AttackNoShield_21: -797688654
-      FCM_03_AttackNoShield_22: -1444892199
-      FCM_03_AttackNoShield_23: 277886429
-      FCM_03_AttackNoShield_24: 1278536865
-      FCM_03_AttackNoShield_25: -1165223920
+      FCM_03_AttackNoShield_20: 338152467
+      FCM_03_AttackNoShield_21: -803136804
+      FCM_03_AttackNoShield_22: 588013115
+      FCM_03_AttackNoShield_23: 1472118528
+      FCM_03_AttackNoShield_24: 1372489071
+      FCM_03_AttackNoShield_25: -1495500707
       FCM_03_AttackNoShield_3: -1185505328
       FCM_03_AttackNoShield_4: -1739460235
       FCM_03_AttackNoShield_5: -643014043

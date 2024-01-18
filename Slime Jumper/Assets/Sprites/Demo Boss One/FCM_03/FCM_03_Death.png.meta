@@ -132,12 +132,12 @@ TextureImporter:
       name: FCM_03_Death_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 1030
-        width: 395
-        height: 430
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 1000
+        width: 600
+        height: 500
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,12 +153,12 @@ TextureImporter:
       name: FCM_03_Death_1
       rect:
         serializedVersion: 2
-        x: 670
-        y: 1015
-        width: 395
-        height: 445
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 600
+        y: 1000
+        width: 600
+        height: 500
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,12 +174,12 @@ TextureImporter:
       name: FCM_03_Death_2
       rect:
         serializedVersion: 2
-        x: 1265
-        y: 1015
-        width: 410
-        height: 453
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1200
+        y: 1000
+        width: 600
+        height: 500
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,12 +195,12 @@ TextureImporter:
       name: FCM_03_Death_3
       rect:
         serializedVersion: 2
-        x: 1815
-        y: 1015
-        width: 460
-        height: 453
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1800
+        y: 1000
+        width: 600
+        height: 500
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,12 +216,12 @@ TextureImporter:
       name: FCM_03_Death_4
       rect:
         serializedVersion: 2
-        x: 10
-        y: 515
-        width: 465
-        height: 453
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 500
+        width: 600
+        height: 500
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,12 +237,12 @@ TextureImporter:
       name: FCM_03_Death_5
       rect:
         serializedVersion: 2
-        x: 610
-        y: 515
-        width: 465
-        height: 390
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 600
+        y: 500
+        width: 600
+        height: 500
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -258,12 +258,12 @@ TextureImporter:
       name: FCM_03_Death_6
       rect:
         serializedVersion: 2
-        x: 1210
-        y: 515
-        width: 465
-        height: 381
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1200
+        y: 500
+        width: 600
+        height: 500
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,12 +279,12 @@ TextureImporter:
       name: FCM_03_Death_7
       rect:
         serializedVersion: 2
-        x: 1810
-        y: 515
-        width: 465
-        height: 230
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1800
+        y: 500
+        width: 600
+        height: 500
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -300,12 +300,12 @@ TextureImporter:
       name: FCM_03_Death_8
       rect:
         serializedVersion: 2
-        x: 10
-        y: 15
-        width: 465
-        height: 235
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 0
+        width: 600
+        height: 500
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -321,12 +321,12 @@ TextureImporter:
       name: FCM_03_Death_9
       rect:
         serializedVersion: 2
-        x: 610
-        y: 15
-        width: 465
-        height: 235
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 600
+        y: 0
+        width: 600
+        height: 500
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -342,12 +342,12 @@ TextureImporter:
       name: FCM_03_Death_10
       rect:
         serializedVersion: 2
-        x: 1210
-        y: 15
-        width: 465
-        height: 197
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1200
+        y: 0
+        width: 600
+        height: 500
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -363,12 +363,12 @@ TextureImporter:
       name: FCM_03_Death_11
       rect:
         serializedVersion: 2
-        x: 1810
-        y: 15
-        width: 470
-        height: 145
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1800
+        y: 0
+        width: 600
+        height: 500
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
