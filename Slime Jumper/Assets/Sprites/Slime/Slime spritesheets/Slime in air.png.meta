@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6e54bdfb589fe4c6aa2ee4a4b60afda0
+guid: 029eadeaf9511406bbfebc3fe9c09b62
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 220
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,10 +67,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FCM_03_Death_0
+      name: Slime in air_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1000
-        width: 600
-        height: 500
+        y: 1856
+        width: 820
+        height: 604
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 543a2fcf028d54d0baba76b22c6e6c63
-      internalID: 2137494284
+      spriteID: 5a036b7e94be84e8aae271ce436a394e
+      internalID: 1954706574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Death_1
+      name: Slime in air_1
       rect:
         serializedVersion: 2
-        x: 600
-        y: 1000
-        width: 600
-        height: 500
+        x: 820
+        y: 1856
+        width: 820
+        height: 604
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 217d4e0053838452888bc04bf257fb4d
-      internalID: 1013046576
+      spriteID: d3e065beb5363434cbcee158e376b0a3
+      internalID: 1188354576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Death_2
+      name: Slime in air_2
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 1000
-        width: 600
-        height: 500
+        x: 1640
+        y: 1856
+        width: 820
+        height: 604
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,41 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d60809104c32c4bafb711ae5770136d5
-      internalID: 56106281
+      spriteID: 5efad6ada072d4049b370a34ec0984de
+      internalID: 1934843600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Death_3
-      rect:
-        serializedVersion: 2
-        x: 1800
-        y: 1000
-        width: 600
-        height: 500
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d66fd48b0f6224b5d82adeaf71557b56
-      internalID: -1766516577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FCM_03_Death_4
+      name: Slime in air_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 500
-        width: 600
-        height: 500
+        y: 1036
+        width: 820
+        height: 604
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe886d76c2d02419ba001923aa58fd11
-      internalID: -839168798
+      spriteID: 718d3ef793a8543c4bee44fdd3758c4a
+      internalID: 1830986363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Death_5
+      name: Slime in air_4
       rect:
         serializedVersion: 2
-        x: 600
-        y: 500
-        width: 600
-        height: 500
+        x: 820
+        y: 1036
+        width: 820
+        height: 604
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb8258ecb4d32420b9ba3f8c730926f5
-      internalID: -2040166396
+      spriteID: cc4e02a220502484e88d2830227f28e3
+      internalID: -331311478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Death_6
+      name: Slime in air_5
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 500
-        width: 600
-        height: 500
+        x: 1640
+        y: 1036
+        width: 820
+        height: 604
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,41 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 425ef463b23814d2787f5eb76d166f79
-      internalID: -419474766
+      spriteID: 76db3bf1183564757bb5b96f89b7339d
+      internalID: 286661017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Death_7
-      rect:
-        serializedVersion: 2
-        x: 1800
-        y: 500
-        width: 600
-        height: 500
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1cd26f457eecc4d1d837a1aa4ba2c643
-      internalID: 1847746647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FCM_03_Death_8
+      name: Slime in air_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 600
-        height: 500
+        y: 216
+        width: 820
+        height: 604
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92ed0c7d8686f4470ad7770c3c91de5c
-      internalID: -658839578
+      spriteID: 7a640c715d507410abe0373dc9d68a42
+      internalID: -388979104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Death_9
+      name: Slime in air_7
       rect:
         serializedVersion: 2
-        x: 600
-        y: 0
-        width: 600
-        height: 500
+        x: 820
+        y: 216
+        width: 820
+        height: 604
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,20 +290,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1d93148792454c1ba82fbe86537f0e9
-      internalID: -154151867
+      spriteID: 46b76e7b10aa040ef927f24f8a35a13f
+      internalID: -1878746082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Death_10
+      name: Slime in air_8
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 0
-        width: 600
-        height: 500
+        x: 1640
+        y: 216
+        width: 820
+        height: 604
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,29 +311,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89fc1fa9240a547919c4e070452077cc
-      internalID: -827693805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FCM_03_Death_11
-      rect:
-        serializedVersion: 2
-        x: 1800
-        y: 0
-        width: 600
-        height: 500
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf552bd7aaaef4acea76656452aebc19
-      internalID: -1944994651
+      spriteID: 9440b56f6a76a46b5829229bda443836
+      internalID: -946808985
       vertices: []
       indices: 
       edges: []
@@ -391,18 +328,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FCM_03_Death_0: 2137494284
-      FCM_03_Death_1: 1013046576
-      FCM_03_Death_10: -827693805
-      FCM_03_Death_11: -1944994651
-      FCM_03_Death_2: 56106281
-      FCM_03_Death_3: -1766516577
-      FCM_03_Death_4: -839168798
-      FCM_03_Death_5: -2040166396
-      FCM_03_Death_6: -419474766
-      FCM_03_Death_7: 1847746647
-      FCM_03_Death_8: -658839578
-      FCM_03_Death_9: -154151867
+      Slime in air_0: 1954706574
+      Slime in air_1: 1188354576
+      Slime in air_2: 1934843600
+      Slime in air_3: 1830986363
+      Slime in air_4: -331311478
+      Slime in air_5: 286661017
+      Slime in air_6: -388979104
+      Slime in air_7: -1878746082
+      Slime in air_8: -946808985
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

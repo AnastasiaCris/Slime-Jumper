@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6e54bdfb589fe4c6aa2ee4a4b60afda0
+guid: 8cc89863458dc4a2cac03a39775a8a90
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 220
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,10 +67,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FCM_03_Death_0
+      name: Slime walk_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1000
-        width: 600
-        height: 500
+        y: 1900
+        width: 820
+        height: 560
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 543a2fcf028d54d0baba76b22c6e6c63
-      internalID: 2137494284
+      spriteID: 36f9820dac1b648a9b29ede3481575cf
+      internalID: -1666159340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Death_1
+      name: Slime walk_1
       rect:
         serializedVersion: 2
-        x: 600
-        y: 1000
-        width: 600
-        height: 500
+        x: 820
+        y: 1900
+        width: 820
+        height: 560
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 217d4e0053838452888bc04bf257fb4d
-      internalID: 1013046576
+      spriteID: 78b4d6eb2d1d14cea844554d212c37b6
+      internalID: -857465247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Death_2
+      name: Slime walk_2
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 1000
-        width: 600
-        height: 500
+        x: 1640
+        y: 1900
+        width: 820
+        height: 560
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,41 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d60809104c32c4bafb711ae5770136d5
-      internalID: 56106281
+      spriteID: 77104219b92de4ed396e8ddb84efc210
+      internalID: -1273055569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Death_3
-      rect:
-        serializedVersion: 2
-        x: 1800
-        y: 1000
-        width: 600
-        height: 500
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d66fd48b0f6224b5d82adeaf71557b56
-      internalID: -1766516577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FCM_03_Death_4
+      name: Slime walk_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 500
-        width: 600
-        height: 500
+        y: 1080
+        width: 820
+        height: 560
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe886d76c2d02419ba001923aa58fd11
-      internalID: -839168798
+      spriteID: 8198f5dc4f3384e27b73665ac302e2db
+      internalID: 2119547475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Death_5
+      name: Slime walk_4
       rect:
         serializedVersion: 2
-        x: 600
-        y: 500
-        width: 600
-        height: 500
+        x: 820
+        y: 1080
+        width: 820
+        height: 560
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb8258ecb4d32420b9ba3f8c730926f5
-      internalID: -2040166396
+      spriteID: b5369d325a49d4d89990e01c10e7f620
+      internalID: -1424621714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Death_6
+      name: Slime walk_5
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 500
-        width: 600
-        height: 500
+        x: 1640
+        y: 1080
+        width: 820
+        height: 560
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,41 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 425ef463b23814d2787f5eb76d166f79
-      internalID: -419474766
+      spriteID: 16f28c7b0ad0c411b9661f70d0b670be
+      internalID: -609836857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Death_7
-      rect:
-        serializedVersion: 2
-        x: 1800
-        y: 500
-        width: 600
-        height: 500
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1cd26f457eecc4d1d837a1aa4ba2c643
-      internalID: 1847746647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FCM_03_Death_8
+      name: Slime walk_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 600
-        height: 500
+        y: 260
+        width: 820
+        height: 560
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92ed0c7d8686f4470ad7770c3c91de5c
-      internalID: -658839578
+      spriteID: c974b75b99c26470f835fa30ceb2d0ed
+      internalID: -212403190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FCM_03_Death_9
+      name: Slime walk_7
       rect:
         serializedVersion: 2
-        x: 600
-        y: 0
-        width: 600
-        height: 500
+        x: 820
+        y: 260
+        width: 820
+        height: 560
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,50 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1d93148792454c1ba82fbe86537f0e9
-      internalID: -154151867
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FCM_03_Death_10
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 0
-        width: 600
-        height: 500
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89fc1fa9240a547919c4e070452077cc
-      internalID: -827693805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FCM_03_Death_11
-      rect:
-        serializedVersion: 2
-        x: 1800
-        y: 0
-        width: 600
-        height: 500
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf552bd7aaaef4acea76656452aebc19
-      internalID: -1944994651
+      spriteID: 41ff189c7504a41129fb0f0bd4cab9de
+      internalID: 1753015852
       vertices: []
       indices: 
       edges: []
@@ -391,18 +307,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FCM_03_Death_0: 2137494284
-      FCM_03_Death_1: 1013046576
-      FCM_03_Death_10: -827693805
-      FCM_03_Death_11: -1944994651
-      FCM_03_Death_2: 56106281
-      FCM_03_Death_3: -1766516577
-      FCM_03_Death_4: -839168798
-      FCM_03_Death_5: -2040166396
-      FCM_03_Death_6: -419474766
-      FCM_03_Death_7: 1847746647
-      FCM_03_Death_8: -658839578
-      FCM_03_Death_9: -154151867
+      Slime walk_0: -1666159340
+      Slime walk_1: -857465247
+      Slime walk_2: -1273055569
+      Slime walk_3: 2119547475
+      Slime walk_4: -1424621714
+      Slime walk_5: -609836857
+      Slime walk_6: -212403190
+      Slime walk_7: 1753015852
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
