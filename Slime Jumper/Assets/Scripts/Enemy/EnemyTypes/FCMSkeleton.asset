@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65faaa3e0c08cda498da03a5d56514b6, type: 3}
-  m_Name: FCBoss
+  m_Name: FCMSkeleton
   m_EditorClassIdentifier: 
-  enemytype: 0
-  maxHP: 100
-  damage: 10
-  speed: 0
+  enemytype: 2
+  maxHP: 20
+  damage: 5
+  speed: 2
   jumpHeight: 0
-  secUntilNextAttack: 0
+  secUntilNextAttack: 3
   spawnChance: 0

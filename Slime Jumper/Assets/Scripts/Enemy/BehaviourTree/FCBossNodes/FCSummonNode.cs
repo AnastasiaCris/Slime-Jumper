@@ -6,13 +6,13 @@ public class FCSummonNode : Node
     private FCBossBehaviour boss;
     private bool allEnemyTypes;
     private List<EnemyType> enemyTypes;
-    private List<SlimeBehaviour> allEnemies;
+    private List<BaseEnemyBehaviour> allEnemies;
     private bool endOfSummon;
     private int nrOfSummons;
 
     private bool activated;
     private bool startSummon;
-    public FCSummonNode(FCBossBehaviour boss, bool allEnemyTypes, List<EnemyType> enemyTypes, List<SlimeBehaviour> allEnemies)
+    public FCSummonNode(FCBossBehaviour boss, bool allEnemyTypes, List<EnemyType> enemyTypes, List<BaseEnemyBehaviour> allEnemies)
     {
         this.boss = boss;
         this.allEnemyTypes = allEnemyTypes;
@@ -37,7 +37,8 @@ public class FCSummonNode : Node
             for (int i = 0; i < allEnemies.Count; i++)
             {
                 //activate all enemies
-                allEnemies[i].gameObject.SetActive(true);
+                allEnemies[i].ResetEnemy();//if there are dead skeletons
+                allEnemies[i].StartEnemy();
             }
         }
         else
@@ -48,9 +49,9 @@ public class FCSummonNode : Node
             //activate random enemy type
             for (int i = 0; i < allEnemies.Count; i++)
             {
-                //if(allEnemies[i].enemyType == enemyType){
-                        //allEnemies[i].SetActive(true);
-                //}
+                if(allEnemies[i].EnemyScriptableObject.enemytype == enemyType){
+                        allEnemies[i].StartEnemy();
+                }
             }
         }
         

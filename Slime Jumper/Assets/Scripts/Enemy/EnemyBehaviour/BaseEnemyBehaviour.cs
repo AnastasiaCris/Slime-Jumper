@@ -9,6 +9,7 @@ public class BaseEnemyBehaviour : MonoBehaviour
     [field: SerializeField] public EnemyScriptableObject EnemyScriptableObject { get; private set; }
     protected int maxHP;
     public int currentHP { get; private set; }
+    public int direction = -1;
 
     //animation
     [field: SerializeField]public Animator Anim { get; private set; }
@@ -19,7 +20,7 @@ public class BaseEnemyBehaviour : MonoBehaviour
     protected Player player;
 
     //Behaviour 
-    [field:SerializeField]public State State { get; private set; } = State.Nothing;
+    [field:SerializeField]public State State { get; protected set; } = State.Nothing;
 
     protected Node topNode;
 
@@ -50,6 +51,12 @@ public class BaseEnemyBehaviour : MonoBehaviour
     }
 
     protected virtual void ConstructBehaviourTree()
+    {
+        
+    }
+    
+    //------------------------------EnableTheEnemy---------------------------------
+    public virtual void StartEnemy()
     {
         
     }
@@ -107,5 +114,5 @@ public enum State{
 }
 
 public enum EnemyType{
-    Boss, SmallSlime, Skeleton, Archer, Mage
+    Boss, SmallSlime, Skeleton, Shielder, Mage
 }

@@ -11,7 +11,7 @@ public class SlimeBehaviour : BaseEnemyBehaviour
     [SerializeField] private float chaseRange;
     [SerializeField] private float attackRange;
     [SerializeField] private LayerMask tileLayer;
-    [HideInInspector] public int direction = -1;
+    [SerializeField] private LayerMask playerLayer;
     [HideInInspector] public bool chasing;
     [HideInInspector] public bool canAttack;
     [HideInInspector] public bool inAttackRange;
@@ -40,15 +40,15 @@ public class SlimeBehaviour : BaseEnemyBehaviour
 
     protected override void ConstructBehaviourTree()
     {
-        SlimePatrollingNode slimePatrollingNode = new SlimePatrollingNode(this, EnemyScriptableObject);
+        BasicPatrollingNode basicPatrollingNode = new BasicPatrollingNode(this, EnemyScriptableObject, tileLayer);
         SlimeChaseNode slimeChaseNode = new SlimeChaseNode(playerTransform, this, EnemyScriptableObject, groundPos);
         SlimeAttackNode slimeAttackNode = new SlimeAttackNode(this, EnemyScriptableObject);
         SlimeIsChasing slimeIsChasingNode = new SlimeIsChasing(this);
-        SeePlayerNode seePlayerNode = new SeePlayerNode(this);
+        SeePlayerNode seePlayerNode = new SeePlayerNode(this, playerLayer);
         RangeNode attackRangeNode = new RangeNode(transform, attackRange, true);
         RangeNode chaseRangeNode = new RangeNode(transform, chaseRange, true);
 
-        patrollingSequence = new Sequence(new List<Node> { slimeIsChasingNode, seePlayerNode, slimePatrollingNode });
+        patrollingSequence = new Sequence(new List<Node> { slimeIsChasingNode, seePlayerNode, basicPatrollingNode });
         Sequence chasingSequence = new Sequence(new List<Node>{chaseRangeNode, slimeChaseNode});
         Sequence attackSequence = new Sequence(new List<Node>{attackRangeNode, slimeAttackNode});
 
@@ -81,24 +81,6 @@ public class SlimeBehaviour : BaseEnemyBehaviour
         {
             player.DamagePlayer(EnemyScriptableObject.damage);
         }
-    }
-    //------------------------------Movement---------------------------------
-    
-    /// <summary>
-    /// Checks if the current tile the enemy is on has ended
-    /// </summary>
-    /// <returns></returns>
-    public bool TileFinished()
-    {
-        Vector2 boxcastOrigin = direction == 1 ? new Vector2(transform.position.x + 1, transform.position.y - 0.5f) : new Vector2(transform.position.x - 1, transform.position.y - 0.5f);
-        RaycastHit2D hit = Physics2D.BoxCast(boxcastOrigin, new Vector2(1, 0.5f), 0f, Vector2.right * direction, 0f, tileLayer);
-        
-        if (hit.collider == null)
-        {
-            return true;
-        }
-
-        return false;
     }
     //------------------------------Attack sequence---------------------------------
 

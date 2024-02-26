@@ -5,7 +5,7 @@ public class FCBossBehaviour : BaseEnemyBehaviour
 {
     //Can Enable
     [SerializeField] private List<EnemyType> enemyTypes = new List<EnemyType>();
-    [SerializeField] private List<SlimeBehaviour> allEnemies = new List<SlimeBehaviour>();
+    [SerializeField] private List<BaseEnemyBehaviour> allEnemies = new List<BaseEnemyBehaviour>();
     [SerializeField] private List<FCSpecialTile> specialTiles = new List<FCSpecialTile>();
 
     //BEHAVIOURS
